@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class YelpControllerTest < ActionController::TestCase
+class MergeTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

@@ -1,4 +1,5 @@
 class YelpDatum < ActiveRecord::Base
+  belongs_to :merge
 
   def initialize
     @client = Yelp::Client.new( consumer_key: ENV["YELP_CONSUMER_KEY"],

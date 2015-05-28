@@ -2,11 +2,11 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :
+      resources :groupon_with_ratings
     end
   end
 
-  get '/api/v1/'
+  #get '/api/v1/'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

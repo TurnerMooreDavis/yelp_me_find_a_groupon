@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'groupon', require: 'groupon'
+#gem 'groupon', require: 'groupon'
 gem 'yelp', require: 'yelp'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'

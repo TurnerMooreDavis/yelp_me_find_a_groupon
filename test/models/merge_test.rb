@@ -18,7 +18,8 @@ end
 class MergeTest < ActiveSupport::TestCase
 
   test "groupons_available returns an array" do
-    
+    merge = Merge.new("durham")
+    assert_equal Array, merge.groupons_available.class
   end
 
   test "with_yelp_rating returns an array" do

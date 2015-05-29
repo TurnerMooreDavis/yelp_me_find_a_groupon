@@ -9,8 +9,8 @@ class YelpDatum < ActiveRecord::Base
                           )
   end
 
-  def search_yelp(place)
-    @client.search(place)
+  def search_yelp(location)
+    @client.search(location)
   end
 
 

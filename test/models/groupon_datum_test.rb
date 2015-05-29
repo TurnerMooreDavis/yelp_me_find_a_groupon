@@ -1,10 +1,11 @@
 require 'test_helper'
+require 'groupon_datum'
 
-# class GrouponDatum
-#   def get_data
-#     JSON.parse(File.open("./fixtures/groupon.json").read)
-#   end
-# end
+class GrouponDatum
+  def get_data
+    JSON.parse(File.open("./test/fixtures/groupon.json").read)
+  end
+end
 
 
 class GrouponDatumTest < ActiveSupport::TestCase

@@ -47,9 +47,9 @@ class Merge < ActiveRecord::Base
     yelp = has_yelp_rating
     groupons.each do |key, deal|
       if yelp.has_value? deal
-        deals_with_yelp += {@groupon.deal_info(key)}
+        deals_with_yelp += @groupon.deal_info(key)
       else
-        deals_without_yelp += {@groupon.deal_info(key)}
+        deals_without_yelp += @groupon.deal_info(key)
       end
     end
     deals

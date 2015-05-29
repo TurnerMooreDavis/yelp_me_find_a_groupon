@@ -13,6 +13,9 @@ class MergeTest < ActiveSupport::TestCase
 
   end
 
+  test "all_deals returns an array of hashes" do
+
+  end
 
 
 

@@ -52,7 +52,17 @@ class Merge < ActiveRecord::Base
         deals_without_yelp += @groupon.deal_info(key)
       end
     end
-    deals
+    [{"Deals With Yelp Ratings" => deals_with_yelp},
+      "Deals Without Yelp Ratings" => deals_without_yelp}]
+  end
+
+  def add_yelp_rating
+    deals = all_deals
+    m = 0
+    until m == nil
+      deals["Deals With Yelp Ratings"][m]
+    end
+    m += 1
   end
 
 

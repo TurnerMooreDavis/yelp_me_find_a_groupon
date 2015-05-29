@@ -17,12 +17,8 @@ end
 
 class MergeTest < ActiveSupport::TestCase
 
-  test "initialize returns data" do
-    a = Merge.new("Durham, NC")
-  end
-
   test "groupons_available returns an array" do
-    true
+    
   end
 
   test "with_yelp_rating returns an array" do

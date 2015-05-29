@@ -12,8 +12,24 @@ class GrouponDatum < ActiveRecord::Base
     #JSON.pretty_generate(groupons)
   end
 
-  def merchant_name
-    @page["deals"]
+  def merchant_name(m)
+    @page["deals"][m]["merchant"]["name"]
+  end
+
+  def merchant_website(m)
+    @page["deals"][m]["merchant"]["websiteUrl"]
+  end
+
+  def deal_title(m)
+    @page["deals"][m]["title"]
+  end
+
+  def deal(m)
+    @page["deals"][m]["pitchHtml"]
+  end
+
+  def deal_url(m)
+    @page["deals"][m]["dealUrl"]
   end
 
 end

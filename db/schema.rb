@@ -16,8 +16,8 @@ ActiveRecord::Schema.define(version: 20150528215643) do
   create_table "groupon_data", force: :cascade do |t|
     t.string   "data"
     t.integer  "merge_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "merges", force: :cascade do |t|

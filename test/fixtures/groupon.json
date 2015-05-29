@@ -1,0 +1,4069 @@
+{
+"deals": [
+{
+"id": "frank-white-photography",
+"uuid": "5b7d1783-98b2-fe43-e71d-2db31f69c8c7",
+"dealUrl": "http://tracking.groupon.com/r?tsToken=US_AFF_0_201236_212556_0&url=https%3A%2F%2Fwww.groupon.com%2Fdeals%2Ffrank-white-photography%3Fz%3Dskip%26utm_medium%3Dafl%26utm_source%3DGPN%26utm_campaign%3D201236%26mediaId%3D212556",
+"title": "$45 for $99 Toward Outdoor Portraits at Frank White Photography",
+"announcementTitle": "55% Off Outdoor Portraits ",
+"shortAnnouncementTitle": " Outdoor Portraits ",
+"finePrint": "Limit 1 per person, may buy 1 additional as a gift. Limit 1 per visit. Appointment required. Valid only within 20 miles of 27704. Younger than 18 must be accompanied by guardian.",
+"highlightsHtml": "<p>Local businesses like this one promote thriving, distinctive communities by offering a rich array of goods and services to locals like you</p>",
+"pitchHtml": "<p>Every local community has a story, a history, and a unique personality that cannot be replicated. This is often thanks to specialized, small-scale businesses, like this one, which contribute to a neighborhood’s distinctive character and promote a thriving ecosystem in their community. Small, independent businesses offer diverse products and services, fostering economic resilience. When you buy local, you build local, and deepen your connection to your own community. </p>\n\n<p>Strengthening the community begins by supporting and visiting local businesses like this one. To learn more about this business, check out their website or simply stop by, say hello, and discover—or rediscover—all that this business has to offer.</p>\n\n<h5>Did You Know?</h5>\n\n<ul>\n  <li>48 cents of every dollar spent at a locally owned retail business goes back into the local community. That’s more than three times the amount that local economies recover from chain retailers — <em>Civic Economics’ 2012 survey of local businesses</em></li>\n  <li>Local businesses have generated 65% of the country’s net new jobs over the past 17 years — <em>US Small Business Administration</em></li>\n</ul>",
+"soldQuantity": 2,
+"limitedQuantityRemaining": 10,
+"tippingPoint": 0,
+"soldQuantityMessage": "2",
+"placeholderUrl": "https://secure-assets.grouponcdn.com/images/groupon/grayPlaceholder.png",
+"grid4ImageUrl": "https://img.grouponcdn.com/deal/7bYadaEfaPobX1PDAkjf/uV-2048x1242/v1/t300x182.jpg",
+"grid6ImageUrl": "https://img.grouponcdn.com/deal/7bYadaEfaPobX1PDAkjf/uV-2048x1242/v1/t460x279.jpg",
+"largeImageUrl": "https://img.grouponcdn.com/deal/7bYadaEfaPobX1PDAkjf/uV-2048x1242/v1/t440x300.jpg",
+"mediumImageUrl": "https://img.grouponcdn.com/deal/7bYadaEfaPobX1PDAkjf/uV-2048x1242/v1/t100x100.jpg",
+"smallImageUrl": "https://img.grouponcdn.com/deal/7bYadaEfaPobX1PDAkjf/uV-2048x1242/v1/t50x50.jpg",
+"sidebarImageUrl": "https://img.grouponcdn.com/deal/7bYadaEfaPobX1PDAkjf/uV-2048x1242/v1/t200x300.jpg",
+"status": "open",
+"type": "groupon",
+"accessType": "extended",
+"endAt": "2038-03-13T05:00:00Z",
+"startAt": "2013-11-11T05:00:00Z",
+"tippedAt": "2013-11-11T05:00:00Z",
+"areas": [],
+"channels": [],
+"dealTypes": [
+{
+"id": "photographic",
+"name": "Photographic",
+"description": "Cameras and photo essentials for those who prefer looking at life through a lens"
+}
+],
+"division": {
+"id": "raleigh-durham",
+"name": "Raleigh / Durham",
+"timezone": "Eastern Daylight Time",
+"timezoneOffsetInSeconds": -14400,
+"timezoneIdentifier": "America/New_York",
+"lat": 35.7721,
+"lng": -78.6386
+},
+"merchant": {
+"id": "frank-white-photography",
+"uuid": "dd7346d5-96c5-2c42-adef-22d17988da21",
+"name": "Frank White Photography",
+"websiteUrl": "http://frankwhitephotography.com",
+"facebookUrl": null,
+"twitterUrl": null,
+"ratings": null
+},
+"grouponRating": null,
+"says": null,
+"allowedInCart": false,
+"isInviteOnly": false,
+"shippingAddressRequired": false,
+"isOptionListComplete": true,
+"isMerchandisingDeal": false,
+"isNowDeal": false,
+"isSoldOut": false,
+"isTipped": true,
+"isTravelBookableDeal": false,
+"isGliveInventoryDeal": false,
+"isAutoRefundEnabled": false,
+"placementPriority": "nearby",
+"redemptionLocation": null,
+"locationNote": "",
+"salesforceLink": null,
+"vip": "",
+"fulfillmentMethod": null,
+"tags": [
+{
+"name": "Outdoor Photography"
+},
+{
+"name": "Professional Photography, Photo Printing & Framing"
+}
+],
+"displayOptions": [
+{
+"name": "discount",
+"enabled": true
+},
+{
+"name": "quantity",
+"enabled": true
+},
+{
+"name": "timer",
+"enabled": true
+},
+{
+"name": "merchandisingType",
+"value": "other"
+},
+{
+"name": "showRedemptionLocations",
+"enabled": true
+}
+],
+"options": [
+{
+"id": 8905347,
+"uuid": "cdeeb869-ad32-755a-9098-8041d38f58cb",
+"bookable": false,
+"buyUrl": "https://www.groupon.com/deals/frank-white-photography/confirmation?pledge_id=8905347",
+"customField": null,
+"details": [
+{
+"description": "Limit 1 per person, may buy 1 additional as a gift. Limit 1 per visit. Appointment required. Valid only within 20 miles of 27704. Younger than 18 must be accompanied by guardian."
+}
+],
+"discount": {
+"amount": 5400,
+"currencyCode": "USD",
+"formattedAmount": "$54.00"
+},
+"discountPercent": 55,
+"endAt": "2038-03-13T05:00:00Z",
+"expiresAt": "2015-08-27T00:00:00Z",
+"expiresInDays": 90,
+"externalUrl": null,
+"isLimitedQuantity": true,
+"isSoldOut": false,
+"maximumPurchaseQuantity": 2,
+"minimumPurchaseQuantity": 1,
+"price": {
+"amount": 4500,
+"currencyCode": "USD",
+"formattedAmount": "$45.00"
+},
+"traits": [],
+"redemptionLocations": [],
+"soldQuantity": 2,
+"soldQuantityMessage": "2",
+"specificAttributes": {
+"takeoutDelivery": {
+"takeout": false,
+"delivery": false
+}
+},
+"status": "open",
+"title": "$99 Worth of Photography Classes",
+"value": {
+"amount": 9900,
+"currencyCode": "USD",
+"formattedAmount": "$99.00"
+},
+"pricingMetadata": {
+"segmentId": "fdf2e0e0-229f-4b21-a3d4-bd9a36f9c055",
+"offerType": "BWF",
+"minBuyCount": 3,
+"maxBuyCount": 10,
+"expiryInMinutes": 4320,
+"bwfPrice": {
+"amount": 2900,
+"currencyCode": "USD",
+"formattedAmount": "$29.00"
+},
+"bwfDiscount": {
+"amount": 1600,
+"currencyCode": "USD",
+"formattedAmount": "$16.00"
+}
+},
+"customFields": []
+}
+],
+"textAd": {
+"line1": "",
+"line2": "",
+"headline": ""
+},
+"bwfGroup": null
+},
+{
+"id": "official-connection-media",
+"uuid": "742de67b-8e0e-b62a-c87c-61a5863ff2e7",
+"dealUrl": "http://tracking.groupon.com/r?tsToken=US_AFF_0_201236_212556_0&url=https%3A%2F%2Fwww.groupon.com%2Fdeals%2Fofficial-connection-media%3Fz%3Dskip%26utm_medium%3Dafl%26utm_source%3DGPN%26utm_campaign%3D201236%26mediaId%3D212556",
+"title": "30-Minute Studio Photo Shoot from Official Connection Media (70% Off)",
+"announcementTitle": "70% Off a Studio Photo Shoot",
+"shortAnnouncementTitle": "Studio Photo Shoot",
+"finePrint": "Appointment required. Limit 1 per person, may buy  1  additional as  a gift. Limit 1 per visit. Must use promotional value in 1 visit. Valid only for option purchased. All goods or services must be used by the same person.",
+"highlightsHtml": "<p>From the merchant: Capture those special moments or making a lasting impression with professional pictures that will shine just like you.</p>",
+"pitchHtml": "<h4>A Chat with Official Connection Media</h4>\n\n<p><strong>What services does your business offer and what makes your business stand out from the competition?</strong><br />\n<em>We offer a full upscale studio equipped with changing rooms, full service salon, and professional experienced photographers.</em></p>\n\n<p><strong>What was the inspiration to start or run this business?</strong><br />\n<em>Our photographer was inspired to create this professional and friendly environment to bring his craft to the public. He formally as worked with many published models and recording artist to create stunning videos and pictures to promote talented individuals and now has brought his experience to you</em></p>\n\n<p><strong>What do you love most about your job?</strong><br />\n<em>Creating beautiful print and video to create lasting memories</em></p>",
+"soldQuantity": 2,
+"limitedQuantityRemaining": 49,
+"tippingPoint": 0,
+"soldQuantityMessage": "2",
+"placeholderUrl": "https://secure-assets.grouponcdn.com/images/groupon/grayPlaceholder.png",
+"grid4ImageUrl": "https://img.grouponcdn.com/deal/wNW1YM4gVhwkAxFVrwqm/UR-4256x2554/v1/t300x182.jpg",
+"grid6ImageUrl": "https://img.grouponcdn.com/deal/wNW1YM4gVhwkAxFVrwqm/UR-4256x2554/v1/t460x279.jpg",
+"largeImageUrl": "https://img.grouponcdn.com/deal/wNW1YM4gVhwkAxFVrwqm/UR-4256x2554/v1/t440x300.jpg",
+"mediumImageUrl": "https://img.grouponcdn.com/deal/wNW1YM4gVhwkAxFVrwqm/UR-4256x2554/v1/t100x100.jpg",
+"smallImageUrl": "https://img.grouponcdn.com/deal/wNW1YM4gVhwkAxFVrwqm/UR-4256x2554/v1/t50x50.jpg",
+"sidebarImageUrl": "https://img.grouponcdn.com/deal/wNW1YM4gVhwkAxFVrwqm/UR-4256x2554/v1/t200x300.jpg",
+"status": "open",
+"type": "groupon",
+"accessType": "extended",
+"endAt": "2039-03-21T04:00:00Z",
+"startAt": "2014-11-19T05:00:00Z",
+"tippedAt": "2014-11-19T05:00:00Z",
+"areas": [],
+"channels": [],
+"dealTypes": [],
+"division": {
+"id": "raleigh-durham",
+"name": "Raleigh / Durham",
+"timezone": "Eastern Daylight Time",
+"timezoneOffsetInSeconds": -14400,
+"timezoneIdentifier": "America/New_York",
+"lat": 35.7721,
+"lng": -78.6386
+},
+"merchant": {
+"id": "official-connection-media",
+"uuid": "71937300-f135-4571-d887-c18399c44e71",
+"name": "Official Connection Media",
+"websiteUrl": "http://Www.officialconnections.com",
+"facebookUrl": null,
+"twitterUrl": null,
+"ratings": null
+},
+"grouponRating": null,
+"says": null,
+"allowedInCart": false,
+"isInviteOnly": false,
+"shippingAddressRequired": false,
+"isOptionListComplete": true,
+"isMerchandisingDeal": false,
+"isNowDeal": false,
+"isSoldOut": false,
+"isTipped": true,
+"isTravelBookableDeal": false,
+"isGliveInventoryDeal": false,
+"isAutoRefundEnabled": false,
+"placementPriority": "nearby",
+"redemptionLocation": "Durham",
+"locationNote": "",
+"salesforceLink": null,
+"vip": "",
+"fulfillmentMethod": null,
+"tags": [
+{
+"name": "Professional Photography, Photo Printing & Framing"
+},
+{
+"name": "Studio Photography"
+}
+],
+"displayOptions": [
+{
+"name": "discount",
+"enabled": true
+},
+{
+"name": "quantity",
+"enabled": true
+},
+{
+"name": "timer",
+"enabled": true
+},
+{
+"name": "merchandisingType",
+"value": "other"
+},
+{
+"name": "showRedemptionLocations",
+"enabled": true
+}
+],
+"options": [
+{
+"id": 11785775,
+"uuid": "06337365-04f3-b4c3-58e2-7d44ecd6f771",
+"bookable": false,
+"buyUrl": "https://www.groupon.com/deals/official-connection-media/confirmation?pledge_id=11785775",
+"customField": null,
+"details": [
+{
+"description": "Appointment required. Limit 1 per person, may buy  1  additional as  a gift. Limit 1 per visit. Must use promotional value in 1 visit. Valid only for option purchased. All goods or services must be used by the same person."
+}
+],
+"discount": {
+"amount": 10500,
+"currencyCode": "USD",
+"formattedAmount": "$105.00"
+},
+"discountPercent": 70,
+"endAt": "2039-03-21T04:00:00Z",
+"expiresAt": "2015-09-26T00:00:00Z",
+"expiresInDays": 120,
+"externalUrl": null,
+"isLimitedQuantity": true,
+"isSoldOut": false,
+"maximumPurchaseQuantity": 2,
+"minimumPurchaseQuantity": 1,
+"price": {
+"amount": 4500,
+"currencyCode": "USD",
+"formattedAmount": "$45.00"
+},
+"traits": [],
+"redemptionLocations": [
+{
+"name": "Durham",
+"streetAddress1": "1601 East Geer Street",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Durham",
+"postalCode": "27704",
+"country": "US",
+"phoneNumber": "+12525921579",
+"id": 18921475,
+"uuid": "a3b41af9-39cd-b06a-768b-0149a1bdffb6",
+"ordering": 0,
+"lat": 36.012922,
+"lng": -78.866532
+}
+],
+"soldQuantity": 2,
+"soldQuantityMessage": "2",
+"specificAttributes": {
+"takeoutDelivery": {
+"takeout": false,
+"delivery": false
+}
+},
+"status": "open",
+"title": "30-Minute Studio Photo Shoot",
+"value": {
+"amount": 15000,
+"currencyCode": "USD",
+"formattedAmount": "$150.00"
+},
+"pricingMetadata": {
+"segmentId": "a380cb2e-c62f-4c94-a162-335f2939848d",
+"offerType": "BWF",
+"minBuyCount": 3,
+"maxBuyCount": 10,
+"expiryInMinutes": 4320,
+"bwfPrice": {
+"amount": 3200,
+"currencyCode": "USD",
+"formattedAmount": "$32.00"
+},
+"bwfDiscount": {
+"amount": 1300,
+"currencyCode": "USD",
+"formattedAmount": "$13.00"
+}
+},
+"customFields": []
+}
+],
+"textAd": {
+"line1": "",
+"line2": "",
+"headline": ""
+},
+"bwfGroup": null
+},
+{
+"id": "automotive-sound-systems",
+"uuid": "3b386a62-f221-119d-bf3c-44a49bbec625",
+"dealUrl": "http://tracking.groupon.com/r?tsToken=US_AFF_0_201236_212556_0&url=https%3A%2F%2Fwww.groupon.com%2Fdeals%2Fautomotive-sound-systems%3Fz%3Dskip%26utm_medium%3Dafl%26utm_source%3DGPN%26utm_campaign%3D201236%26mediaId%3D212556",
+"title": "$13 for $25 Worth of Car Electronics — automotive sound systems",
+"announcementTitle": "48% Off Car Electronics",
+"shortAnnouncementTitle": "Car Electronics",
+"finePrint": "Limit 1 per person, may buy  1  additional as  a gift. Limit 1 per visit. Must use promotional value in 1 visit.",
+"highlightsHtml": "<p>From the merchant: Good for anything in the store, from that amp kit you need to a system to make your car bang.</p>",
+"pitchHtml": "<h4>A Chat with automotive sound systems</h4>\n\n<p><strong>What services does your business offer and what makes your business stand out from the competition?</strong><br />\n<em>Here at Automotive Sound Systems, we want to make the process as easy and enjoyable as possible for you. We genuinely care about your car and your experience, and it shows. Our first-time customers continually become our long term customers time and time again, choosing us for all their auto needs.</em></p>\n\n<p><strong>Of the products you sell, which are your favorites?</strong><br />\n<em>Renegade is one of our favorite brands, with low prices and great sound quality in one package. Its the best of both worlds!</em></p>\n\n<p><strong>What was the inspiration to start or run this business?</strong><br />\n<em>We are dedicated to auto customization and to serving you with quality and value. We love cars and love to help people like you.</em></p>\n\n<p><strong>What do you love most about your job?</strong><br />\n<em>Our technicians are highly skilled and have years of experience. Most of all, they love cars and care about yours. Whether it’s our quick, quality, friendly service or the honesty and value we bring to every interaction, our customers love us.</em></p>",
+"soldQuantity": 0,
+"limitedQuantityRemaining": 50,
+"tippingPoint": 0,
+"soldQuantityMessage": "0",
+"placeholderUrl": "https://secure-assets.grouponcdn.com/images/groupon/grayPlaceholder.png",
+"grid4ImageUrl": "https://img.grouponcdn.com/deal/7NwqcR2hCZWgYbjqJB8W/7q-2048x1242/v1/t300x182.jpg",
+"grid6ImageUrl": "https://img.grouponcdn.com/deal/7NwqcR2hCZWgYbjqJB8W/7q-2048x1242/v1/t460x279.jpg",
+"largeImageUrl": "https://img.grouponcdn.com/deal/7NwqcR2hCZWgYbjqJB8W/7q-2048x1242/v1/t440x300.jpg",
+"mediumImageUrl": "https://img.grouponcdn.com/deal/7NwqcR2hCZWgYbjqJB8W/7q-2048x1242/v1/t100x100.jpg",
+"smallImageUrl": "https://img.grouponcdn.com/deal/7NwqcR2hCZWgYbjqJB8W/7q-2048x1242/v1/t50x50.jpg",
+"sidebarImageUrl": "https://img.grouponcdn.com/deal/7NwqcR2hCZWgYbjqJB8W/7q-2048x1242/v1/t200x300.jpg",
+"status": "open",
+"type": "groupon",
+"accessType": "extended",
+"endAt": "2039-08-16T04:00:00Z",
+"startAt": "2015-04-16T04:00:00Z",
+"tippedAt": "2015-04-16T04:00:00Z",
+"areas": [],
+"channels": [],
+"dealTypes": [
+{
+"id": "new-car-smell",
+"name": "New Car Smell",
+"description": "For those who strive to keep their car looking good and running well"
+}
+],
+"division": {
+"id": "raleigh-durham",
+"name": "Raleigh / Durham",
+"timezone": "Eastern Daylight Time",
+"timezoneOffsetInSeconds": -14400,
+"timezoneIdentifier": "America/New_York",
+"lat": 35.7721,
+"lng": -78.6386
+},
+"merchant": {
+"id": "automotive-sound-systems",
+"uuid": "55319473-02f7-0f92-b564-4be86c9473bd",
+"name": "Automotive Sound Systems",
+"websiteUrl": "http://www.919sounds.com",
+"facebookUrl": null,
+"twitterUrl": null,
+"ratings": null
+},
+"grouponRating": null,
+"says": null,
+"allowedInCart": false,
+"isInviteOnly": false,
+"shippingAddressRequired": false,
+"isOptionListComplete": true,
+"isMerchandisingDeal": false,
+"isNowDeal": false,
+"isSoldOut": false,
+"isTipped": true,
+"isTravelBookableDeal": false,
+"isGliveInventoryDeal": false,
+"isAutoRefundEnabled": false,
+"placementPriority": "nearby",
+"redemptionLocation": "Colonial Village",
+"locationNote": null,
+"salesforceLink": null,
+"vip": "",
+"fulfillmentMethod": null,
+"tags": [
+{
+"name": "Car Electronics / Audio (Retail)"
+},
+{
+"name": "Consumer Electronics"
+}
+],
+"displayOptions": [
+{
+"name": "discount",
+"enabled": true
+},
+{
+"name": "quantity",
+"enabled": true
+},
+{
+"name": "timer",
+"enabled": true
+},
+{
+"name": "merchandisingType",
+"value": "other"
+},
+{
+"name": "showRedemptionLocations",
+"enabled": true
+}
+],
+"options": [
+{
+"id": 13151141,
+"uuid": "4e4d5381-ba16-43da-bcc7-11d9b7e4bb85",
+"bookable": false,
+"buyUrl": "https://www.groupon.com/deals/automotive-sound-systems/confirmation?pledge_id=13151141",
+"customField": null,
+"details": [
+{
+"description": "Limit 1 per person, may buy  1  additional as  a gift. Limit 1 per visit. Must use promotional value in 1 visit."
+}
+],
+"discount": {
+"amount": 1200,
+"currencyCode": "USD",
+"formattedAmount": "$12.00"
+},
+"discountPercent": 48,
+"endAt": "2039-08-16T04:00:00Z",
+"expiresAt": "2015-09-26T00:00:00Z",
+"expiresInDays": 120,
+"externalUrl": null,
+"isLimitedQuantity": true,
+"isSoldOut": false,
+"maximumPurchaseQuantity": 2,
+"minimumPurchaseQuantity": 1,
+"price": {
+"amount": 1300,
+"currencyCode": "USD",
+"formattedAmount": "$13.00"
+},
+"traits": [],
+"redemptionLocations": [
+{
+"name": "Colonial Village",
+"streetAddress1": "2200 Dominion St. Unit G",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Colonial Village",
+"postalCode": "27704",
+"country": "US",
+"phoneNumber": "+19197174027",
+"id": 1199897,
+"uuid": "417caafc-04ad-b06a-747f-014c6baea753",
+"ordering": 0,
+"lat": 36.0221262,
+"lng": -78.8809818
+}
+],
+"soldQuantity": 0,
+"soldQuantityMessage": "0",
+"specificAttributes": {
+"takeoutDelivery": {
+"takeout": false,
+"delivery": false
+}
+},
+"status": "open",
+"title": "$25 Worth of Car Electronics",
+"value": {
+"amount": 2500,
+"currencyCode": "USD",
+"formattedAmount": "$25.00"
+},
+"customFields": []
+}
+],
+"textAd": {
+"line1": "",
+"line2": "",
+"headline": ""
+},
+"bwfGroup": null
+},
+{
+"id": "wheels-fun-park-2-9",
+"uuid": "fcb02ac5-a879-9e68-0c84-c080027587ea",
+"dealUrl": "http://tracking.groupon.com/r?tsToken=US_AFF_0_201236_212556_0&url=https%3A%2F%2Fwww.groupon.com%2Fdeals%2Fwheels-fun-park-2-9%3Fz%3Dskip%26utm_medium%3Dafl%26utm_source%3DGPN%26utm_campaign%3D201236%26mediaId%3D212556",
+"title": "One or Two Fun Wrist Bands with Access to Roller Skating, Mini Golf, and More at Wheels Fun Park (Up to 50% Off)",
+"announcementTitle": "Up to 50% Off Fun Park Wrist Bands",
+"shortAnnouncementTitle": "One or Two Fun Park Wrist Bands",
+"finePrint": "May be repurchased every 90 days. Limit 5 per person. Limit 1 per visit.",
+"highlightsHtml": "<p>Large fun park entertains families with roller rink, batting cages, mini golf, play gym with slides, ball pits, zip lines, and more</p>",
+"pitchHtml": "<p>Fun parks offer activities for everyone in the family: parents gamble on mini golf and teenagers grapple with the cyclical pattern of desire and consumption in Pac-Man. Have fun near your family with this Groupon.\n</p><h4>Choose Between Two Options</h4>\n\n<ul>\n  <li>$11 for one fun band ($21 value)</li>\n  <li>$21 for two fun bands ($42 value)</li>\n</ul>\n\n<p>Each fun band grants one person access to roller skating, entrance to the maze, two batting cage tokens, mini golf, and entrance to the play gym. </p>",
+"soldQuantity": 690,
+"limitedQuantityRemaining": null,
+"tippingPoint": 0,
+"soldQuantityMessage": "690+",
+"placeholderUrl": "https://secure-assets.grouponcdn.com/images/groupon/grayPlaceholder.png",
+"grid4ImageUrl": "https://img.grouponcdn.com/deal/2J6zT9VkvHT9yQXTK2rn/QM-960x576/v1/t300x182.jpg",
+"grid6ImageUrl": "https://img.grouponcdn.com/deal/2J6zT9VkvHT9yQXTK2rn/QM-960x576/v1/t460x279.jpg",
+"largeImageUrl": "https://img.grouponcdn.com/deal/2J6zT9VkvHT9yQXTK2rn/QM-960x576/v1/t440x300.jpg",
+"mediumImageUrl": "https://img.grouponcdn.com/deal/2J6zT9VkvHT9yQXTK2rn/QM-960x576/v1/t100x100.jpg",
+"smallImageUrl": "https://img.grouponcdn.com/deal/2J6zT9VkvHT9yQXTK2rn/QM-960x576/v1/t50x50.jpg",
+"sidebarImageUrl": "https://img.grouponcdn.com/deal/2J6zT9VkvHT9yQXTK2rn/QM-960x576/v1/t200x300.jpg",
+"status": "open",
+"type": "groupon",
+"accessType": "extended",
+"endAt": "2039-06-02T03:59:59Z",
+"startAt": "2015-01-27T05:00:00Z",
+"tippedAt": "2015-01-26T05:00:00Z",
+"areas": [],
+"channels": [],
+"dealTypes": [
+{
+"id": "fresh-air",
+"name": "Fresh Air",
+"description": "Outdoor activities, from cycling to sailing"
+},
+{
+"id": "parent",
+"name": "Good for Kids",
+"description": "Stuff that the kids will enjoy"
+}
+],
+"division": {
+"id": "raleigh-durham",
+"name": "Raleigh / Durham",
+"timezone": "Eastern Daylight Time",
+"timezoneOffsetInSeconds": -14400,
+"timezoneIdentifier": "America/New_York",
+"lat": 35.7721,
+"lng": -78.6386
+},
+"merchant": {
+"id": "wheels-fun-park",
+"uuid": "59f1bcea-aed0-11e1-8e54-00259060b612",
+"name": "Wheels Fun Park",
+"websiteUrl": "http://www.wheelsfunparkdurham.com/attractions.html#pu",
+"facebookUrl": null,
+"twitterUrl": null,
+"ratings": null
+},
+"grouponRating": null,
+"says": null,
+"allowedInCart": false,
+"isInviteOnly": false,
+"shippingAddressRequired": false,
+"isOptionListComplete": true,
+"isMerchandisingDeal": false,
+"isNowDeal": false,
+"isSoldOut": false,
+"isTipped": true,
+"isTravelBookableDeal": false,
+"isGliveInventoryDeal": false,
+"isAutoRefundEnabled": false,
+"placementPriority": "nearby",
+"redemptionLocation": "Durham",
+"locationNote": "",
+"salesforceLink": null,
+"vip": "",
+"fulfillmentMethod": null,
+"tags": [
+{
+"name": "Sports & Related"
+},
+{
+"name": "Golf - Mini Golf (Activity / Experience)"
+}
+],
+"displayOptions": [
+{
+"name": "discount",
+"enabled": true
+},
+{
+"name": "quantity",
+"enabled": true
+},
+{
+"name": "timer",
+"enabled": true
+},
+{
+"name": "merchandisingType",
+"value": "other"
+},
+{
+"name": "showRedemptionLocations",
+"enabled": true
+}
+],
+"options": [
+{
+"id": 12340804,
+"uuid": "bb0afa6b-33bb-14f8-8bd2-0a6aa44ee7be",
+"bookable": false,
+"buyUrl": "https://www.groupon.com/deals/wheels-fun-park-2-9/confirmation?pledge_id=12340804",
+"customField": null,
+"details": [
+{
+"description": "May be repurchased every 90 days. Limit 5 per person. Limit 1 per visit."
+}
+],
+"discount": {
+"amount": 1000,
+"currencyCode": "USD",
+"formattedAmount": "$10.00"
+},
+"discountPercent": 48,
+"endAt": "2039-06-02T03:59:59Z",
+"expiresAt": "2015-11-25T00:00:00Z",
+"expiresInDays": 180,
+"externalUrl": null,
+"isLimitedQuantity": true,
+"isSoldOut": false,
+"maximumPurchaseQuantity": 5,
+"minimumPurchaseQuantity": 1,
+"price": {
+"amount": 1100,
+"currencyCode": "USD",
+"formattedAmount": "$11.00"
+},
+"traits": [],
+"redemptionLocations": [
+{
+"name": "Durham",
+"streetAddress1": "715 N Hoover Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Durham",
+"postalCode": "27703",
+"country": "US",
+"phoneNumber": "+19195981944",
+"id": 46774654,
+"uuid": "bd0cd332-039e-b06a-9298-013a8ffc8275",
+"ordering": 0,
+"lat": 36.002134,
+"lng": -78.860864
+}
+],
+"soldQuantity": 180,
+"soldQuantityMessage": "180+",
+"specificAttributes": {
+"takeoutDelivery": {
+"takeout": false,
+"delivery": false
+}
+},
+"status": "open",
+"title": "One Fun Band",
+"value": {
+"amount": 2100,
+"currencyCode": "USD",
+"formattedAmount": "$21.00"
+},
+"pricingMetadata": {
+"segmentId": "be8469cc-8109-4f0d-b19f-9010bbf66df3",
+"offerType": "BWF",
+"minBuyCount": 3,
+"maxBuyCount": 10,
+"expiryInMinutes": 4320,
+"bwfPrice": {
+"amount": 701,
+"currencyCode": "USD",
+"formattedAmount": "$7.01"
+},
+"bwfDiscount": {
+"amount": 399,
+"currencyCode": "USD",
+"formattedAmount": "$3.99"
+}
+},
+"customFields": []
+},
+{
+"id": 12340805,
+"uuid": "9e9bfff7-d027-4873-d9e9-516b2488b932",
+"bookable": false,
+"buyUrl": "https://www.groupon.com/deals/wheels-fun-park-2-9/confirmation?pledge_id=12340805",
+"customField": null,
+"details": [
+{
+"description": "May be repurchased every 90 days. Limit 5 per person. Limit 1 per visit."
+}
+],
+"discount": {
+"amount": 2100,
+"currencyCode": "USD",
+"formattedAmount": "$21.00"
+},
+"discountPercent": 50,
+"endAt": "2039-06-02T03:59:59Z",
+"expiresAt": "2015-11-25T00:00:00Z",
+"expiresInDays": 180,
+"externalUrl": null,
+"isLimitedQuantity": true,
+"isSoldOut": false,
+"maximumPurchaseQuantity": 5,
+"minimumPurchaseQuantity": 1,
+"price": {
+"amount": 2100,
+"currencyCode": "USD",
+"formattedAmount": "$21.00"
+},
+"traits": [],
+"redemptionLocations": [
+{
+"name": "Durham",
+"streetAddress1": "715 N Hoover Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Durham",
+"postalCode": "27703",
+"country": "US",
+"phoneNumber": "+19195981944",
+"id": 46774654,
+"uuid": "bd0cd332-039e-b06a-9298-013a8ffc8275",
+"ordering": 0,
+"lat": 36.002134,
+"lng": -78.860864
+}
+],
+"soldQuantity": 520,
+"soldQuantityMessage": "520+",
+"specificAttributes": {
+"takeoutDelivery": {
+"takeout": false,
+"delivery": false
+}
+},
+"status": "open",
+"title": "Two Fun Band For Two person",
+"value": {
+"amount": 4200,
+"currencyCode": "USD",
+"formattedAmount": "$42.00"
+},
+"pricingMetadata": {
+"segmentId": "123ec7aa-1d87-46d4-b156-eea9d0d98a56",
+"offerType": "BWF",
+"minBuyCount": 3,
+"maxBuyCount": 10,
+"expiryInMinutes": 4320,
+"bwfPrice": {
+"amount": 1338,
+"currencyCode": "USD",
+"formattedAmount": "$13.38"
+},
+"bwfDiscount": {
+"amount": 762,
+"currencyCode": "USD",
+"formattedAmount": "$7.62"
+}
+},
+"customFields": []
+}
+],
+"textAd": {
+"line1": "",
+"line2": "",
+"headline": ""
+},
+"bwfGroup": null
+},
+{
+"id": "cincinnati-lubes-22",
+"uuid": "b482d574-9640-11e2-a7eb-0025906a9220",
+"dealUrl": "http://tracking.groupon.com/r?tsToken=US_AFF_0_201236_212556_0&url=https%3A%2F%2Fwww.groupon.com%2Fdeals%2Fcincinnati-lubes-22%3Fz%3Dskip%26utm_medium%3Dafl%26utm_source%3DGPN%26utm_campaign%3D201236%26mediaId%3D212556",
+"title": "$38 for Jiffy Lube Signature Service Oil Change, Tire Rotation, and Rain-X Original Glass Treatment (Up to $75.97 Value)",
+"announcementTitle": "Jiffy Lube – Up to 50% Off Oil-Change Package",
+"shortAnnouncementTitle": "Jiffy Lube – Oil-Change Package ",
+"finePrint": "Limit 1 per person, may buy multiple as gifts. Limit 1 per visit. Extra fee for synthetic oil. Valid only at listed locations.",
+"highlightsHtml": "<p>Trained wrench MDs inject 5 quarts of Pennzoil or Formula Shell into ailing autos, then replace filter, wash windows, and vacuum interior</p>",
+"pitchHtml": "<p>Though sending your vehicle on a blind date with a giant squid is an easy way to jump-start your felt-tipped-pen company, it remains a fruitless formula for obtaining fresh oil. Give your vehicle new life without making it spring for lobster with this Groupon.</p>\n\n<h4>$38 for an Oil-Change Package (Up to $75.97 Total Value)</h4>\n\n<ul>\n  <li>Jiffy Lube Signature Service oil change (a $45.99 value)</li>\n  <li>Tire rotation (a $19.99 value)</li>\n  <li>Rain-X glass treatment (a $9.99 value)</li>\n</ul>\n\n<p>The Jiffy Lube <a href=\"http://www.jiffylube.com/autoservices/signatureservice.aspx\">Signature Service oil change</a> handles more than just the replacement of vehicles&#8217; engine juices with up to 5 quarts of Pennzoil conventional or Formula Shell motor oil. Each service comes standard with a fresh-from-the-box oil filter, plus a comprehensive lineup of other vehicle-maintenance checkups, an exterior window wash, and interior floor vacuum. Trained technicians entreat cars to say &#8220;Ahhh&#8221; before quenching automotive thirst with top-offs of transmission, differential, transfer-case, power-steering, and windshield-washer fluids. A detailed inspection enforces the well-behaved manners of the antifreeze and coolant reservoirs, engine air-filtration system, serpentine belt, wiper blades, and exterior lights. By evenly distributing the weight across each tire, a fresh <a href=\"http://gr.pn/nOcW1R\">tire rotation</a> helps minimize wear and tear, maximize traction, and avoid the need to conceal balding tires with cumbersome toupees. A Rain-X glass treatment helps drivers achieve visibility while driving through rain, sleet, or snow.\n<em>Though Jiffy Lube sometimes features a discounted price in-store, this Groupon still offers the best deal available.</em> </p>",
+"soldQuantity": 25000,
+"limitedQuantityRemaining": null,
+"tippingPoint": 0,
+"soldQuantityMessage": "25,000+",
+"placeholderUrl": "https://secure-assets.grouponcdn.com/images/groupon/grayPlaceholder.png",
+"grid4ImageUrl": "https://img.grouponcdn.com/deal/3LmmJ8XjMjEGPuFYAWBa/Lu-2048x1229/v1/t300x182.jpg",
+"grid6ImageUrl": "https://img.grouponcdn.com/deal/3LmmJ8XjMjEGPuFYAWBa/Lu-2048x1229/v1/t460x279.jpg",
+"largeImageUrl": "https://img.grouponcdn.com/deal/3LmmJ8XjMjEGPuFYAWBa/Lu-2048x1229/v1/t440x300.jpg",
+"mediumImageUrl": "https://img.grouponcdn.com/deal/3LmmJ8XjMjEGPuFYAWBa/Lu-2048x1229/v1/t100x100.jpg",
+"smallImageUrl": "https://img.grouponcdn.com/deal/3LmmJ8XjMjEGPuFYAWBa/Lu-2048x1229/v1/t50x50.jpg",
+"sidebarImageUrl": "https://img.grouponcdn.com/deal/3LmmJ8XjMjEGPuFYAWBa/Lu-2048x1229/v1/t200x300.jpg",
+"status": "open",
+"type": "groupon",
+"accessType": "extended",
+"endAt": "2037-08-12T03:59:59Z",
+"startAt": "2013-04-04T04:00:00Z",
+"tippedAt": "2013-04-03T04:00:00Z",
+"areas": [],
+"channels": [],
+"dealTypes": [
+{
+"id": "new-car-smell",
+"name": "New Car Smell",
+"description": "For those who strive to keep their car looking good and running well"
+}
+],
+"division": {
+"id": "raleigh-durham",
+"name": "Raleigh / Durham",
+"timezone": "Eastern Daylight Time",
+"timezoneOffsetInSeconds": -14400,
+"timezoneIdentifier": "America/New_York",
+"lat": 35.7721,
+"lng": -78.6386
+},
+"merchant": {
+"id": "cincinnati-lubes",
+"uuid": "9ad801a6-aa93-11e1-8dd7-00259060b356",
+"name": "Jiffy Lube",
+"websiteUrl": "http://www.jiffylube.com",
+"facebookUrl": null,
+"twitterUrl": null,
+"ratings": null
+},
+"grouponRating": null,
+"says": null,
+"allowedInCart": false,
+"isInviteOnly": false,
+"shippingAddressRequired": false,
+"isOptionListComplete": true,
+"isMerchandisingDeal": false,
+"isNowDeal": false,
+"isSoldOut": false,
+"isTipped": true,
+"isTravelBookableDeal": false,
+"isGliveInventoryDeal": false,
+"isAutoRefundEnabled": false,
+"placementPriority": "nearby",
+"redemptionLocation": "Multiple Locations",
+"locationNote": "",
+"salesforceLink": null,
+"vip": "",
+"fulfillmentMethod": null,
+"tags": [
+{
+"name": "Automotive Oil Change"
+},
+{
+"name": "Car & Automotive"
+}
+],
+"displayOptions": [
+{
+"name": "discount",
+"enabled": true
+},
+{
+"name": "quantity",
+"enabled": true
+},
+{
+"name": "timer",
+"enabled": true
+},
+{
+"name": "merchandisingType",
+"value": "other"
+},
+{
+"name": "showRedemptionLocations",
+"enabled": true
+}
+],
+"options": [
+{
+"id": 6775356,
+"uuid": "b48c2318-9640-11e2-a7eb-0025906a9220",
+"bookable": false,
+"buyUrl": "https://www.groupon.com/deals/cincinnati-lubes-22/confirmation?pledge_id=6775356",
+"customField": null,
+"details": [
+{
+"description": "Limit 1 per person, may buy multiple as gifts. Limit 1 per visit. Extra fee for synthetic oil. Valid only at listed locations."
+}
+],
+"discount": {
+"amount": 3797,
+"currencyCode": "USD",
+"formattedAmount": "$37.97"
+},
+"discountPercent": 50,
+"endAt": "2037-08-12T03:59:59Z",
+"expiresAt": "2015-09-26T00:00:00Z",
+"expiresInDays": 120,
+"externalUrl": null,
+"isLimitedQuantity": true,
+"isSoldOut": false,
+"maximumPurchaseQuantity": 25,
+"minimumPurchaseQuantity": 1,
+"price": {
+"amount": 3800,
+"currencyCode": "USD",
+"formattedAmount": "$38.00"
+},
+"traits": [],
+"redemptionLocations": [
+{
+"name": "Terry Sanford",
+"streetAddress1": "3816 Raeford Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Fayetteville",
+"neighborhood": "Terry Sanford",
+"postalCode": "28304",
+"country": "US",
+"phoneNumber": "+19104858337",
+"id": 77748523,
+"uuid": "b55e54fb-19cf-b06a-9052-013a900d663b",
+"ordering": 0,
+"lat": 35.044343,
+"lng": -78.943197
+},
+{
+"name": "Durham",
+"streetAddress1": "4335 North Roxboro Road",
+"streetAddress2": null,
+"state": "North Carolina",
+"city": "Durham",
+"neighborhood": "Durham",
+"postalCode": "27704",
+"country": "US",
+"id": 77748512,
+"uuid": "8c252570-b67d-11e2-b324-00259060b074",
+"ordering": 1,
+"lat": 36.0558707,
+"lng": -78.9034989
+},
+{
+"name": "Fuquay-Varina",
+"streetAddress1": "1225 North Main Street",
+"streetAddress2": null,
+"state": "NC",
+"city": "Fuquay Varina",
+"neighborhood": "Fuquay-Varina",
+"postalCode": "27526",
+"country": "US",
+"phoneNumber": "+19195520918",
+"id": 77748496,
+"uuid": "85f39ba4-039e-b06a-9298-013a900ea003",
+"ordering": 2,
+"lat": 35.59212,
+"lng": -78.781069
+},
+{
+"name": "Raleigh",
+"streetAddress1": "220 Newton Road",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"postalCode": "27615",
+"country": "US",
+"phoneNumber": "+19198467127",
+"id": 77748532,
+"uuid": "f9488650-4780-b06a-747e-013a900ea184",
+"ordering": 3,
+"lat": 35.878388,
+"lng": -78.643923
+},
+{
+"name": "Greenville",
+"streetAddress1": "126 Greenville Boulevard Southeast",
+"streetAddress2": null,
+"state": "NC",
+"city": "Greenville",
+"neighborhood": "Greenville",
+"postalCode": "27858",
+"country": "US",
+"phoneNumber": "+12527562579",
+"id": 77748513,
+"uuid": "b01eacfd-19cf-b06a-9052-013a900ea1f6",
+"ordering": 4,
+"lat": 35.5784317,
+"lng": -77.3797045
+},
+{
+"name": "Southwest Raleigh",
+"streetAddress1": "3925 Western Blvd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "Southwest Raleigh",
+"postalCode": "27606",
+"country": "US",
+"phoneNumber": "+19198519767",
+"id": 77748495,
+"uuid": "f871f1fe-039e-b06a-9298-013a900ea093",
+"ordering": 5,
+"lat": 35.7840723,
+"lng": -78.6921228
+},
+{
+"name": "Durham",
+"streetAddress1": "4904 Highway 55",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Durham",
+"postalCode": "27713",
+"country": "US",
+"phoneNumber": "+19195449736",
+"id": 77748521,
+"uuid": "7b5362fc-039e-b06a-9298-013a900ed105",
+"ordering": 6,
+"lat": 35.8987894,
+"lng": -78.8967125
+},
+{
+"name": "Terry Sanford",
+"streetAddress1": "300-305 N. McPherson Church Road",
+"streetAddress2": null,
+"state": "NC",
+"city": "Fayetteville",
+"neighborhood": "Terry Sanford",
+"postalCode": "28303",
+"country": "US",
+"phoneNumber": "+19108685825",
+"id": 77748503,
+"uuid": "b3bb0263-19cf-b06a-9052-013a900ea188",
+"ordering": 7,
+"lat": 35.072448,
+"lng": -78.951832
+},
+{
+"name": "Wake Forest",
+"streetAddress1": "950 Durham Road",
+"streetAddress2": null,
+"state": "NC",
+"city": "Wake Forest",
+"postalCode": "27587",
+"country": "US",
+"phoneNumber": "+19195542346",
+"id": 77748535,
+"uuid": "bcad9f14-5df1-b06a-768a-013a900ea10f",
+"ordering": 8,
+"lat": 35.9778983,
+"lng": -78.5432781
+},
+{
+"name": "E. E. Smith",
+"streetAddress1": "3601 Ramsey St.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Fayetteville",
+"neighborhood": "E. E. Smith",
+"postalCode": "28311",
+"country": "US",
+"phoneNumber": "+19108226121",
+"id": 77748500,
+"uuid": "9ec0c1fb-4780-b06a-747e-013a900ea14a",
+"ordering": 9,
+"lat": 35.1079323,
+"lng": -78.8792798
+},
+{
+"name": "E. E. Smith",
+"streetAddress1": "600 S Bragg Blvd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Spring Lake",
+"neighborhood": "E. E. Smith",
+"postalCode": "28390",
+"country": "US",
+"phoneNumber": "+19104973140",
+"id": 77748494,
+"uuid": "c30eaefe-5df1-b06a-768a-013a900ec5d1",
+"ordering": 10,
+"lat": 35.161637,
+"lng": -78.972758
+},
+{
+"name": "Greenville",
+"streetAddress1": "645 S Memorial Dr",
+"streetAddress2": null,
+"state": "NC",
+"city": "Greenville",
+"postalCode": "27834",
+"country": "US",
+"phoneNumber": "+12523290329",
+"id": 77748528,
+"uuid": "bad09efa-19cf-b06a-9052-013a900ea0f6",
+"ordering": 11,
+"lat": 35.6102327,
+"lng": -77.3936343
+},
+{
+"name": "Raleigh",
+"streetAddress1": "10840 Wakefield Commons Dr.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"postalCode": "27614",
+"country": "US",
+"phoneNumber": "+19195625464",
+"id": 77748498,
+"uuid": "b74ca695-5df1-b06a-768a-013a900ea16c",
+"ordering": 12,
+"lat": 35.9447392,
+"lng": -78.5449454
+},
+{
+"name": "Raleigh",
+"streetAddress1": "3817 Capital Boulevard",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"postalCode": "27604",
+"country": "US",
+"phoneNumber": "+19198724488",
+"id": 77748533,
+"uuid": "a3affc65-039e-b06a-9298-013a900ecb2f",
+"ordering": 13,
+"lat": 35.8333058,
+"lng": -78.5842179
+},
+{
+"name": "Chapel Hill",
+"streetAddress1": "1746-A North Fordham Blvd.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Chapel Hill",
+"postalCode": "27514",
+"country": "US",
+"phoneNumber": "+19199689000",
+"id": 77748499,
+"uuid": "9a283dfe-19cf-b06a-9052-013a900ecb18",
+"ordering": 14,
+"lat": 35.93991,
+"lng": -79.019535
+},
+{
+"name": "Northgate Park",
+"streetAddress1": "1917 North Roxboro Street",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Northgate Park",
+"postalCode": "27704",
+"country": "US",
+"phoneNumber": "+19192204030",
+"id": 77748510,
+"uuid": "3fe33ec5-19cf-b06a-9052-013a900ea175",
+"ordering": 15,
+"lat": 36.0160989,
+"lng": -78.8904016
+},
+{
+"name": "Northeast Raleigh",
+"streetAddress1": "4804 Atlantic Ave",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "Northeast Raleigh",
+"postalCode": "27616",
+"country": "US",
+"phoneNumber": "+19198765825",
+"id": 77748519,
+"uuid": "f3a810a4-4780-b06a-747e-013a900ebd45",
+"ordering": 16,
+"lat": 35.849688,
+"lng": -78.600998
+},
+{
+"name": "Northwest Raleigh",
+"streetAddress1": "8207 Creedmoor Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "Northwest Raleigh",
+"postalCode": "27613",
+"country": "US",
+"phoneNumber": "+19198469316",
+"id": 77748524,
+"uuid": "c7d5c026-19cf-b06a-9052-013a900eb840",
+"ordering": 17,
+"lat": 35.8987074,
+"lng": -78.681144
+},
+{
+"name": "Northwest Raleigh",
+"streetAddress1": "5929 Glenwood Avenue",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "Northwest Raleigh",
+"postalCode": "27612",
+"country": "US",
+"phoneNumber": "+19197811116",
+"id": 77748527,
+"uuid": "7879d395-4780-b06a-747e-013a900ea1b3",
+"ordering": 18,
+"lat": 35.853624,
+"lng": -78.699912
+},
+{
+"name": "Clayton",
+"streetAddress1": "10141 US 70 BUS HWY W",
+"streetAddress2": null,
+"state": "NC",
+"city": "Clayton",
+"postalCode": "27520",
+"country": "US",
+"phoneNumber": "+19195536960",
+"id": 77748529,
+"uuid": "321010fc-039e-b06a-9298-013a900eb8dd",
+"ordering": 19,
+"lat": 35.626001,
+"lng": -78.417835
+},
+{
+"name": "Raleigh",
+"streetAddress1": "401 Chapanoke Road",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"postalCode": "27603",
+"country": "US",
+"phoneNumber": "+19197727148",
+"id": 77748506,
+"uuid": "5debd272-5df1-b06a-768a-013a900ea8f0",
+"ordering": 20,
+"lat": 35.7353313,
+"lng": -78.6517798
+},
+{
+"name": "Westwood Village",
+"streetAddress1": "1617 Raleigh Road Parkway West",
+"streetAddress2": null,
+"state": "NC",
+"city": "Wilson",
+"neighborhood": "Westwood Village",
+"postalCode": "27896",
+"country": "US",
+"phoneNumber": "+12522371181",
+"id": 77748505,
+"uuid": "ef282697-039e-b06a-9298-013a900ea17a",
+"ordering": 21,
+"lat": 35.7353701,
+"lng": -77.9484809
+},
+{
+"name": "Downtown Chapel Hill",
+"streetAddress1": "607 W Franklin St",
+"streetAddress2": null,
+"state": "NC",
+"city": "Chapel Hill",
+"neighborhood": "Downtown Chapel Hill",
+"postalCode": "27516",
+"country": "US",
+"phoneNumber": "+19199293937",
+"id": 77748520,
+"uuid": "d8104ef9-19cf-b06a-9052-013a900eb584",
+"ordering": 22,
+"lat": 35.9117188,
+"lng": -79.059954
+},
+{
+"name": "Tuscaloosa -Lakewood",
+"streetAddress1": "2515 Chapel Hill Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Tuscaloosa -Lakewood",
+"postalCode": "27707",
+"country": "US",
+"phoneNumber": "+19194936000",
+"id": 77748534,
+"uuid": "e5c91cfc-4780-b06a-747e-013a900ea129",
+"ordering": 23,
+"lat": 35.981216,
+"lng": -78.933714
+},
+{
+"name": "Apex",
+"streetAddress1": "1200 Laura Village Road",
+"streetAddress2": null,
+"state": "NC",
+"city": "Apex",
+"neighborhood": "Apex",
+"postalCode": "27523",
+"country": "US",
+"phoneNumber": "+19193625511",
+"id": 77748526,
+"uuid": "fff075f9-19cf-b06a-9052-013a900ea1a3",
+"ordering": 24,
+"lat": 35.7489809,
+"lng": -78.8351656
+},
+{
+"name": "Preston",
+"streetAddress1": "400 Weston Parkway",
+"streetAddress2": null,
+"state": "North Carolina",
+"city": "Cary",
+"neighborhood": "Preston",
+"postalCode": "27513",
+"country": "US",
+"phoneNumber": "919-461-0510",
+"id": 77748531,
+"uuid": "8c5d37ee-b67d-11e2-b324-00259060b074",
+"ordering": 25,
+"lat": 35.8292764,
+"lng": -78.7705582
+},
+{
+"name": "New Bern",
+"streetAddress1": "1921 S. Glenburnie Road",
+"streetAddress2": null,
+"state": "NC",
+"city": "New Bern",
+"postalCode": "28562",
+"country": "US",
+"phoneNumber": "+12526342607",
+"id": 77748516,
+"uuid": "5a5c1a05-5df1-b06a-768a-013a900ea1dc",
+"ordering": 26,
+"lat": 35.1019263,
+"lng": -77.0989326
+},
+{
+"name": "Cary",
+"streetAddress1": "1810 Walnut St",
+"streetAddress2": null,
+"state": "NC",
+"city": "Cary",
+"postalCode": "27518",
+"country": "US",
+"phoneNumber": "+19198511129",
+"id": 77748522,
+"uuid": "75ea89a5-731b-b06a-747e-013a987617ec",
+"ordering": 27,
+"lat": 35.7594757,
+"lng": -78.7435299
+},
+{
+"name": "Goldsboro",
+"streetAddress1": "2516 E Ash St",
+"streetAddress2": null,
+"state": "NC",
+"city": "Goldsboro",
+"neighborhood": "Goldsboro",
+"postalCode": "27534",
+"country": "US",
+"phoneNumber": "+19197353030",
+"id": 77748507,
+"uuid": "d39cecf9-4780-b06a-747e-013a900ebb12",
+"ordering": 28,
+"lat": 35.3730704,
+"lng": -77.955355
+},
+{
+"name": "Garner",
+"streetAddress1": "1537 U.S. 70",
+"streetAddress2": null,
+"state": "NC",
+"city": "Garner",
+"neighborhood": "Garner",
+"postalCode": "27529",
+"country": "US",
+"phoneNumber": "+19197796080",
+"id": 77748525,
+"uuid": "145bbef8-039e-b06a-9298-013a900ea9d0",
+"ordering": 29,
+"lat": 35.7238122,
+"lng": -78.6473965
+},
+{
+"name": "Jacksonville",
+"streetAddress1": "452 Western Blvd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Jacksonville",
+"postalCode": "28546",
+"country": "US",
+"phoneNumber": "+19103479399",
+"id": 77748517,
+"uuid": "c13b5203-039e-b06a-9298-013a900ea1ae",
+"ordering": 30,
+"lat": 34.7743041,
+"lng": -77.3883725
+},
+{
+"name": "Jacksonville",
+"streetAddress1": "435 Western Blvd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Jacksonville",
+"neighborhood": "Jacksonville",
+"postalCode": "28546",
+"country": "US",
+"phoneNumber": "+19103479399",
+"id": 77748508,
+"uuid": "86d2a7fb-1629-b06a-747e-013baf70a1d0",
+"ordering": 31,
+"lat": 34.7694916,
+"lng": -77.38581
+},
+{
+"name": "Durham",
+"streetAddress1": "1221 Nc 54 Highway",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Durham",
+"postalCode": "27713",
+"country": "US",
+"id": 77748497,
+"uuid": "e4d119fb-027f-b06a-9298-013d7b02bb10",
+"ordering": 32,
+"lat": 35.918554,
+"lng": -78.960916
+},
+{
+"name": "Cary",
+"streetAddress1": "419 Ashville Ave",
+"streetAddress2": null,
+"state": "NC",
+"city": "Cary",
+"neighborhood": "Cary",
+"postalCode": "27518",
+"country": "US",
+"phoneNumber": "+19198590443",
+"id": 77748501,
+"uuid": "fd2883c5-4574-b06a-9052-013a987616ef",
+"ordering": 33,
+"lat": 35.7374955,
+"lng": -78.7859407
+},
+{
+"name": "Greenville",
+"streetAddress1": "105 SW Greenville Blvd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Greenville",
+"postalCode": "27834",
+"country": "US",
+"phoneNumber": "+12523211327",
+"id": 77748511,
+"uuid": "724165fa-2d51-b06a-9298-013ce43a9749",
+"ordering": 34,
+"lat": 35.576047,
+"lng": -77.382615
+},
+{
+"name": "North Raleigh",
+"streetAddress1": "7210 Six Forks Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "North Raleigh",
+"postalCode": "27615",
+"country": "US",
+"phoneNumber": "+19198482226",
+"id": 77748530,
+"uuid": "7bd415f4-1e6d-b06a-768a-013b9d6c940c",
+"ordering": 35,
+"lat": 35.8778982,
+"lng": -78.645358
+},
+{
+"name": "Cary",
+"streetAddress1": "1401 Kildaire Farm Road",
+"streetAddress2": null,
+"state": "NC",
+"city": "Cary",
+"postalCode": "27511",
+"country": "US",
+"phoneNumber": "+19198590443",
+"id": 77748509,
+"uuid": "70b827e2-19cf-b06a-9052-013a900e9dcc",
+"ordering": 36,
+"lat": 35.7576653,
+"lng": -78.7826253
+},
+{
+"name": "Winston-Salem",
+"streetAddress1": "5501 University Pkwy",
+"streetAddress2": null,
+"state": "NC",
+"city": "Winston-Salem",
+"postalCode": "27105",
+"country": "US",
+"phoneNumber": "+13366617997",
+"id": 77748514,
+"uuid": "e5206c16-039e-b06a-9298-013a8ffbbc01",
+"ordering": 37,
+"lat": 36.171681,
+"lng": -80.276973
+},
+{
+"name": "Westover",
+"streetAddress1": "6061 Yadkin Road",
+"streetAddress2": null,
+"state": "NC",
+"city": "Fayetteville",
+"neighborhood": "Westover",
+"postalCode": "28303",
+"country": "US",
+"id": 77748515,
+"uuid": "28d2d5e1-180a-b06a-768a-013dbbccfd8a",
+"ordering": 38,
+"lat": 35.0975405,
+"lng": -78.9886809
+},
+{
+"name": "Northeast Raleigh",
+"streetAddress1": "6304 Capital Boulevard",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "Northeast Raleigh",
+"postalCode": "27616",
+"country": "US",
+"id": 77748502,
+"uuid": "cf52edf9-68d3-b06a-9298-013dbbd48d2b",
+"ordering": 39,
+"lat": 35.8712748,
+"lng": -78.5794553
+},
+{
+"name": "Cary",
+"streetAddress1": "941 High House Road",
+"streetAddress2": null,
+"state": "NC",
+"city": "Cary",
+"neighborhood": "Cary",
+"postalCode": "27513",
+"country": "US",
+"phoneNumber": "+19194699195",
+"id": 77748537,
+"uuid": "94afd4fc-2cf6-b06a-9052-013dbbd00be3",
+"ordering": 40,
+"lat": 35.7875892,
+"lng": -78.8277008
+},
+{
+"name": "Greensboro",
+"streetAddress1": "2938 Randleman Road",
+"streetAddress2": null,
+"state": "NC",
+"city": "Greensboro",
+"postalCode": "27406",
+"country": "US",
+"phoneNumber": "+13362738377",
+"id": 77748518,
+"uuid": "630917fd-039e-b06a-9298-013a8ffa4e36",
+"ordering": 41,
+"lat": 36.0156994,
+"lng": -79.8048655
+},
+{
+"name": "Greensboro",
+"streetAddress1": "4505 West Market Street",
+"streetAddress2": null,
+"state": "NC",
+"city": "Greensboro",
+"postalCode": "27407",
+"country": "US",
+"phoneNumber": "+13362999177",
+"id": 77748504,
+"uuid": "633255fc-5df1-b06a-768a-013a8ffb3e95",
+"ordering": 42,
+"lat": 36.0692516,
+"lng": -79.8576334
+}
+],
+"soldQuantity": 25000,
+"soldQuantityMessage": "25,000+",
+"specificAttributes": {
+"takeoutDelivery": {
+"takeout": false,
+"delivery": false
+}
+},
+"status": "open",
+"title": "Jiffy Lube Signature Service oil change, tire rotation, and Rain-X original glass treatment",
+"value": {
+"amount": 7597,
+"currencyCode": "USD",
+"formattedAmount": "$75.97"
+},
+"pricingMetadata": {
+"segmentId": "220d8d25-36bd-4a5f-80d4-3af9eafbff30",
+"offerType": "BWF",
+"minBuyCount": 3,
+"maxBuyCount": 10,
+"expiryInMinutes": 4320,
+"bwfPrice": {
+"amount": 3111,
+"currencyCode": "USD",
+"formattedAmount": "$31.11"
+},
+"bwfDiscount": {
+"amount": 689,
+"currencyCode": "USD",
+"formattedAmount": "$6.89"
+}
+},
+"customFields": []
+}
+],
+"textAd": {
+"line1": "",
+"line2": "",
+"headline": ""
+},
+"bwfGroup": null
+},
+{
+"id": "durham-athletic-club-renee-young",
+"uuid": "06933012-c4d5-9175-629f-47ec48f43e9d",
+"dealUrl": "http://tracking.groupon.com/r?tsToken=US_AFF_0_201236_212556_0&url=https%3A%2F%2Fwww.groupon.com%2Fdeals%2Fdurham-athletic-club-renee-young%3Fz%3Dskip%26utm_medium%3Dafl%26utm_source%3DGPN%26utm_campaign%3D201236%26mediaId%3D212556",
+"title": "5 or 10 One-Hour Zumba Classes at Durham Athletic Club-Renee Young (Up to 60% Off)",
+"announcementTitle": "Up to 60% Off Zumba Classes",
+"shortAnnouncementTitle": "One-Hour Zumba Classes",
+"finePrint": "Registration required. Limit 1 per person, may buy 1 additional as gift. Valid only for option purchased. All goods or services must be used by the same person.",
+"highlightsHtml": "<p>Zumba classes make exercise more exciting by combining upbeat music with fun dance moves and cardio</p>",
+"pitchHtml": "<h4>Choose Between Two Options</h4>\n\n<ul>\n  <li>$12 for 5 one-hour Zumba classes ($25 value)</li>\n  <li>$20 for 10 one-hour Zumba classes ($50 value)</li>\n</ul>\n\n<h4>Zumba: A Fitness Style on the Move</h4>\n\n<p><em>Zumba is one of the peppiest fitness options on the schedule. Read on to learn a little about where it comes from.</em></p>\n\n<p>Because of its tendency to dissolve inhibitions by the time the beat sets in, Zumba has been deemed &#8220;exercise in disguise&#8221; by instructors in both The Huffington Post and <em>USA Today</em>. The dance-fitness program—now a mainstay in thousands of gyms worldwide—syncs basic dance steps and calisthenics to upbeat music, often drawing upon Latin styles such as merengue, salsa, and flamenco. Certified instructors demonstrate each piece of choreography at the front of the room, motivating participants to groove at their own pace and add creative flairs as they see fit. The program currently branches off into eight variations, including Zumba Gold for senior citizens, Zumbatomic for children, and Zumba Toning for exercisers who wish to incorporate strength-training elements.</p>\n\n<p>Zumba got its start in Colombia in the mid-1990s, the brainchild of fitness instructor Alberto &#8220;Beto&#8221; Perez. According to Reuters, Beto initially wanted to name it Rumba—a Spanish word that can translate to <em>party</em>—but swapped in the Z when he found his first choice was trademarked. Today, Beto keeps up with the constantly changing musical culture by arranging new routines for his vast network of instructors every two months, incorporating newer styles such as hip-hop and reggaeton and enlisting artists such as Pitbull and Wyclef Jean to record Zumba-specific tracks.</p>",
+"soldQuantity": 9,
+"limitedQuantityRemaining": null,
+"tippingPoint": 0,
+"soldQuantityMessage": "9",
+"placeholderUrl": "https://secure-assets.grouponcdn.com/images/groupon/grayPlaceholder.png",
+"grid4ImageUrl": "https://img.grouponcdn.com/deal/3xd7HEsjMspRQ8N9B3MwEj/ihs_0-115_0446-2048x1229/v1/t300x182.jpg",
+"grid6ImageUrl": "https://img.grouponcdn.com/deal/3xd7HEsjMspRQ8N9B3MwEj/ihs_0-115_0446-2048x1229/v1/t460x279.jpg",
+"largeImageUrl": "https://img.grouponcdn.com/deal/3xd7HEsjMspRQ8N9B3MwEj/ihs_0-115_0446-2048x1229/v1/t440x300.jpg",
+"mediumImageUrl": "https://img.grouponcdn.com/deal/3xd7HEsjMspRQ8N9B3MwEj/ihs_0-115_0446-2048x1229/v1/t100x100.jpg",
+"smallImageUrl": "https://img.grouponcdn.com/deal/3xd7HEsjMspRQ8N9B3MwEj/ihs_0-115_0446-2048x1229/v1/t50x50.jpg",
+"sidebarImageUrl": "https://img.grouponcdn.com/deal/3xd7HEsjMspRQ8N9B3MwEj/ihs_0-115_0446-2048x1229/v1/t200x300.jpg",
+"status": "open",
+"type": "groupon",
+"accessType": "extended",
+"endAt": "2039-06-01T04:00:00Z",
+"startAt": "2015-01-30T05:00:00Z",
+"tippedAt": "2015-01-30T05:00:00Z",
+"areas": [],
+"channels": [],
+"dealTypes": [
+{
+"id": "health-nut-or-fitness-buff",
+"name": "Healthy Living",
+"description": "For those who take care of their overall well-being with exercise, yoga, and balanced nutrition"
+}
+],
+"division": {
+"id": "raleigh-durham",
+"name": "Raleigh / Durham",
+"timezone": "Eastern Daylight Time",
+"timezoneOffsetInSeconds": -14400,
+"timezoneIdentifier": "America/New_York",
+"lat": 35.7721,
+"lng": -78.6386
+},
+"merchant": {
+"id": "durham-athletic-club-renee-young",
+"uuid": "5f87c08d-99e3-4987-95c5-438c56629ed1",
+"name": "Durham Athletic Club-Renee Young",
+"websiteUrl": "http://www.durhamathleticclub.com",
+"facebookUrl": null,
+"twitterUrl": null,
+"ratings": null
+},
+"grouponRating": null,
+"says": null,
+"allowedInCart": false,
+"isInviteOnly": false,
+"shippingAddressRequired": false,
+"isOptionListComplete": true,
+"isMerchandisingDeal": false,
+"isNowDeal": false,
+"isSoldOut": false,
+"isTipped": true,
+"isTravelBookableDeal": false,
+"isGliveInventoryDeal": false,
+"isAutoRefundEnabled": false,
+"placementPriority": "nearby",
+"redemptionLocation": "Durham Athletic Club",
+"locationNote": null,
+"salesforceLink": null,
+"vip": "",
+"fulfillmentMethod": null,
+"tags": [
+{
+"name": "Workout & Fitness"
+},
+{
+"name": "Fitness Studio"
+}
+],
+"displayOptions": [
+{
+"name": "discount",
+"enabled": true
+},
+{
+"name": "quantity",
+"enabled": true
+},
+{
+"name": "timer",
+"enabled": true
+},
+{
+"name": "merchandisingType",
+"value": "other"
+},
+{
+"name": "showRedemptionLocations",
+"enabled": true
+}
+],
+"options": [
+{
+"id": 12376093,
+"uuid": "00a41129-3692-3dd8-be68-17749e3fd023",
+"bookable": false,
+"buyUrl": "https://www.groupon.com/deals/durham-athletic-club-renee-young/confirmation?pledge_id=12376093",
+"customField": null,
+"details": [
+{
+"description": "Registration required. Limit 1 per person, may buy 1 additional as gift. Valid only for option purchased. All goods or services must be used by the same person."
+}
+],
+"discount": {
+"amount": 1300,
+"currencyCode": "USD",
+"formattedAmount": "$13.00"
+},
+"discountPercent": 52,
+"endAt": "2039-06-01T04:00:00Z",
+"expiresAt": "2015-11-25T00:00:00Z",
+"expiresInDays": 180,
+"externalUrl": null,
+"isLimitedQuantity": true,
+"isSoldOut": false,
+"maximumPurchaseQuantity": 2,
+"minimumPurchaseQuantity": 1,
+"price": {
+"amount": 1200,
+"currencyCode": "USD",
+"formattedAmount": "$12.00"
+},
+"traits": [],
+"redemptionLocations": [
+{
+"name": "Durham Athletic Club",
+"streetAddress1": "1230 Avondale Drive",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Durham",
+"postalCode": "27701",
+"country": "US",
+"id": 90090055,
+"uuid": "957369f9-0426-b06a-747f-014ae9489aec",
+"ordering": 0,
+"lat": 36.004934,
+"lng": -78.883317
+}
+],
+"soldQuantity": 3,
+"soldQuantityMessage": "3",
+"specificAttributes": {
+"takeoutDelivery": {
+"takeout": false,
+"delivery": false
+}
+},
+"status": "open",
+"title": "5 One-hour Zumba Classes",
+"value": {
+"amount": 2500,
+"currencyCode": "USD",
+"formattedAmount": "$25.00"
+},
+"customFields": []
+},
+{
+"id": 12376094,
+"uuid": "a9da045e-3b3c-581b-5c25-71e4ba0478fb",
+"bookable": false,
+"buyUrl": "https://www.groupon.com/deals/durham-athletic-club-renee-young/confirmation?pledge_id=12376094",
+"customField": null,
+"details": [
+{
+"description": "Registration required. Limit 1 per person, may buy 1 additional as gift. Valid only for option purchased. All goods or services must be used by the same person."
+}
+],
+"discount": {
+"amount": 3000,
+"currencyCode": "USD",
+"formattedAmount": "$30.00"
+},
+"discountPercent": 60,
+"endAt": "2039-06-01T04:00:00Z",
+"expiresAt": "2015-11-25T00:00:00Z",
+"expiresInDays": 180,
+"externalUrl": null,
+"isLimitedQuantity": true,
+"isSoldOut": false,
+"maximumPurchaseQuantity": 2,
+"minimumPurchaseQuantity": 1,
+"price": {
+"amount": 2000,
+"currencyCode": "USD",
+"formattedAmount": "$20.00"
+},
+"traits": [],
+"redemptionLocations": [
+{
+"name": "Durham Athletic Club",
+"streetAddress1": "1230 Avondale Drive",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Durham",
+"postalCode": "27701",
+"country": "US",
+"id": 90090055,
+"uuid": "957369f9-0426-b06a-747f-014ae9489aec",
+"ordering": 0,
+"lat": 36.004934,
+"lng": -78.883317
+}
+],
+"soldQuantity": 5,
+"soldQuantityMessage": "5",
+"specificAttributes": {
+"takeoutDelivery": {
+"takeout": false,
+"delivery": false
+}
+},
+"status": "open",
+"title": "10 One-hour Zumba Classes",
+"value": {
+"amount": 5000,
+"currencyCode": "USD",
+"formattedAmount": "$50.00"
+},
+"customFields": []
+}
+],
+"textAd": {
+"line1": "",
+"line2": "",
+"headline": ""
+},
+"bwfGroup": null
+},
+{
+"id": "durham-school-of-martial-arts",
+"uuid": "31646500-6dd5-d344-aa7b-15d91333cb7d",
+"dealUrl": "http://tracking.groupon.com/r?tsToken=US_AFF_0_201236_212556_0&url=https%3A%2F%2Fwww.groupon.com%2Fdeals%2Fdurham-school-of-martial-arts%3Fz%3Dskip%26utm_medium%3Dafl%26utm_source%3DGPN%26utm_campaign%3D201236%26mediaId%3D212556",
+"title": "A Month of Martial Arts Class or Five Weeks of Cardio Kickboxing at Durham School of Martial Arts (Up to 54% Off)",
+"announcementTitle": "Up to 54% Off Martial Arts or Kickboxing",
+"shortAnnouncementTitle": "Martial Arts or Kickboxing Class",
+"finePrint": "Not valid for clients active within the past 12 month(s). Limit 1 per person. Valid only for option purchased. All goods or services must be used by the same person. Optional wraps available for $10.",
+"highlightsHtml": "<p>Participants of all experience levels learn self-defense skills in martial-arts lessons; kickboxing classes provide a cardio workout</p>",
+"pitchHtml": "<p>Most martial artists advocate fighting as a last resort that should only be used if hurting feelings doesn't work. Protect yourself with this Groupon.</p><h4>Choose Between Two Options</h4>\n\n<ul>\n  <li>$69 for one month of unlimited martial arts classes ($150 value)</li>\n  <li>$59 for five weeks of unlimited cardio kickboxing classes ($120 value)</li>\n  <li><a href=\"http://gr.pn/1qrGVR2\">Click here to see the class schedule</a>.</li>\n</ul>\n\n<h4>Three Things to Know About Kickboxing</h4>\n\n<p><em>Kickboxing is a popular form of competitive fighting, but it really encompasses many different combat disciplines. Read on to learn more about this martial arts—and fitness—mainstay.</em></p>\n\n<p><strong>1. Kickboxing is many disciplines in one, incorporating moves and techniques from many martial arts.</strong> Punches, kicks, elbows, clinches, and takedowns are all fair game. As such, styles can vary widely among martial-arts purists, boxers, and fighters who work to cultivate a unique approach.</p>\n\n<p><strong>2. Its versatility translates well to fitness.</strong> Kickboxing balances upper- and lower-body flexibility with cardiovascular exercise, making for an effective full-body workout. Practitioners also get the benefit of learning self-defense techniques, getting a leg up on their peers who only know how to chuck a treadmill at an attacker. </p>\n\n<p><strong>3. It&#8217;s not that old.</strong> Kickboxing is quite popular in Thailand, which is also home to Muay Thai—a form of boxing, practiced as a regulated sport since the late 19th century, in which fighters don gloves and other pads. In 1966, a Japanese karate promoter became infatuated with Muay Thai—and particularly the full-contact striking that&#8217;s not allowed in karate—and saw an opportunity to blend the styles. He prepared three karate fighters to take on Muay Thai specialists, and the competition was fierce enough to inspire the birth, a few years later, of kickboxing as an organized sport.</p>",
+"soldQuantity": 2,
+"limitedQuantityRemaining": null,
+"tippingPoint": 0,
+"soldQuantityMessage": "2",
+"placeholderUrl": "https://secure-assets.grouponcdn.com/images/groupon/grayPlaceholder.png",
+"grid4ImageUrl": "https://img.grouponcdn.com/iam/4Wc7BcGSMGkXX6XUDfws/53-5000x2999/v1/t300x182.jpg",
+"grid6ImageUrl": "https://img.grouponcdn.com/iam/4Wc7BcGSMGkXX6XUDfws/53-5000x2999/v1/t460x279.jpg",
+"largeImageUrl": "https://img.grouponcdn.com/iam/4Wc7BcGSMGkXX6XUDfws/53-5000x2999/v1/t440x300.jpg",
+"mediumImageUrl": "https://img.grouponcdn.com/iam/4Wc7BcGSMGkXX6XUDfws/53-5000x2999/v1/t100x100.jpg",
+"smallImageUrl": "https://img.grouponcdn.com/iam/4Wc7BcGSMGkXX6XUDfws/53-5000x2999/v1/t50x50.jpg",
+"sidebarImageUrl": "https://img.grouponcdn.com/iam/4Wc7BcGSMGkXX6XUDfws/53-5000x2999/v1/t200x300.jpg",
+"status": "open",
+"type": "groupon",
+"accessType": "extended",
+"endAt": "2039-02-21T05:00:00Z",
+"startAt": "2014-10-22T04:00:00Z",
+"tippedAt": "2014-10-22T04:00:00Z",
+"areas": [],
+"channels": [],
+"dealTypes": [
+{
+"id": "adrenaline-junkie",
+"name": "Adrenaline",
+"description": "Thrilling and heart-pounding experiences"
+},
+{
+"id": "sporting-life",
+"name": "Sporting Life",
+"description": "For those who have team spirit and enjoy athletic competition"
+}
+],
+"division": {
+"id": "raleigh-durham",
+"name": "Raleigh / Durham",
+"timezone": "Eastern Daylight Time",
+"timezoneOffsetInSeconds": -14400,
+"timezoneIdentifier": "America/New_York",
+"lat": 35.7721,
+"lng": -78.6386
+},
+"merchant": {
+"id": "durham-school-of-martial-arts",
+"uuid": "932c808a-66e1-7f77-f224-0af823a30c1d",
+"name": "Durham School of Martial Arts",
+"websiteUrl": "http://www.kkeith-mma.com",
+"facebookUrl": null,
+"twitterUrl": null,
+"ratings": null
+},
+"grouponRating": null,
+"says": null,
+"allowedInCart": false,
+"isInviteOnly": false,
+"shippingAddressRequired": false,
+"isOptionListComplete": true,
+"isMerchandisingDeal": false,
+"isNowDeal": false,
+"isSoldOut": false,
+"isTipped": true,
+"isTravelBookableDeal": false,
+"isGliveInventoryDeal": false,
+"isAutoRefundEnabled": false,
+"placementPriority": "nearby",
+"redemptionLocation": "Durham",
+"locationNote": "",
+"salesforceLink": null,
+"vip": "",
+"fulfillmentMethod": null,
+"tags": [
+{
+"name": "Martial Arts / Karate / MMA"
+},
+{
+"name": "Sports & Related"
+}
+],
+"displayOptions": [
+{
+"name": "discount",
+"enabled": true
+},
+{
+"name": "quantity",
+"enabled": true
+},
+{
+"name": "timer",
+"enabled": true
+},
+{
+"name": "merchandisingType",
+"value": "other"
+},
+{
+"name": "showRedemptionLocations",
+"enabled": true
+}
+],
+"options": [
+{
+"id": 11445608,
+"uuid": "46097066-ad3b-7f51-4552-0999a5cae6dc",
+"bookable": false,
+"buyUrl": "https://www.groupon.com/deals/durham-school-of-martial-arts/confirmation?pledge_id=11445608",
+"customField": null,
+"details": [
+{
+"description": "Not valid for clients active within the past 12 month(s). Limit 1 per person. Valid only for option purchased. All goods or services must be used by the same person. Optional wraps available for $10."
+}
+],
+"discount": {
+"amount": 8100,
+"currencyCode": "USD",
+"formattedAmount": "$81.00"
+},
+"discountPercent": 54,
+"endAt": "2039-02-21T05:00:00Z",
+"expiresAt": "2015-11-25T00:00:00Z",
+"expiresInDays": 180,
+"externalUrl": null,
+"isLimitedQuantity": true,
+"isSoldOut": false,
+"maximumPurchaseQuantity": 1,
+"minimumPurchaseQuantity": 1,
+"price": {
+"amount": 6900,
+"currencyCode": "USD",
+"formattedAmount": "$69.00"
+},
+"traits": [],
+"redemptionLocations": [
+{
+"name": "Durham",
+"streetAddress1": "1230 Avondale Drive",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Durham",
+"postalCode": "27701",
+"country": "US",
+"id": 27896307,
+"uuid": "8b080eff-04e6-b06a-747f-0148d81e7b1d",
+"ordering": 0,
+"lat": 36.004934,
+"lng": -78.883317
+}
+],
+"soldQuantity": 0,
+"soldQuantityMessage": "0",
+"specificAttributes": {
+"takeoutDelivery": {
+"takeout": false,
+"delivery": false
+}
+},
+"status": "open",
+"title": "1 month unlimited martial arts classes",
+"value": {
+"amount": 15000,
+"currencyCode": "USD",
+"formattedAmount": "$150.00"
+},
+"customFields": []
+},
+{
+"id": 11445609,
+"uuid": "f6ded5a4-fc8f-8d8e-1d6d-db1360a28b72",
+"bookable": false,
+"buyUrl": "https://www.groupon.com/deals/durham-school-of-martial-arts/confirmation?pledge_id=11445609",
+"customField": null,
+"details": [
+{
+"description": "Not valid for clients active within the past 12 month(s). Limit 1 per person. Valid only for option purchased. All goods or services must be used by the same person. Optional wraps available for $10."
+}
+],
+"discount": {
+"amount": 6100,
+"currencyCode": "USD",
+"formattedAmount": "$61.00"
+},
+"discountPercent": 51,
+"endAt": "2039-02-21T05:00:00Z",
+"expiresAt": "2015-11-25T00:00:00Z",
+"expiresInDays": 180,
+"externalUrl": null,
+"isLimitedQuantity": true,
+"isSoldOut": false,
+"maximumPurchaseQuantity": 1,
+"minimumPurchaseQuantity": 1,
+"price": {
+"amount": 5900,
+"currencyCode": "USD",
+"formattedAmount": "$59.00"
+},
+"traits": [],
+"redemptionLocations": [
+{
+"name": "Durham",
+"streetAddress1": "1230 Avondale Drive",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Durham",
+"postalCode": "27701",
+"country": "US",
+"id": 27896307,
+"uuid": "8b080eff-04e6-b06a-747f-0148d81e7b1d",
+"ordering": 0,
+"lat": 36.004934,
+"lng": -78.883317
+}
+],
+"soldQuantity": 2,
+"soldQuantityMessage": "2",
+"specificAttributes": {
+"takeoutDelivery": {
+"takeout": false,
+"delivery": false
+}
+},
+"status": "open",
+"title": "5 week unlimited cardio kickboxing classes",
+"value": {
+"amount": 12000,
+"currencyCode": "USD",
+"formattedAmount": "$120.00"
+},
+"customFields": []
+}
+],
+"textAd": {
+"line1": "",
+"line2": "",
+"headline": ""
+},
+"bwfGroup": null
+},
+{
+"id": "neo-automotive-4",
+"uuid": "1bac307a-6670-4b4a-3a8d-3a9c6a96f961",
+"dealUrl": "http://tracking.groupon.com/r?tsToken=US_AFF_0_201236_212556_0&url=https%3A%2F%2Fwww.groupon.com%2Fdeals%2Fneo-automotive-4%3Fz%3Dskip%26utm_medium%3Dafl%26utm_source%3DGPN%26utm_campaign%3D201236%26mediaId%3D212556",
+"title": "Basic Economy Detail for a Car, Small SUV, or Large SUV or Van at Neo Automotive (Up to 60% Off)",
+"announcementTitle": "Up to 60% Off Auto Detail",
+"shortAnnouncementTitle": "Auto Detailing",
+"finePrint": "Limit 1 per person, may buy 1 additional as gift. Valid only for option purchased. Limit 1 per visit. Appointment required. 24-hr cancellation notice required. Merchant's standard cancellation policy applies (any fees not to exceed Groupon price). Extra fee for oversized vehicles. Packages are unavailable for mobile detailing.",
+"highlightsHtml": "<p>Technicians wash and dry exteriors by hand, scrub and vacuum interior surfaces, shampoo carpet and upholstery, wax paint, and dress tires</p>",
+"pitchHtml": "<p>Neglected cars try to escape their owners by parking in tow zones or running away from their garages to join the demolition derby. Keep custody of your car with this Groupon.</p>\n\n<h4>Choose from Three Options</h4>\n<p>$65 for a <a href=\"http://neoautomotive.webs.com/ratesservices.htm\">basic economy detailing</a> for a car (up to a $145 value)\n$75 for a basic economy detailing for a small SUV (up to a $185 value)\n$85 for a basic economy detailing for a large SUV or van (up to a $215 value)</p>\n\n<ul>\n  <li>Hand wash with microfiber mitt and hand dry with chamois</li>\n  <li>Wheels, wells, and tires cleaned and dressed</li>\n  <li>Exterior trim treated and paint waxed</li>\n  <li>Interior vacuumed, including ashtray and trunk</li>\n  <li>Carpet, mats, and upholstery shampooed and cleaned with extraction</li>\n  <li>Interior windows, mirrors, and gauges cleaned</li>\n  <li>Interior roof and sides scrubbed by hand</li>\n</ul>",
+"soldQuantity": 140,
+"limitedQuantityRemaining": null,
+"tippingPoint": 0,
+"soldQuantityMessage": "140+",
+"placeholderUrl": "https://secure-assets.grouponcdn.com/images/groupon/grayPlaceholder.png",
+"grid4ImageUrl": "https://img.grouponcdn.com/deal/92bW9SLxz3oj2F6wT9Vnqt/99926282-2048x1228/v1/t300x182.jpg",
+"grid6ImageUrl": "https://img.grouponcdn.com/deal/92bW9SLxz3oj2F6wT9Vnqt/99926282-2048x1228/v1/t460x279.jpg",
+"largeImageUrl": "https://img.grouponcdn.com/deal/92bW9SLxz3oj2F6wT9Vnqt/99926282-2048x1228/v1/t440x300.jpg",
+"mediumImageUrl": "https://img.grouponcdn.com/deal/92bW9SLxz3oj2F6wT9Vnqt/99926282-2048x1228/v1/t100x100.jpg",
+"smallImageUrl": "https://img.grouponcdn.com/deal/92bW9SLxz3oj2F6wT9Vnqt/99926282-2048x1228/v1/t50x50.jpg",
+"sidebarImageUrl": "https://img.grouponcdn.com/deal/92bW9SLxz3oj2F6wT9Vnqt/99926282-2048x1228/v1/t200x300.jpg",
+"status": "open",
+"type": "groupon",
+"accessType": "extended",
+"endAt": "2039-05-14T03:59:59Z",
+"startAt": "2015-01-08T05:00:00Z",
+"tippedAt": "2015-01-07T05:00:00Z",
+"areas": [],
+"channels": [],
+"dealTypes": [
+{
+"id": "new-car-smell",
+"name": "New Car Smell",
+"description": "For those who strive to keep their car looking good and running well"
+}
+],
+"division": {
+"id": "raleigh-durham",
+"name": "Raleigh / Durham",
+"timezone": "Eastern Daylight Time",
+"timezoneOffsetInSeconds": -14400,
+"timezoneIdentifier": "America/New_York",
+"lat": 35.7721,
+"lng": -78.6386
+},
+"merchant": {
+"id": "neo-automotive",
+"uuid": "75b694e2-aecf-11e1-8e54-00259060b612",
+"name": "Neo Automotive",
+"websiteUrl": "http://neoautomotive.webs.com/",
+"facebookUrl": null,
+"twitterUrl": null,
+"ratings": null
+},
+"grouponRating": null,
+"says": null,
+"allowedInCart": false,
+"isInviteOnly": false,
+"shippingAddressRequired": false,
+"isOptionListComplete": true,
+"isMerchandisingDeal": false,
+"isNowDeal": false,
+"isSoldOut": false,
+"isTipped": true,
+"isTravelBookableDeal": false,
+"isGliveInventoryDeal": false,
+"isAutoRefundEnabled": false,
+"placementPriority": "nearby",
+"redemptionLocation": "Durham",
+"locationNote": "",
+"salesforceLink": null,
+"vip": "",
+"fulfillmentMethod": null,
+"tags": [
+{
+"name": "Car Wash / Detail"
+},
+{
+"name": "Exterior & Interior Detail - Car"
+}
+],
+"displayOptions": [
+{
+"name": "discount",
+"enabled": true
+},
+{
+"name": "quantity",
+"enabled": true
+},
+{
+"name": "timer",
+"enabled": true
+},
+{
+"name": "merchandisingType",
+"value": "other"
+},
+{
+"name": "showRedemptionLocations",
+"enabled": true
+}
+],
+"options": [
+{
+"id": 12185573,
+"uuid": "550cf444-9297-35e9-12ef-6e0b17b445ac",
+"bookable": false,
+"buyUrl": "https://www.groupon.com/deals/neo-automotive-4/confirmation?pledge_id=12185573",
+"customField": null,
+"details": [
+{
+"description": "Limit 1 per person, may buy 1 additional as gift. Valid only for option purchased. Limit 1 per visit. Appointment required. 24-hr cancellation notice required. Merchant's standard cancellation policy applies (any fees not to exceed Groupon price). Extra fee for oversized vehicles. Packages are unavailable for mobile detailing."
+}
+],
+"discount": {
+"amount": 8000,
+"currencyCode": "USD",
+"formattedAmount": "$80.00"
+},
+"discountPercent": 55,
+"endAt": "2039-05-14T03:59:59Z",
+"expiresAt": "2015-11-25T00:00:00Z",
+"expiresInDays": 180,
+"externalUrl": null,
+"isLimitedQuantity": true,
+"isSoldOut": false,
+"maximumPurchaseQuantity": 2,
+"minimumPurchaseQuantity": 1,
+"price": {
+"amount": 6500,
+"currencyCode": "USD",
+"formattedAmount": "$65.00"
+},
+"traits": [],
+"redemptionLocations": [
+{
+"name": "Durham",
+"streetAddress1": "3323 Holloway St",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"postalCode": "27703",
+"country": "US",
+"phoneNumber": "+19196361453",
+"id": 63343156,
+"uuid": "6d4de343-5df1-b06a-768a-013a8fd5dbe0",
+"ordering": 0,
+"lat": 35.984659,
+"lng": -78.83475
+}
+],
+"soldQuantity": 100,
+"soldQuantityMessage": "100+",
+"specificAttributes": {
+"takeoutDelivery": {
+"takeout": false,
+"delivery": false
+}
+},
+"status": "open",
+"title": "Basic Economy Detailing Package for a Car",
+"value": {
+"amount": 14500,
+"currencyCode": "USD",
+"formattedAmount": "$145.00"
+},
+"pricingMetadata": {
+"segmentId": "010fe966-f6bb-4f27-b934-c9387a0a95ea",
+"offerType": "BWF",
+"minBuyCount": 3,
+"maxBuyCount": 10,
+"expiryInMinutes": 4320,
+"bwfPrice": {
+"amount": 4615,
+"currencyCode": "USD",
+"formattedAmount": "$46.15"
+},
+"bwfDiscount": {
+"amount": 1885,
+"currencyCode": "USD",
+"formattedAmount": "$18.85"
+}
+},
+"customFields": []
+},
+{
+"id": 12185574,
+"uuid": "d443a043-9276-ad6d-f51a-6b037e830814",
+"bookable": false,
+"buyUrl": "https://www.groupon.com/deals/neo-automotive-4/confirmation?pledge_id=12185574",
+"customField": null,
+"details": [
+{
+"description": "Limit 1 per person, may buy 1 additional as gift. Valid only for option purchased. Limit 1 per visit. Appointment required. 24-hr cancellation notice required. Merchant's standard cancellation policy applies (any fees not to exceed Groupon price). Extra fee for oversized vehicles. Packages are unavailable for mobile detailing."
+}
+],
+"discount": {
+"amount": 11000,
+"currencyCode": "USD",
+"formattedAmount": "$110.00"
+},
+"discountPercent": 59,
+"endAt": "2039-05-14T03:59:59Z",
+"expiresAt": "2015-11-25T00:00:00Z",
+"expiresInDays": 180,
+"externalUrl": null,
+"isLimitedQuantity": true,
+"isSoldOut": false,
+"maximumPurchaseQuantity": 2,
+"minimumPurchaseQuantity": 1,
+"price": {
+"amount": 7500,
+"currencyCode": "USD",
+"formattedAmount": "$75.00"
+},
+"traits": [],
+"redemptionLocations": [
+{
+"name": "Durham",
+"streetAddress1": "3323 Holloway St",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"postalCode": "27703",
+"country": "US",
+"phoneNumber": "+19196361453",
+"id": 63343156,
+"uuid": "6d4de343-5df1-b06a-768a-013a8fd5dbe0",
+"ordering": 0,
+"lat": 35.984659,
+"lng": -78.83475
+}
+],
+"soldQuantity": 20,
+"soldQuantityMessage": "20+",
+"specificAttributes": {
+"takeoutDelivery": {
+"takeout": false,
+"delivery": false
+}
+},
+"status": "open",
+"title": "Basic Economy Detailing Package for an SUV",
+"value": {
+"amount": 18500,
+"currencyCode": "USD",
+"formattedAmount": "$185.00"
+},
+"pricingMetadata": {
+"segmentId": "19b38b14-a2e4-494f-8623-5511f12d722d",
+"offerType": "BWF",
+"minBuyCount": 3,
+"maxBuyCount": 10,
+"expiryInMinutes": 4320,
+"bwfPrice": {
+"amount": 5325,
+"currencyCode": "USD",
+"formattedAmount": "$53.25"
+},
+"bwfDiscount": {
+"amount": 2175,
+"currencyCode": "USD",
+"formattedAmount": "$21.75"
+}
+},
+"customFields": []
+},
+{
+"id": 12185575,
+"uuid": "1c3fe592-3073-c107-418f-4fc513142073",
+"bookable": false,
+"buyUrl": "https://www.groupon.com/deals/neo-automotive-4/confirmation?pledge_id=12185575",
+"customField": null,
+"details": [
+{
+"description": "Limit 1 per person, may buy 1 additional as gift. Valid only for option purchased. Limit 1 per visit. Appointment required. 24-hr cancellation notice required. Merchant's standard cancellation policy applies (any fees not to exceed Groupon price). Extra fee for oversized vehicles. Packages are unavailable for mobile detailing."
+}
+],
+"discount": {
+"amount": 13000,
+"currencyCode": "USD",
+"formattedAmount": "$130.00"
+},
+"discountPercent": 60,
+"endAt": "2039-05-14T03:59:59Z",
+"expiresAt": "2015-11-25T00:00:00Z",
+"expiresInDays": 180,
+"externalUrl": null,
+"isLimitedQuantity": true,
+"isSoldOut": false,
+"maximumPurchaseQuantity": 2,
+"minimumPurchaseQuantity": 1,
+"price": {
+"amount": 8500,
+"currencyCode": "USD",
+"formattedAmount": "$85.00"
+},
+"traits": [],
+"redemptionLocations": [
+{
+"name": "Durham",
+"streetAddress1": "3323 Holloway St",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"postalCode": "27703",
+"country": "US",
+"phoneNumber": "+19196361453",
+"id": 63343156,
+"uuid": "6d4de343-5df1-b06a-768a-013a8fd5dbe0",
+"ordering": 0,
+"lat": 35.984659,
+"lng": -78.83475
+}
+],
+"soldQuantity": 10,
+"soldQuantityMessage": "10",
+"specificAttributes": {
+"takeoutDelivery": {
+"takeout": false,
+"delivery": false
+}
+},
+"status": "open",
+"title": "Basic Economy Detailing Package for a Large Van or SUV",
+"value": {
+"amount": 21500,
+"currencyCode": "USD",
+"formattedAmount": "$215.00"
+},
+"pricingMetadata": {
+"segmentId": "83402b7b-eaa4-4fc7-b9d8-0402f2c7ee43",
+"offerType": "BWF",
+"minBuyCount": 3,
+"maxBuyCount": 10,
+"expiryInMinutes": 4320,
+"bwfPrice": {
+"amount": 6035,
+"currencyCode": "USD",
+"formattedAmount": "$60.35"
+},
+"bwfDiscount": {
+"amount": 2465,
+"currencyCode": "USD",
+"formattedAmount": "$24.65"
+}
+},
+"customFields": []
+}
+],
+"textAd": {
+"line1": "",
+"line2": "",
+"headline": ""
+},
+"bwfGroup": null
+},
+{
+"id": "a-total-you-hair-salon",
+"uuid": "eceaec82-1817-64a0-cf67-b6711293a09c",
+"dealUrl": "http://tracking.groupon.com/r?tsToken=US_AFF_0_201236_212556_0&url=https%3A%2F%2Fwww.groupon.com%2Fdeals%2Fa-total-you-hair-salon%3Fz%3Dskip%26utm_medium%3Dafl%26utm_source%3DGPN%26utm_campaign%3D201236%26mediaId%3D212556",
+"title": "Two Haircuts and Straightening Treatments from A Total You Hair Salon (57% Off)",
+"announcementTitle": "57% Off Haircuts and Straightening Treatments",
+"shortAnnouncementTitle": "Straightening Treatments",
+"finePrint": "Appointment required. Merchant's standard cancellation policy applies (any fees not to exceed Groupon price). Limit 1 per person, may buy  1  additional as  a gift.",
+"highlightsHtml": "<p>From the merchant: Our Strengthening Therapy System treats the hair while straightening and smoothing curly, frizzy and multitextured hair</p>",
+"pitchHtml": "<h4>A Chat with A Total You Hair Salon</h4>\n\n<p><strong>What services does your business offer and what makes your business stand out from the competition?</strong><br />\n<em>We are a family that commits to use our God-given talents and abilities to provide excellence in artistry, business and relationships that enrich the lives of our clients, community and ourselves.</em></p>\n\n<p><strong>What was the inspiration to start or run this business?</strong><br />\n<em>To maintain and share the enthusiasm for my craft with every client all the time.</em></p>\n\n<p><strong>What do you love most about your job?</strong><br />\n<em>I love meeting new new people from all over the world. I love engaging in meaningful conversations and building new friendships.</em></p>\n\n<p><strong>What is the best reaction you&#8217;ve ever gotten from a customer?</strong><br />\n<em>I helped them feel better on the inside and out.</em></p>",
+"soldQuantity": 0,
+"limitedQuantityRemaining": 50,
+"tippingPoint": 0,
+"soldQuantityMessage": "0",
+"placeholderUrl": "https://secure-assets.grouponcdn.com/images/groupon/grayPlaceholder.png",
+"grid4ImageUrl": "https://img.grouponcdn.com/deal/g14H9VMQ6csdf4Q6y2vE/LE-2048x1242/v1/t300x182.jpg",
+"grid6ImageUrl": "https://img.grouponcdn.com/deal/g14H9VMQ6csdf4Q6y2vE/LE-2048x1242/v1/t460x279.jpg",
+"largeImageUrl": "https://img.grouponcdn.com/deal/g14H9VMQ6csdf4Q6y2vE/LE-2048x1242/v1/t440x300.jpg",
+"mediumImageUrl": "https://img.grouponcdn.com/deal/g14H9VMQ6csdf4Q6y2vE/LE-2048x1242/v1/t100x100.jpg",
+"smallImageUrl": "https://img.grouponcdn.com/deal/g14H9VMQ6csdf4Q6y2vE/LE-2048x1242/v1/t50x50.jpg",
+"sidebarImageUrl": "https://img.grouponcdn.com/deal/g14H9VMQ6csdf4Q6y2vE/LE-2048x1242/v1/t200x300.jpg",
+"status": "open",
+"type": "groupon",
+"accessType": "extended",
+"endAt": "2039-09-09T04:00:00Z",
+"startAt": "2015-05-10T04:00:00Z",
+"tippedAt": "2015-05-10T04:00:00Z",
+"areas": [],
+"channels": [],
+"dealTypes": [
+{
+"id": "grooming",
+"name": "Well-Groomed",
+"description": "Upkeep essentials, such as electric toothbrushes and laser hair removal"
+}
+],
+"division": {
+"id": "raleigh-durham",
+"name": "Raleigh / Durham",
+"timezone": "Eastern Daylight Time",
+"timezoneOffsetInSeconds": -14400,
+"timezoneIdentifier": "America/New_York",
+"lat": 35.7721,
+"lng": -78.6386
+},
+"merchant": {
+"id": "a-total-you-hair-salon",
+"uuid": "973dc7bc-8c6f-9c4a-deb0-9ee1d1b64736",
+"name": "A Total You Hair Salon",
+"websiteUrl": "http://www.atotalyousalonspa.com/",
+"facebookUrl": null,
+"twitterUrl": null,
+"ratings": null
+},
+"grouponRating": null,
+"says": null,
+"allowedInCart": false,
+"isInviteOnly": false,
+"shippingAddressRequired": false,
+"isOptionListComplete": true,
+"isMerchandisingDeal": false,
+"isNowDeal": false,
+"isSoldOut": false,
+"isTipped": true,
+"isTravelBookableDeal": false,
+"isGliveInventoryDeal": false,
+"isAutoRefundEnabled": false,
+"placementPriority": "nearby",
+"redemptionLocation": "Durham",
+"locationNote": null,
+"salesforceLink": null,
+"vip": "",
+"fulfillmentMethod": null,
+"tags": [
+{
+"name": "Hair Cuts & Styling"
+},
+{
+"name": "Salon - Keratin Treatment"
+}
+],
+"displayOptions": [
+{
+"name": "discount",
+"enabled": true
+},
+{
+"name": "quantity",
+"enabled": true
+},
+{
+"name": "timer",
+"enabled": true
+},
+{
+"name": "merchandisingType",
+"value": "other"
+},
+{
+"name": "showRedemptionLocations",
+"enabled": true
+}
+],
+"options": [
+{
+"id": 16569670,
+"uuid": "884cc792-b828-493f-cdc0-2a8f0e56da96",
+"bookable": false,
+"buyUrl": "https://www.groupon.com/deals/a-total-you-hair-salon/confirmation?pledge_id=16569670",
+"customField": null,
+"details": [
+{
+"description": "Appointment required. Merchant's standard cancellation policy applies (any fees not to exceed Groupon price). Limit 1 per person, may buy  1  additional as  a gift."
+}
+],
+"discount": {
+"amount": 11400,
+"currencyCode": "USD",
+"formattedAmount": "$114.00"
+},
+"discountPercent": 57,
+"endAt": "2039-09-09T04:00:00Z",
+"expiresAt": "2015-09-26T00:00:00Z",
+"expiresInDays": 120,
+"externalUrl": null,
+"isLimitedQuantity": true,
+"isSoldOut": false,
+"maximumPurchaseQuantity": 2,
+"minimumPurchaseQuantity": 1,
+"price": {
+"amount": 8600,
+"currencyCode": "USD",
+"formattedAmount": "$86.00"
+},
+"traits": [],
+"redemptionLocations": [
+{
+"name": "Durham",
+"streetAddress1": "3600 North Duke Street",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Durham",
+"postalCode": "27704",
+"country": "US",
+"phoneNumber": "+19196201555",
+"id": 66296682,
+"uuid": "1f22f9fa-22d5-b06a-747e-013bbf58cca4",
+"ordering": 0,
+"lat": 36.0495727,
+"lng": -78.9046188
+}
+],
+"soldQuantity": 0,
+"soldQuantityMessage": "0",
+"specificAttributes": {
+"takeoutDelivery": {
+"takeout": false,
+"delivery": false
+}
+},
+"status": "open",
+"title": "Two Haircuts and Straightening Treatments",
+"value": {
+"amount": 20000,
+"currencyCode": "USD",
+"formattedAmount": "$200.00"
+},
+"customFields": []
+}
+],
+"textAd": {
+"line1": "",
+"line2": "",
+"headline": ""
+},
+"bwfGroup": null
+},
+{
+"id": "my-eye-dr-2-4",
+"uuid": "8aed419b-7258-09e0-e742-474b9a12da5a",
+"dealUrl": "http://tracking.groupon.com/r?tsToken=US_AFF_0_201236_212556_0&url=https%3A%2F%2Fwww.groupon.com%2Fdeals%2Fmy-eye-dr-2-4%3Fz%3Dskip%26utm_medium%3Dafl%26utm_source%3DGPN%26utm_campaign%3D201236%26mediaId%3D212556",
+"title": "$35 for a Complete Pair of Glasses or $225 Towards Eyewear at My Eye Dr. ($225 Value)",
+"announcementTitle": "My Eye Dr. – 84% Off",
+"shortAnnouncementTitle": "Eyewear and Eye Exam",
+"finePrint": "Limit 1 per person. Not valid for sale items. Not valid with insurance benefits or other promotions/coupons. Not valid for contact lens exam or purchase. Valid only for a complete pair of prescription eyeglasses or sunglasses (lenses and frames). Eye exam not included. Valid prescription required. Valid only at listed locations. ",
+"highlightsHtml": "<p>Optometrists examine eyes and prescribe lenses from multiple locations</p>",
+"pitchHtml": "<h4>The Deal</h4>\n\n<ul>\n  <li>$35 for a complete pair of designer eyeglasses, or $225 towards the eyewear of your choice ($225 value)</li>\n</ul>\n\n<p>A complete pair of glasses is a frame valued at $160 or less and plastic lenses (single vision, bifocal, or progressive Brillenz lenses are included at no additional out-of-pocket expense). Luxury lines are excluded in this promotion.</p>",
+"soldQuantity": 20,
+"limitedQuantityRemaining": null,
+"tippingPoint": 0,
+"soldQuantityMessage": "20+",
+"placeholderUrl": "https://secure-assets.grouponcdn.com/images/groupon/grayPlaceholder.png",
+"grid4ImageUrl": "https://img.grouponcdn.com/deal/hicCPewzDBHU8FD1z5N6QE/ihs_0-106_0520v1-2048x1229/v1/t300x182.jpg",
+"grid6ImageUrl": "https://img.grouponcdn.com/deal/hicCPewzDBHU8FD1z5N6QE/ihs_0-106_0520v1-2048x1229/v1/t460x279.jpg",
+"largeImageUrl": "https://img.grouponcdn.com/deal/hicCPewzDBHU8FD1z5N6QE/ihs_0-106_0520v1-2048x1229/v1/t440x300.jpg",
+"mediumImageUrl": "https://img.grouponcdn.com/deal/hicCPewzDBHU8FD1z5N6QE/ihs_0-106_0520v1-2048x1229/v1/t100x100.jpg",
+"smallImageUrl": "https://img.grouponcdn.com/deal/hicCPewzDBHU8FD1z5N6QE/ihs_0-106_0520v1-2048x1229/v1/t50x50.jpg",
+"sidebarImageUrl": "https://img.grouponcdn.com/deal/hicCPewzDBHU8FD1z5N6QE/ihs_0-106_0520v1-2048x1229/v1/t200x300.jpg",
+"status": "open",
+"type": "groupon",
+"accessType": "featured",
+"endAt": "2015-06-02T03:59:59Z",
+"startAt": "2015-05-29T04:00:00Z",
+"tippedAt": "2015-05-28T04:00:00Z",
+"areas": [],
+"channels": [],
+"dealTypes": [],
+"division": {
+"id": "washington-dc",
+"name": "Washington DC",
+"timezone": "Eastern Daylight Time",
+"timezoneOffsetInSeconds": -14400,
+"timezoneIdentifier": "America/New_York",
+"lat": 38.8921,
+"lng": -77.0241
+},
+"merchant": {
+"id": "my-eye-dr",
+"uuid": "fc0dd186-ae66-11e1-8158-00259060b5bc",
+"name": "My Eye Dr.",
+"websiteUrl": "http://www.myeyedr.com/",
+"facebookUrl": null,
+"twitterUrl": null,
+"ratings": null
+},
+"grouponRating": null,
+"says": null,
+"allowedInCart": false,
+"isInviteOnly": false,
+"shippingAddressRequired": false,
+"isOptionListComplete": true,
+"isMerchandisingDeal": false,
+"isNowDeal": false,
+"isSoldOut": false,
+"isTipped": true,
+"isTravelBookableDeal": false,
+"isGliveInventoryDeal": false,
+"isAutoRefundEnabled": false,
+"placementPriority": "nearby",
+"redemptionLocation": "Multiple Locations",
+"locationNote": "",
+"salesforceLink": null,
+"vip": "",
+"fulfillmentMethod": null,
+"tags": [
+{
+"name": "Vision"
+},
+{
+"name": "Eye Exam"
+}
+],
+"displayOptions": [
+{
+"name": "discount",
+"enabled": true
+},
+{
+"name": "quantity",
+"enabled": true
+},
+{
+"name": "timer",
+"enabled": true
+},
+{
+"name": "merchandisingType",
+"value": "other"
+},
+{
+"name": "showRedemptionLocations",
+"enabled": true
+}
+],
+"options": [
+{
+"id": 17491546,
+"uuid": "e9ba43fa-617c-6a25-5330-7481facdb5a7",
+"bookable": false,
+"buyUrl": "https://www.groupon.com/deals/my-eye-dr-2-4/confirmation?pledge_id=17491546",
+"customField": null,
+"details": [
+{
+"description": "Limit 1 per person. Not valid for sale items. Not valid with insurance benefits or other promotions/coupons. Not valid for contact lens exam or purchase. Valid only for a complete pair of prescription eyeglasses or sunglasses (lenses and frames). Eye exam not included. Valid prescription required. Valid only at listed locations. "
+}
+],
+"discount": {
+"amount": 19000,
+"currencyCode": "USD",
+"formattedAmount": "$190.00"
+},
+"discountPercent": 84,
+"endAt": "2015-06-02T03:59:59Z",
+"expiresAt": "2015-11-25T00:00:00Z",
+"expiresInDays": 180,
+"externalUrl": null,
+"isLimitedQuantity": true,
+"isSoldOut": false,
+"maximumPurchaseQuantity": 1,
+"minimumPurchaseQuantity": 1,
+"price": {
+"amount": 3500,
+"currencyCode": "USD",
+"formattedAmount": "$35.00"
+},
+"traits": [],
+"redemptionLocations": [
+{
+"name": "Adams Farm",
+"streetAddress1": "5709 High Point Rd.",
+"streetAddress2": "Suite 103",
+"state": "NC",
+"city": "Greensboro",
+"neighborhood": "Sedge Field",
+"postalCode": "27407",
+"country": "US",
+"phoneNumber": "+13368568711",
+"id": 48864900,
+"uuid": "02687afc-5492-b06a-747e-01451e6ee963",
+"ordering": 0,
+"lat": 36.015094,
+"lng": -79.8955
+},
+{
+"name": "Arrowood",
+"streetAddress1": "2550 W Arrowood Rd.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Charlotte",
+"neighborhood": "Olde Whitehall",
+"postalCode": "28273",
+"country": "US",
+"phoneNumber": "+17045228000",
+"id": 48864872,
+"uuid": "8d126a42-53db-b06a-768a-01451e6a6293",
+"ordering": 1,
+"lat": 35.147977,
+"lng": -80.929562
+},
+{
+"name": "Uptown",
+"streetAddress1": "114 S Tryon St.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Charlotte",
+"neighborhood": "Third Ward",
+"postalCode": "28202",
+"country": "US",
+"phoneNumber": "+17049435115",
+"id": 48864917,
+"uuid": "f98628f9-5492-b06a-747e-01451e85c24f",
+"ordering": 2,
+"lat": 35.226975,
+"lng": -80.8438649
+},
+{
+"name": "Wake Forest",
+"streetAddress1": "12205 Capital Blvd.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Wake Forest",
+"neighborhood": "Wake Forest",
+"postalCode": "27587",
+"country": "US",
+"phoneNumber": "+19195542020",
+"id": 48864898,
+"uuid": "f30c7d71-59d5-b06a-9298-01451e85c675",
+"ordering": 3,
+"lat": 35.9791177,
+"lng": -78.5426334
+},
+{
+"name": "Leland",
+"streetAddress1": "1031 Grandiflora Dr.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Leland",
+"neighborhood": "Leland",
+"postalCode": "28451",
+"country": "US",
+"phoneNumber": "+19103710540",
+"id": 48864859,
+"uuid": "70a886e5-53db-b06a-768a-01451e780869",
+"ordering": 4,
+"lat": 34.211899,
+"lng": -78.029368
+},
+{
+"name": "Madison",
+"streetAddress1": "714 N Highway St.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Madison",
+"neighborhood": "Madison",
+"postalCode": "27025",
+"country": "US",
+"phoneNumber": "+13364272020",
+"id": 48864916,
+"uuid": "b281c7fc-5492-b06a-747e-01451e78073b",
+"ordering": 5,
+"lat": 36.395301,
+"lng": -79.968598
+},
+{
+"name": "Mint Hill",
+"streetAddress1": "7749 Matthews-Mint Hill Rd.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Mint Hill",
+"neighborhood": "Mint Hill",
+"postalCode": "28227",
+"country": "US",
+"phoneNumber": "+17045459797",
+"id": 48864903,
+"uuid": "5df721fd-59d5-b06a-9298-01451e7813e0",
+"ordering": 6,
+"lat": 35.17888,
+"lng": -80.650254
+},
+{
+"name": "Rocky Mount",
+"streetAddress1": "901 North Winstead Avenue",
+"streetAddress2": "Suite 190",
+"state": "NC",
+"city": "Rocky Mount",
+"neighborhood": "Winstead Park",
+"postalCode": "27804",
+"country": "US",
+"phoneNumber": "+12529377777",
+"id": 48864867,
+"uuid": "b4cfa9ff-5492-b06a-747e-01451e81286b",
+"ordering": 7,
+"lat": 35.9790659,
+"lng": -77.8428427
+},
+{
+"name": "South Blvd",
+"streetAddress1": "5330 South Blvd.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Charlotte",
+"neighborhood": "Madison Park",
+"postalCode": "28217",
+"country": "US",
+"phoneNumber": "+17045259802",
+"id": 48864875,
+"uuid": "4dba2c73-5492-b06a-747e-01451e812ba9",
+"ordering": 8,
+"lat": 35.163494,
+"lng": -80.87652
+},
+{
+"name": "South Hill",
+"streetAddress1": "129 East Ferrell Street",
+"streetAddress2": null,
+"state": "VA",
+"city": "South Hill",
+"neighborhood": "South Hill",
+"postalCode": "23970",
+"country": "US",
+"phoneNumber": "+14344473220",
+"id": 48864864,
+"uuid": "3a615ff9-5492-b06a-747e-01451e812375",
+"ordering": 9,
+"lat": 36.7331606,
+"lng": -78.1196343
+},
+{
+"name": "Kannapolis",
+"streetAddress1": "4949 Professional Park Dr.",
+"streetAddress2": "Suite 202",
+"state": "NC",
+"city": "Kannapolis",
+"neighborhood": "Kannapolis",
+"postalCode": "28081",
+"country": "US",
+"phoneNumber": "+17049389777",
+"id": 48864852,
+"uuid": "137812e7-5492-b06a-747e-01451e73848e",
+"ordering": 10,
+"lat": 35.4756451,
+"lng": -80.673397
+},
+{
+"name": "New Bern",
+"streetAddress1": "3001 Doctor Martin Luther King Junior Boulevard",
+"streetAddress2": null,
+"state": "NC",
+"city": "New Bern",
+"postalCode": "28562",
+"country": "US",
+"phoneNumber": "+12526332901",
+"id": 48864896,
+"uuid": "8348b5fc-59d5-b06a-9298-01451e7c954f",
+"ordering": 11,
+"lat": 35.1028059,
+"lng": -77.0859867
+},
+{
+"name": "Raleigh",
+"streetAddress1": "3905 New Bern Avenue",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "Northeast Raleigh",
+"postalCode": "27610",
+"country": "US",
+"phoneNumber": "+19192316040",
+"id": 48864851,
+"uuid": "09dd7f76-5492-b06a-747e-01451e7c9785",
+"ordering": 12,
+"lat": 35.799445,
+"lng": -78.571001
+},
+{
+"name": "Statesville",
+"streetAddress1": "1729 Davie Ave.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Statesville",
+"neighborhood": "Statesville",
+"postalCode": "28677",
+"country": "US",
+"phoneNumber": "+17048730524",
+"id": 48864904,
+"uuid": "de861491-53db-b06a-768a-01451e812896",
+"ordering": 13,
+"lat": 35.80063,
+"lng": -80.86475
+},
+{
+"name": "Swansboro",
+"streetAddress1": "313 WB McLean Drive",
+"streetAddress2": null,
+"state": "NC",
+"city": "Cape Carteret",
+"neighborhood": "Cape Carteret",
+"postalCode": "28584",
+"country": "US",
+"phoneNumber": "+12523933010",
+"id": 48864866,
+"uuid": "4a1b0666-59d5-b06a-9298-01451e85be3b",
+"ordering": 14,
+"lat": 34.6898846,
+"lng": -77.0667993
+},
+{
+"name": "Arlington Blvd",
+"streetAddress1": "1840 West Arlington Boulevard",
+"streetAddress2": null,
+"state": "NC",
+"city": "Greenville",
+"neighborhood": "Greenville",
+"postalCode": "27834",
+"country": "US",
+"phoneNumber": "+12527522171",
+"id": 48864868,
+"uuid": "b4f212fb-59d5-b06a-9298-01451e6a68a5",
+"ordering": 15,
+"lat": 35.5970524,
+"lng": -77.4046116
+},
+{
+"name": "CIC - Wells Fargo",
+"streetAddress1": "1525 W WT Harris Blvd.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Charlotte",
+"neighborhood": "Charlotte",
+"postalCode": "28288",
+"country": "US",
+"phoneNumber": "+17042954433",
+"id": 48864876,
+"uuid": "1e5b77fa-59d5-b06a-9298-01451e6a67e9",
+"ordering": 16,
+"lat": 35.312312,
+"lng": -80.772695
+},
+{
+"name": "Concord",
+"streetAddress1": "584 N Church St.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Concord",
+"neighborhood": "Concord",
+"postalCode": "28025",
+"country": "US",
+"phoneNumber": "+17047820677",
+"id": 48864855,
+"uuid": "0dabb511-5492-b06a-747e-01451e6edd8e",
+"ordering": 17,
+"lat": 35.4261153,
+"lng": -80.5957151
+},
+{
+"name": "Wallace",
+"streetAddress1": "5615 Highway 41",
+"streetAddress2": "Suite 300",
+"state": "NC",
+"city": "Wallace",
+"neighborhood": "Wallace",
+"postalCode": "28466",
+"country": "US",
+"phoneNumber": "+19102855050",
+"id": 48864848,
+"uuid": "052e6745-53db-b06a-768a-01451e85be10",
+"ordering": 18,
+"lat": 34.7408904,
+"lng": -77.9695151
+},
+{
+"name": "Henderson",
+"streetAddress1": "1904 Graham Avenue",
+"streetAddress2": null,
+"state": "NC",
+"city": "Henderson",
+"neighborhood": "Henderson",
+"postalCode": "27536",
+"country": "US",
+"phoneNumber": "+12524929559",
+"id": 48864897,
+"uuid": "f19ef801-59d5-b06a-9298-01451e737d30",
+"ordering": 19,
+"lat": 36.3280159,
+"lng": -78.4453356
+},
+{
+"name": "Independence Blvd",
+"streetAddress1": "6300 E Independence Blvd.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Charlotte",
+"neighborhood": "East Forest",
+"postalCode": "28212",
+"country": "US",
+"phoneNumber": "+17045350925",
+"id": 48864899,
+"uuid": "14f30403-53db-b06a-768a-01451e73941f",
+"ordering": 20,
+"lat": 35.17393,
+"lng": -80.748295
+},
+{
+"name": "Randolph",
+"streetAddress1": "1960 Randolph Rd.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Charlotte",
+"neighborhood": "Elizabeth",
+"postalCode": "28207",
+"country": "US",
+"phoneNumber": "+17043725332",
+"id": 48864870,
+"uuid": "177a9744-5492-b06a-747e-01451e7c96ba",
+"ordering": 21,
+"lat": 35.2091195,
+"lng": -80.8232301
+},
+{
+"name": "Wilmington-Racine",
+"streetAddress1": "201 Racine Drive",
+"streetAddress2": null,
+"state": "NC",
+"city": "Wilmington",
+"neighborhood": "College Acres",
+"postalCode": "28403",
+"country": "US",
+"phoneNumber": "+19103956050",
+"id": 48864912,
+"uuid": "550c2c86-59d5-b06a-9298-01451e8a5a92",
+"ordering": 22,
+"lat": 34.240667,
+"lng": -77.864636
+},
+{
+"name": "Garner",
+"streetAddress1": "1003 Vandora Springs Road",
+"streetAddress2": null,
+"state": "NC",
+"city": "Garner",
+"neighborhood": "Garner",
+"postalCode": "27529",
+"country": "US",
+"phoneNumber": "+19197724575",
+"id": 48864914,
+"uuid": "ccea07f9-59d5-b06a-9298-01451e6edb65",
+"ordering": 23,
+"lat": 35.7069029,
+"lng": -78.625118
+},
+{
+"name": "Greenville Blvd",
+"streetAddress1": "499 SE Greenville Blvd.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Greenville",
+"neighborhood": "Greenville",
+"postalCode": "27858",
+"country": "US",
+"phoneNumber": "+12527569404",
+"id": 48864907,
+"uuid": "67e07ffe-53db-b06a-768a-01451e737eea",
+"ordering": 24,
+"lat": 35.5829487,
+"lng": -77.3745603
+},
+{
+"name": "Eden",
+"streetAddress1": "812 S Van Buren Rd.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Eden",
+"neighborhood": "Eden",
+"postalCode": "27288",
+"country": "US",
+"phoneNumber": "+13366232020",
+"id": 48864854,
+"uuid": "c1a7cbf4-59d5-b06a-9298-01451e6ee1ca",
+"ordering": 25,
+"lat": 36.485263,
+"lng": -79.7385879
+},
+{
+"name": "Reidsville-Professional Dr.",
+"streetAddress1": "100 Professional Dr.",
+"streetAddress2": null,
+"state": "NC",
+"city": "Reidsville",
+"neighborhood": "Reidsville",
+"postalCode": "27320",
+"country": "US",
+"phoneNumber": "+13363423336",
+"id": 48864847,
+"uuid": "d3c0c7f9-59d5-b06a-9298-01451e7c9b2a",
+"ordering": 26,
+"lat": 36.335752,
+"lng": -79.693822
+},
+{
+"name": "Washington",
+"streetAddress1": "1302 Brown Street",
+"streetAddress2": null,
+"state": "NC",
+"city": "Washington",
+"neighborhood": "Washington",
+"postalCode": "27889",
+"country": "US",
+"phoneNumber": "+12529467257",
+"id": 48864886,
+"uuid": "246c70a2-5492-b06a-747e-01451e85bf15",
+"ordering": 27,
+"lat": 38.934526,
+"lng": -77.037485
+},
+{
+"name": "Aberdeen",
+"streetAddress1": "11088 US Hwy 15-501",
+"streetAddress2": "Suite 925",
+"state": "NC",
+"city": "Aberdeen",
+"neighborhood": "Aberdeen",
+"postalCode": "28315",
+"country": "US",
+"phoneNumber": "+19196931226",
+"id": 48864879,
+"uuid": "2a2f5cfa-6306-b06a-9053-014d6c7e556f",
+"ordering": 28,
+"lat": 35.1563163,
+"lng": -79.4193612
+},
+{
+"name": "Apex",
+"streetAddress1": "800 W Williams",
+"streetAddress2": "Suite 164",
+"state": "NC",
+"city": "Apex",
+"neighborhood": "Apex",
+"postalCode": "27502",
+"country": "US",
+"phoneNumber": "+19193620332",
+"id": 48864901,
+"uuid": "63e17a47-575e-b06a-768b-014d6c9eb229",
+"ordering": 29,
+"lat": 35.7392968,
+"lng": -78.8643385
+},
+{
+"name": "Whiteoak",
+"streetAddress1": "12194 Johnston Rd",
+"streetAddress2": "Unit 120",
+"state": "NC",
+"city": "Charlotte",
+"neighborhood": "Whiteoak",
+"postalCode": "28277",
+"country": "US",
+"phoneNumber": "+17045416287",
+"id": 48864911,
+"uuid": "dfa992f8-6306-b06a-9053-014d6c9eb1fe",
+"ordering": 30,
+"lat": 35.0722694,
+"lng": -80.8424413
+},
+{
+"name": "Umstead",
+"streetAddress1": "8231 Brier Creek Pkwy",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "Umstead",
+"postalCode": "27617",
+"country": "US",
+"phoneNumber": "+19198635032",
+"id": 48864909,
+"uuid": "69ca5dfa-60cf-b06a-9299-014d6c877dac",
+"ordering": 31,
+"lat": 35.9091972,
+"lng": -78.7816404
+},
+{
+"name": "Burlington",
+"streetAddress1": "2835 S Church St",
+"streetAddress2": null,
+"state": "NC",
+"city": "Burlington",
+"neighborhood": "Burlington",
+"postalCode": "27215",
+"country": "US",
+"phoneNumber": "+13368082020",
+"id": 48864849,
+"uuid": "f75d85f8-1435-b06a-747f-014d6c877ec8",
+"ordering": 32,
+"lat": 36.0810603,
+"lng": -79.4877444
+},
+{
+"name": "University",
+"streetAddress1": "2024 Cameron St",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "University",
+"postalCode": "27605",
+"country": "US",
+"phoneNumber": "+19198632015",
+"id": 48864863,
+"uuid": "e9bf3ef9-60cf-b06a-9299-014d6c877d0a",
+"ordering": 33,
+"lat": 35.7912422,
+"lng": -78.6602045
+},
+{
+"name": "Cary",
+"streetAddress1": "1309 NW Maynard Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Cary",
+"neighborhood": "Cary",
+"postalCode": "27513",
+"country": "US",
+"phoneNumber": "+19194672226",
+"id": 48864889,
+"uuid": "133ad5fd-575e-b06a-768b-014d6c8c0e0e",
+"ordering": 34,
+"lat": 35.7859408,
+"lng": -78.8108802
+},
+{
+"name": "The Arboretum",
+"streetAddress1": "2075 Renaissance Park Plc",
+"streetAddress2": null,
+"state": "NC",
+"city": "Cary",
+"neighborhood": "The Arboretum",
+"postalCode": "27513",
+"country": "US",
+"phoneNumber": "+19196550625",
+"id": 48864862,
+"uuid": "09a52965-6306-b06a-9053-014d6c9eb48d",
+"ordering": 35,
+"lat": 35.8279575,
+"lng": -78.7718655
+},
+{
+"name": "Cary",
+"streetAddress1": "1975 High House Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Cary",
+"neighborhood": "Cary",
+"postalCode": "27519",
+"country": "US",
+"phoneNumber": "+19194610771",
+"id": 48864857,
+"uuid": "466c90e7-60cf-b06a-9299-014d6c8c0eea",
+"ordering": 36,
+"lat": 35.7887524,
+"lng": -78.8481092
+},
+{
+"name": "Cary",
+"streetAddress1": "2346 Walnut St",
+"streetAddress2": null,
+"state": "NC",
+"city": "Cary",
+"neighborhood": "Cary",
+"postalCode": "27518",
+"country": "US",
+"phoneNumber": "+19198510093",
+"id": 48864892,
+"uuid": "83d4f0fe-6306-b06a-9053-014d6c8c101d",
+"ordering": 37,
+"lat": 35.7545936,
+"lng": -78.7455338
+},
+{
+"name": "Cary",
+"streetAddress1": "2042 Kildaire Farm Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Cary",
+"neighborhood": "Cary",
+"postalCode": "27518",
+"country": "US",
+"phoneNumber": "+19198519995",
+"id": 48864873,
+"uuid": "c6b359fd-575e-b06a-768b-014d6c9eb48f",
+"ordering": 38,
+"lat": 35.7367385,
+"lng": -78.7827679
+},
+{
+"name": "Glen Lennox",
+"streetAddress1": "1201 Raleigh Rd",
+"streetAddress2": "Suite E",
+"state": "NC",
+"city": "Chapel Hill",
+"neighborhood": "Glen Lennox",
+"postalCode": "27517",
+"country": "US",
+"phoneNumber": "+19199423320",
+"id": 48864883,
+"uuid": "d437c457-6306-b06a-9053-014d6c8c0e5c",
+"ordering": 39,
+"lat": 35.9092374,
+"lng": -79.0260632
+},
+{
+"name": "North Raleigh",
+"streetAddress1": "8311 Bandford Way",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "North Raleigh",
+"postalCode": "27615",
+"country": "US",
+"phoneNumber": "+19198701880",
+"id": 48864850,
+"uuid": "7fb73f13-682d-b06a-768b-0147bdf1744b",
+"ordering": 40,
+"lat": 35.900239,
+"lng": -78.679501
+},
+{
+"name": "Duke University - West Campus",
+"streetAddress1": "2351 Erwin Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Duke University - West Campus",
+"postalCode": "27705",
+"country": "US",
+"phoneNumber": "+19192820053",
+"id": 48864887,
+"uuid": "df642a52-575e-b06a-768b-014d6c8c0f92",
+"ordering": 41,
+"lat": 36.0076834,
+"lng": -78.9391936
+},
+{
+"name": "Durham",
+"streetAddress1": "3500 N Duke St",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Durham",
+"postalCode": "27704",
+"country": "US",
+"phoneNumber": "+19195952020",
+"id": 48864865,
+"uuid": "16208344-1435-b06a-747f-014d6c9eb6a3",
+"ordering": 42,
+"lat": 36.0478189,
+"lng": -78.905332
+},
+{
+"name": "Durham",
+"streetAddress1": "3100 Shannon Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Durham",
+"postalCode": "27707",
+"country": "US",
+"phoneNumber": "+19194938508",
+"id": 48864861,
+"uuid": "b58fb153-6306-b06a-9053-014d6c9eba82",
+"ordering": 43,
+"lat": 35.9671129,
+"lng": -78.9550991
+},
+{
+"name": "Garner",
+"streetAddress1": "7075 White Oak Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Garner",
+"neighborhood": "Garner",
+"postalCode": "27529",
+"country": "US",
+"phoneNumber": "+19198619177",
+"id": 48864884,
+"uuid": "da0f7e96-60cf-b06a-9299-014d6c9ebb4d",
+"ordering": 44,
+"lat": 35.69378,
+"lng": -78.5834739
+},
+{
+"name": "Gastonia",
+"streetAddress1": "604 Summit Crossing #202",
+"streetAddress2": null,
+"state": "NC",
+"city": "Gastonia",
+"neighborhood": "Gastonia",
+"postalCode": "28054",
+"country": "US",
+"phoneNumber": "+17048653937",
+"id": 48864858,
+"uuid": "b76f8efc-6306-b06a-9053-014d6c90a3ff",
+"ordering": 45,
+"lat": 35.2739144,
+"lng": -81.1451648
+},
+{
+"name": "Gastonia",
+"streetAddress1": "1302 E Garrison Blvd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Gastonia",
+"neighborhood": "Gastonia",
+"postalCode": "28054",
+"country": "US",
+"phoneNumber": "+17048671210",
+"id": 48864877,
+"uuid": "f19bf956-60cf-b06a-9299-014d6c9eba81",
+"ordering": 46,
+"lat": 35.253081,
+"lng": -81.1627199
+},
+{
+"name": "Greensboro",
+"streetAddress1": "3354 W Friendly Ave",
+"streetAddress2": null,
+"state": "NC",
+"city": "Greensboro",
+"neighborhood": "Greensboro",
+"postalCode": "27410",
+"country": "US",
+"phoneNumber": "+13363870930",
+"id": 48864846,
+"uuid": "66c39f00-60cf-b06a-9299-014d6c90a2a1",
+"ordering": 47,
+"lat": 36.0887337,
+"lng": -79.8383833
+},
+{
+"name": "Holly Springs",
+"streetAddress1": "173 Grand Hill Pl",
+"streetAddress2": null,
+"state": "NC",
+"city": "Holly Springs",
+"neighborhood": "Holly Springs",
+"postalCode": "27540",
+"country": "US",
+"phoneNumber": "+19193462062",
+"id": 48864843,
+"uuid": "a9c276fe-6306-b06a-9053-014d6c90a454",
+"ordering": 48,
+"lat": 35.6619575,
+"lng": -78.8482179
+},
+{
+"name": "Durham",
+"streetAddress1": "7001-105 Fayetteville Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Durham",
+"neighborhood": "Durham",
+"postalCode": "27713",
+"country": "US",
+"phoneNumber": "+19198619178",
+"id": 48864845,
+"uuid": "953b9206-1435-b06a-747f-014d6c9eb84c",
+"ordering": 49,
+"lat": 35.9024949,
+"lng": -78.9365469
+},
+{
+"name": "Knightdale",
+"streetAddress1": "1001 Widewaters Pkwy",
+"streetAddress2": null,
+"state": "NC",
+"city": "Knightdale",
+"neighborhood": "Knightdale",
+"postalCode": "27545",
+"country": "US",
+"phoneNumber": "+19198612020",
+"id": 48864906,
+"uuid": "170512fe-6306-b06a-9053-014d6c9538e4",
+"ordering": 50,
+"lat": 35.7961016,
+"lng": -78.5028067
+},
+{
+"name": "Louisburg",
+"streetAddress1": "505 Retail Way",
+"streetAddress2": "Suite 118",
+"state": "NC",
+"city": "Louisburg",
+"neighborhood": "Louisburg",
+"postalCode": "27549",
+"country": "US",
+"phoneNumber": "+19194961156",
+"id": 48864880,
+"uuid": "4038e1e6-575e-b06a-768b-014d6c9eb78b",
+"ordering": 51,
+"lat": 36.0830236,
+"lng": -78.3203582
+},
+{
+"name": "Morrisville",
+"streetAddress1": "3603 DAVIS DR",
+"streetAddress2": "SUITE 100",
+"state": "NC",
+"city": "MORRISVILLE",
+"neighborhood": "Morrisville",
+"postalCode": "27560",
+"country": "US",
+"phoneNumber": "+19192344888",
+"id": 48864915,
+"uuid": "7b0092ff-60cf-b06a-9299-014d6c9ebee5",
+"ordering": 52,
+"lat": 35.821206,
+"lng": -78.8488124
+},
+{
+"name": "North Raleigh",
+"streetAddress1": "7020 Six Forks Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "North Raleigh",
+"postalCode": "27615",
+"country": "US",
+"phoneNumber": "+19198475957",
+"id": 48864882,
+"uuid": "41ea6a57-6306-b06a-9053-014d6c953860",
+"ordering": 53,
+"lat": 35.875539,
+"lng": -78.644391
+},
+{
+"name": "Northwest Raleigh",
+"streetAddress1": "3214 Charles B Root Wynd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "Northwest Raleigh",
+"postalCode": "27612",
+"country": "US",
+"phoneNumber": "+19198810900",
+"id": 48864844,
+"uuid": "d9d5ecfb-6306-b06a-9053-014d6c9538cb",
+"ordering": 54,
+"lat": 35.8265655,
+"lng": -78.7082758
+},
+{
+"name": "Northwest Raleigh",
+"streetAddress1": "13220 Strickland Rd",
+"streetAddress2": "Suite 160",
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "Northwest Raleigh",
+"postalCode": "27613",
+"country": "US",
+"phoneNumber": "+19198706430",
+"id": 48864891,
+"uuid": "f02a6cf8-1435-b06a-747f-014d6c953916",
+"ordering": 55,
+"lat": 35.9095922,
+"lng": -78.7267416
+},
+{
+"name": "Fewell Park",
+"streetAddress1": "1268 Ebenezer Rd",
+"streetAddress2": null,
+"state": "SC",
+"city": "Rock Hill",
+"neighborhood": "Fewell Park",
+"postalCode": "29732",
+"country": "US",
+"phoneNumber": "+18033272001",
+"id": 48864885,
+"uuid": "630af0fa-60cf-b06a-9299-014d6c9ebb50",
+"ordering": 56,
+"lat": 34.9466946,
+"lng": -81.0380161
+},
+{
+"name": "Roxboro",
+"streetAddress1": "1000 N Madison Blvd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Roxboro",
+"neighborhood": "Roxboro",
+"postalCode": "27573",
+"country": "US",
+"phoneNumber": "+13365972020",
+"id": 48864908,
+"uuid": "71a619f8-60cf-b06a-9299-014d6c9ebb4d",
+"ordering": 57,
+"lat": 36.408346,
+"lng": -78.97555
+},
+{
+"name": "Northwest Raleigh",
+"streetAddress1": "6566 Glenwood Ave",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "Northwest Raleigh",
+"postalCode": "27612",
+"country": "US",
+"phoneNumber": "+19197830011",
+"id": 48864878,
+"uuid": "d1c0b8fd-575e-b06a-768b-014d6c99cce4",
+"ordering": 58,
+"lat": 35.8595686,
+"lng": -78.7072811
+},
+{
+"name": "Mallard Creek - Withrow Downs",
+"streetAddress1": "1823 E Arbors Dr",
+"streetAddress2": null,
+"state": "NC",
+"city": "Charlotte",
+"neighborhood": "Mallard Creek - Withrow Downs",
+"postalCode": "28262",
+"country": "US",
+"phoneNumber": "+17049715000",
+"id": 48864890,
+"uuid": "4d65e3ff-60cf-b06a-9299-014d6c99cc9b",
+"ordering": 59,
+"lat": 35.3364049,
+"lng": -80.7555113
+},
+{
+"name": "Wake Forest",
+"streetAddress1": "110 Capcom Ave",
+"streetAddress2": null,
+"state": "NC",
+"city": "Wake Forest",
+"neighborhood": "Wake Forest",
+"postalCode": "27587",
+"country": "US",
+"phoneNumber": "+19195561909",
+"id": 48864860,
+"uuid": "b9272657-60cf-b06a-9299-014d6c99cd8a",
+"ordering": 60,
+"lat": 35.9497598,
+"lng": -78.5290183
+},
+{
+"name": "North Raleigh",
+"streetAddress1": "14460 Falls of the Neuse Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "North Raleigh",
+"postalCode": "27614",
+"country": "US",
+"phoneNumber": "+19198474665",
+"id": 48864881,
+"uuid": "569e6294-6306-b06a-9053-014d6c99ccd6",
+"ordering": 61,
+"lat": 35.9435865,
+"lng": -78.5438408
+},
+{
+"name": "Wilmington",
+"streetAddress1": "3501 Oleander Dr",
+"streetAddress2": "Suite 7",
+"state": "NC",
+"city": "Wilmington",
+"neighborhood": "Wilmington",
+"postalCode": "28403",
+"country": "US",
+"phoneNumber": "+19102549292",
+"id": 48864869,
+"uuid": "73ab8e73-575e-b06a-768b-014d6c99cb97",
+"ordering": 62,
+"lat": 34.2173557,
+"lng": -77.9038654
+},
+{
+"name": "Mayfaire",
+"streetAddress1": "6825 Parker Farm Rd",
+"streetAddress2": null,
+"state": "NC",
+"city": "Wilmington",
+"neighborhood": "Mayfaire",
+"postalCode": "28405",
+"country": "US",
+"phoneNumber": "+19194520554",
+"id": 48864874,
+"uuid": "30e5d2f8-575e-b06a-768b-014d6c99cd4e",
+"ordering": 63,
+"lat": 34.2353669,
+"lng": -77.8302133
+},
+{
+"name": "Myrtle Grove",
+"streetAddress1": "5611 Carolina Beach Rd",
+"streetAddress2": "Suite E",
+"state": "NC",
+"city": "Wilmington",
+"neighborhood": "Myrtle Grove",
+"postalCode": "28412",
+"country": "US",
+"phoneNumber": "+19107900212",
+"id": 48864910,
+"uuid": "30fbb851-6306-b06a-9053-014d6c99cbb2",
+"ordering": 64,
+"lat": 34.1357008,
+"lng": -77.8938076
+},
+{
+"name": "Zebulon",
+"streetAddress1": "178 N Wakelon St",
+"streetAddress2": null,
+"state": "NC",
+"city": "Zebulon",
+"neighborhood": "Zebulon",
+"postalCode": "27597",
+"country": "US",
+"phoneNumber": "+19192696032",
+"id": 48864905,
+"uuid": "7cf7f064-60cf-b06a-9299-014d6c99cd16",
+"ordering": 65,
+"lat": 35.8323079,
+"lng": -78.3165234
+},
+{
+"name": "Kernersville",
+"streetAddress1": "1027 S Main St",
+"streetAddress2": null,
+"state": "NC",
+"city": "Kernersville",
+"neighborhood": "Kernersville",
+"postalCode": "27284",
+"country": "US",
+"phoneNumber": "+13369962020",
+"id": 48864888,
+"uuid": "69e74ffe-6306-b06a-9053-014d6c99cebe",
+"ordering": 66,
+"lat": 36.1073344,
+"lng": -80.097881
+},
+{
+"name": "Fountain Grove",
+"streetAddress1": "3911 Fountain Grove Dr",
+"streetAddress2": null,
+"state": "NC",
+"city": "High Point",
+"neighborhood": "Fountain Grove",
+"postalCode": "27265",
+"country": "US",
+"phoneNumber": "+13368892225",
+"id": 48864871,
+"uuid": "b24bc433-6306-b06a-9053-014d6c9e5f33",
+"ordering": 67,
+"lat": 36.0347639,
+"lng": -79.9732088
+},
+{
+"name": "Terry Sanford",
+"streetAddress1": "161 Westwood Shopping Center",
+"streetAddress2": null,
+"state": "NC",
+"city": "Fayetteville",
+"neighborhood": "Terry Sanford",
+"postalCode": "28314",
+"country": "US",
+"phoneNumber": "+19108646070",
+"id": 48864894,
+"uuid": "48abb1fc-1435-b06a-747f-014d6c9ebe4e",
+"ordering": 68,
+"lat": 35.0659906,
+"lng": -78.9517796
+},
+{
+"name": "Green Avenue Area",
+"streetAddress1": "210 Mills Ave",
+"streetAddress2": null,
+"state": "SC",
+"city": "Greenville",
+"neighborhood": "Green Avenue Area",
+"postalCode": "29605",
+"country": "US",
+"phoneNumber": "+18642322779",
+"id": 48864893,
+"uuid": "1202c4a7-1435-b06a-747f-014d6c9e5f30",
+"ordering": 69,
+"lat": 34.829806,
+"lng": -82.40794
+},
+{
+"name": "Thomasville",
+"streetAddress1": "1033-4 Randolph St",
+"streetAddress2": "Southgate Shopping Center",
+"state": "NC",
+"city": "Thomasville",
+"neighborhood": "Thomasville",
+"postalCode": "27360",
+"country": "US",
+"phoneNumber": "+13364763141",
+"id": 48864856,
+"uuid": "61afc5b6-60cf-b06a-9299-014d6c9e607c",
+"ordering": 70,
+"lat": 35.864256,
+"lng": -80.069778
+},
+{
+"name": "Laurinburg",
+"streetAddress1": "215 Lauchwood Dr #A",
+"streetAddress2": null,
+"state": "NC",
+"city": "Laurinburg",
+"neighborhood": "Laurinburg",
+"postalCode": "28352",
+"country": "US",
+"phoneNumber": "+19102761993",
+"id": 48864902,
+"uuid": "751c9f30-6306-b06a-9053-014d6c9e5f12",
+"ordering": 71,
+"lat": 34.750635,
+"lng": -79.476702
+},
+{
+"name": "Greer",
+"streetAddress1": "812 W Wade Hampton Blvd",
+"streetAddress2": null,
+"state": "SC",
+"city": "Greer",
+"neighborhood": "Greer",
+"postalCode": "29650",
+"country": "US",
+"phoneNumber": "+18648771825",
+"id": 48864895,
+"uuid": "37c97dfd-60cf-b06a-9299-014d6c9e6134",
+"ordering": 72,
+"lat": 34.9461861,
+"lng": -82.248374
+},
+{
+"name": "Northwest Raleigh",
+"streetAddress1": "4325 Glenwood Ave",
+"streetAddress2": "Suite# 2103",
+"state": "NC",
+"city": "Raleigh",
+"neighborhood": "Northwest Raleigh",
+"postalCode": "27601",
+"country": "US",
+"phoneNumber": "+19197810904",
+"id": 48864913,
+"uuid": "0ece1681-1435-b06a-747f-014d6c9e70c7",
+"ordering": 73,
+"lat": 35.8408988,
+"lng": -78.67884
+},
+{
+"name": "Westfield",
+"streetAddress1": "441 Westfield Rd",
+"streetAddress2": null,
+"state": "VA",
+"city": "Charlottesville",
+"neighborhood": "Westfield",
+"postalCode": "22902",
+"country": "US",
+"phoneNumber": "+14349735361",
+"id": 48864853,
+"uuid": "32cea2fa-1435-b06a-747f-014d691d2a4a",
+"ordering": 74,
+"lat": 38.0725369,
+"lng": -78.4851627
+}
+],
+"soldQuantity": 20,
+"soldQuantityMessage": "20+",
+"specificAttributes": {
+"takeoutDelivery": {
+"takeout": false,
+"delivery": false
+}
+},
+"status": "open",
+"title": "Complete Pair of Designer Eyeglasses or $225 Towards Eyewear of Your Choice",
+"value": {
+"amount": 22500,
+"currencyCode": "USD",
+"formattedAmount": "$225.00"
+},
+"customFields": []
+}
+],
+"textAd": {
+"line1": "",
+"line2": "",
+"headline": ""
+},
+"bwfGroup": null
+}
+],
+"facets": [],
+"pagination": {
+"offset": 0,
+"count": 600
+},
+"relevanceService": {
+"persistentRanking": "updated",
+"context": "web_all",
+"treatment": "b7b6f2be-f044-5c9a-243e-4989effe4731"
+}
+}

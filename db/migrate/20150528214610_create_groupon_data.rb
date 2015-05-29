@@ -3,8 +3,8 @@ class CreateGrouponData < ActiveRecord::Migration
     create_table :groupon_data do |t|
       t.string :data
       t.integer :merge_id
-      
-      t.timestamps null: false
+
+      t.timestamps 
     end
   end
 end

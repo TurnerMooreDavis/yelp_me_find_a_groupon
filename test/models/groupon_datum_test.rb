@@ -39,4 +39,9 @@ class GrouponDatumTest < ActiveSupport::TestCase
     g.deal_url(0)
   end
 
+  test "number of deals" do
+    g = GrouponDatum.new
+    assert_equal 10, g.length
+  end
+
 end

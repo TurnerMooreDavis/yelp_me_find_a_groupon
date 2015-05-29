@@ -11,6 +11,10 @@ class GrouponDatum < ActiveRecord::Base
     #JSON.pretty_generate(groupons)
   end
 
+  def length
+    @page["deals"].length
+  end
+
   def merchant_name(m)
     @page["deals"][m]["merchant"]["name"]
   end

@@ -18,8 +18,8 @@ class Merge < ActiveRecord::Base
   def groupons_available
     groupon_merchants = []
     m = 0
-    until merchant_name(m) == nil do
-      groupon_merchants += {m => @groupon.merchant_name(m)}
+    while m < @groupon.length
+      groupon_merchants << {m => @groupon.merchant_name(m)}
       m += 1
     end
     groupon_merchants
@@ -29,9 +29,9 @@ class Merge < ActiveRecord::Base
     @has_yelp_rating = []
     groupons_available.each do |key, merchant|
       m = 0
-      until @yelp.merchant(m) == nil
+      while m < @yelp.length
         if @yelp.merchant(m) == merchant
-          has_yelp_rating += {m => merchant}
+          has_yelp_rating << {m => merchant}
           return
         end
         m += 1

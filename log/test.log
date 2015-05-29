@@ -1,7 +1,7 @@
   [1m[36m (2.0ms)[0m  [1mCREATE TABLE "groupon_data" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "data" varchar, "merge_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
-  [1m[35m (1.9ms)[0m  CREATE TABLE "merges" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[35m (1.9ms)[0m  CREATE TABLE "merges" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)
   [1m[36m (2.1ms)[0m  [1mCREATE TABLE "yelp_data" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "data" varchar, "merge_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
-  [1m[35m (2.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[35m (2.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL)
   [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
   [1m[35m (2.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
   [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
@@ -229,9 +229,9 @@ SQLite3::ConstraintException: NOT NULL constraint failed: groupon_data.created_a
 SQLite3::ConstraintException: NOT NULL constraint failed: groupon_data.created_at: INSERT INTO "groupon_data" ("data") VALUES ('MyString')
   [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
   [1m[36m (2.6ms)[0m  [1mCREATE TABLE "groupon_data" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "data" varchar, "merge_id" integer, "created_at" datetime, "updated_at" datetime) [0m
-  [1m[35m (3.4ms)[0m  CREATE TABLE "merges" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[35m (3.4ms)[0m  CREATE TABLE "merges" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)
   [1m[36m (3.9ms)[0m  [1mCREATE TABLE "yelp_data" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "data" varchar, "merge_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
-  [1m[35m (2.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[35m (2.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL)
   [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
   [1m[35m (2.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
   [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
@@ -271,6 +271,7 @@ GrouponDatumTest: test_business_name
 ------------------------------------
 GrouponDatumTest: test_business_name
 ------------------------------------
+
   [1m[35m (0.1ms)[0m  rollback transaction
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35m (0.1ms)[0m  begin transaction
@@ -335,11 +336,37 @@ GrouponDatumTest: test_business_name
   [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:47:27', '2015-05-29 13:47:27', 980190962)
   [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:47:27', '2015-05-29 13:47:27', 298486374)[0m
   [1m[35m (5.9ms)[0m  commit transaction
+
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 ------------------------------------
 GrouponDatumTest: test_business_name
 ------------------------------------
   [1m[35m (0.1ms)[0m  rollback transaction
+<<<<<<< HEAD
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------
+YelpDatumTest: test_yelp_returns_data
+-------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.6ms)[0m  [1mDELETE FROM "groupon_data"[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO "groupon_data" ("data") VALUES ('MyString')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "groupon_data" ("data") VALUES ('MyString')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "merges"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:49:49', '2015-05-29 13:49:49', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:49:49', '2015-05-29 13:49:49', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "yelp_data"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:49:49', '2015-05-29 13:49:49', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:49:49', '2015-05-29 13:49:49', 298486374)[0m
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------
+YelpDatumTest: test_yelp_returns_data
+-------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+=======
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM "groupon_data"[0m
@@ -414,10 +441,25 @@ GrouponDatumTest: test_business_website
 ---------------------------------------
   [1m[35m (0.1ms)[0m  rollback transaction
   [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+>>>>>>> fae4722ab881ae292fc376e5aa0b7b1d068329d9
 ------------------------------------
 GrouponDatumTest: test_business_name
 ------------------------------------
   [1m[35m (0.1ms)[0m  rollback transaction
+<<<<<<< HEAD
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (1.2ms)[0m  [1mDELETE FROM "groupon_data"[0m
+  [1m[35mFixture Insert (0.6ms)[0m  INSERT INTO "groupon_data" ("data") VALUES ('MyString')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "groupon_data" ("data") VALUES ('MyString')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "merges"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:51:57', '2015-05-29 13:51:57', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:51:57', '2015-05-29 13:51:57', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "yelp_data"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:51:57', '2015-05-29 13:51:57', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:51:57', '2015-05-29 13:51:57', 298486374)[0m
+  [1m[35m (0.8ms)[0m  commit transaction
+=======
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "groupon_data"[0m
@@ -445,10 +487,31 @@ GrouponDatumTest: test_deal
 GrouponDatumTest: test_title
 ----------------------------
   [1m[35m (0.1ms)[0m  rollback transaction
+>>>>>>> fae4722ab881ae292fc376e5aa0b7b1d068329d9
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 ------------------------------------
 GrouponDatumTest: test_business_name
 ------------------------------------
+<<<<<<< HEAD
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------
+YelpDatumTest: test_yelp_returns_data
+-------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.8ms)[0m  [1mDELETE FROM "groupon_data"[0m
+  [1m[35mFixture Insert (1.0ms)[0m  INSERT INTO "groupon_data" ("data") VALUES ('MyString')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "groupon_data" ("data") VALUES ('MyString')[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "merges"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:52:28', '2015-05-29 13:52:28', 980190962)[0m
+  [1m[35mFixture Insert (0.6ms)[0m  INSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:52:28', '2015-05-29 13:52:28', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "yelp_data"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:52:28', '2015-05-29 13:52:28', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:52:28', '2015-05-29 13:52:28', 298486374)[0m
+  [1m[35m (0.8ms)[0m  commit transaction
+=======
   [1m[35m (0.2ms)[0m  rollback transaction
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35m (0.5ms)[0m  begin transaction
@@ -494,10 +557,31 @@ GrouponDatumTest: test_business_website
   [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 15:13:32', '2015-05-29 15:13:32', 980190962)
   [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 15:13:32', '2015-05-29 15:13:32', 298486374)[0m
   [1m[35m (2.7ms)[0m  commit transaction
+>>>>>>> fae4722ab881ae292fc376e5aa0b7b1d068329d9
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 ------------------------------------
 GrouponDatumTest: test_business_name
 ------------------------------------
+<<<<<<< HEAD
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------
+YelpDatumTest: test_yelp_returns_data
+-------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "groupon_data"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "groupon_data" ("data") VALUES ('MyString')
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "groupon_data" ("data") VALUES ('MyString')[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "merges"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:52:38', '2015-05-29 13:52:38', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:52:38', '2015-05-29 13:52:38', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "yelp_data"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:52:38', '2015-05-29 13:52:38', 980190962)
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:52:38', '2015-05-29 13:52:38', 298486374)[0m
+  [1m[35m (8.6ms)[0m  commit transaction
+=======
   [1m[35m (0.1ms)[0m  rollback transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 ---------------------------------------
@@ -546,10 +630,35 @@ GrouponDatumTest: test_business_website
 GrouponDatumTest: test_deal
 ---------------------------
   [1m[35m (0.1ms)[0m  rollback transaction
+>>>>>>> fae4722ab881ae292fc376e5aa0b7b1d068329d9
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 ------------------------------------
 GrouponDatumTest: test_business_name
 ------------------------------------
+<<<<<<< HEAD
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------
+YelpDatumTest: test_yelp_returns_data
+-------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM "groupon_data"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "groupon_data" ("data") VALUES ('MyString')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "groupon_data" ("data") VALUES ('MyString')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "merges"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:52:49', '2015-05-29 13:52:49', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:52:49', '2015-05-29 13:52:49', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "yelp_data"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:52:49', '2015-05-29 13:52:49', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:52:49', '2015-05-29 13:52:49', 298486374)[0m
+  [1m[35m (8.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------
+YelpDatumTest: test_yelp_returns_data
+-------------------------------------
+=======
   [1m[35m (0.1ms)[0m  rollback transaction
   [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
 ----------------------------
@@ -577,11 +686,27 @@ GrouponDatumTest: test_title
 ---------------------------------------
 GrouponDatumTest: test_business_website
 ---------------------------------------
+>>>>>>> fae4722ab881ae292fc376e5aa0b7b1d068329d9
   [1m[35m (0.1ms)[0m  rollback transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 ------------------------------------
 GrouponDatumTest: test_business_name
 ------------------------------------
+<<<<<<< HEAD
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "groupon_data"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "groupon_data" ("data") VALUES ('MyString')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "groupon_data" ("data") VALUES ('MyString')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "merges"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:53:39', '2015-05-29 13:53:39', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:53:39', '2015-05-29 13:53:39', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "yelp_data"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:53:39', '2015-05-29 13:53:39', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:53:39', '2015-05-29 13:53:39', 298486374)[0m
+  [1m[35m (8.8ms)[0m  commit transaction
+=======
   [1m[35m (0.1ms)[0m  rollback transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 -------------------------------
@@ -647,12 +772,18 @@ GrouponDatumTest: test_business_name
 GrouponDatumTest: test_deal
 ---------------------------
   [1m[35m (0.1ms)[0m  rollback transaction
+>>>>>>> fae4722ab881ae292fc376e5aa0b7b1d068329d9
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 ------------------------------------
 GrouponDatumTest: test_business_name
 ------------------------------------
   [1m[35m (0.1ms)[0m  rollback transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+<<<<<<< HEAD
+-------------------------------------
+YelpDatumTest: test_yelp_returns_data
+-------------------------------------
+=======
 ----------------------------
 GrouponDatumTest: test_title
 ----------------------------
@@ -666,10 +797,22 @@ GrouponDatumTest: test_deal_url
 ---------------------------------------
 GrouponDatumTest: test_business_website
 ---------------------------------------
+>>>>>>> fae4722ab881ae292fc376e5aa0b7b1d068329d9
   [1m[35m (0.1ms)[0m  rollback transaction
   [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36mFixture Delete (0.8ms)[0m  [1mDELETE FROM "groupon_data"[0m
+<<<<<<< HEAD
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO "groupon_data" ("data") VALUES ('MyString')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "groupon_data" ("data") VALUES ('MyString')[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "merges"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:56:38', '2015-05-29 13:56:38', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:56:38', '2015-05-29 13:56:38', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "yelp_data"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:56:38', '2015-05-29 13:56:38', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:56:38', '2015-05-29 13:56:38', 298486374)[0m
+  [1m[35m (1.0ms)[0m  commit transaction
+=======
   [1m[35mFixture Insert (1.5ms)[0m  INSERT INTO "groupon_data" ("data", "created_at", "updated_at", "id") VALUES ('MyString', '2015-05-29 15:18:24', '2015-05-29 15:18:24', 980190962)
   [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "groupon_data" ("data", "created_at", "updated_at", "id") VALUES ('MyString', '2015-05-29 15:18:24', '2015-05-29 15:18:24', 298486374)[0m
   [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "merges"
@@ -731,12 +874,35 @@ GrouponDatumTest: test_business_website
 GrouponDatumTest: test_deal
 ---------------------------
   [1m[35m (0.1ms)[0m  rollback transaction
+>>>>>>> fae4722ab881ae292fc376e5aa0b7b1d068329d9
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 ------------------------------------
 GrouponDatumTest: test_business_name
 ------------------------------------
   [1m[35m (0.1ms)[0m  rollback transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+<<<<<<< HEAD
+-------------------------------------
+YelpDatumTest: test_yelp_returns_data
+-------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.8ms)[0m  [1mDELETE FROM "groupon_data"[0m
+  [1m[35mFixture Insert (0.7ms)[0m  INSERT INTO "groupon_data" ("data") VALUES ('MyString')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "groupon_data" ("data") VALUES ('MyString')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "merges"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:58:04', '2015-05-29 13:58:04', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:58:04', '2015-05-29 13:58:04', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "yelp_data"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:58:04', '2015-05-29 13:58:04', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 13:58:04', '2015-05-29 13:58:04', 298486374)[0m
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------
+YelpDatumTest: test_yelp_returns_data
+-------------------------------------
+=======
 ----------------------------
 GrouponDatumTest: test_title
 ----------------------------
@@ -800,11 +966,15 @@ GrouponDatumTest: test_deal
 ---------------------------------------
 GrouponDatumTest: test_business_website
 ---------------------------------------
+>>>>>>> fae4722ab881ae292fc376e5aa0b7b1d068329d9
   [1m[35m (0.1ms)[0m  rollback transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 ------------------------------------
 GrouponDatumTest: test_business_name
 ------------------------------------
+<<<<<<< HEAD
+  [1m[35m (0.0ms)[0m  rollback transaction
+=======
   [1m[35m (0.1ms)[0m  rollback transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 -------------------------------
@@ -853,3 +1023,4 @@ GrouponDatumTest: test_deal_url
 GrouponDatumTest: test_business_name
 ------------------------------------
   [1m[35m (0.1ms)[0m  rollback transaction
+>>>>>>> fae4722ab881ae292fc376e5aa0b7b1d068329d9

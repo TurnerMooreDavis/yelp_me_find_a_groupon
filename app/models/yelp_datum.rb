@@ -7,6 +7,7 @@ class YelpDatum < ActiveRecord::Base
                             token: ENV["YELP_TOKEN"],
                             token_secret: ENV["YELP_TOKEN_SECRET"]
                           )
+    @search_results = @client.search(place)
   end
 
   def search_yelp(location)

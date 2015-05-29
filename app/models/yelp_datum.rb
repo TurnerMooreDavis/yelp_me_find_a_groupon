@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 class YelpDatum
+=======
+class YelpDatum < ActiveRecord::Base
+>>>>>>> ab00f609d639b375f0b933a49659fed1158ccd3b
 
-  def initialize
+  def initialize(location)
     @client = Yelp::Client.new( consumer_key: ENV["YELP_CONSUMER_KEY"],
                             consumer_secret: ENV["YELP_CONSUMER_SECRET"],
                             token: ENV["YELP_TOKEN"],
@@ -13,8 +17,7 @@ class YelpDatum
   end
 
   def merchant(m)
-    puts_me = @results["businesses"][m]["name"]
-    p puts_me
+    @results["businesses"][m]["name"]
   end
 
 

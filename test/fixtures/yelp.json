@@ -1,0 +1,928 @@
+{
+    "region": {
+        "span": {
+            "latitude_delta": 0.039307399999998438,
+            "longitude_delta": 0.036354560000006586
+        },
+        "center": {
+            "latitude": 35.991802,
+            "longitude": -78.908569200000002
+        }
+    },
+    "total": 2771,
+    "businesses": [
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/fullsteam-brewery-durham",
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 279,
+            "name": "Fullsteam Brewery",
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/fullsteam-brewery-durham",
+            "is_closed": false,
+            "phone": "9196822337",
+            "snippet_text": "Love this place...its where Durham comes together for great beer! This place was made for summer...food trucks, folks enjoying the weather, good beer, a...",
+            "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/4nQZKwgiAqMaRgmzoNgOng/ms.jpg",
+            "categories": [
+                [
+                    "Breweries",
+                    "breweries"
+                ],
+                [
+                    "Pubs",
+                    "pubs"
+                ]
+            ],
+            "display_phone": "+1-919-682-2337",
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "fullsteam-brewery-durham",
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/XKG7Xnesg9s0wpfIQvHttg/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "726 Rigsbee Ave",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 9.5,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "726 Rigsbee Ave"
+                ],
+                "coordinate": {
+                    "latitude": 36.003135553337899,
+                    "longitude": -78.8998214192479
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/cocoa-cinnamon-durham",
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 174,
+            "name": "Cocoa Cinnamon",
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/cocoa-cinnamon-durham",
+            "is_closed": false,
+            "snippet_text": "One of the coolest coffee shops I've ever been to! The thing I love most about it is the look...it's almost entirely outside! Huge covered seating area...",
+            "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/e3S4_gjaJjzV8hRu0R7fcQ/ms.jpg",
+            "categories": [
+                [
+                    "Coffee & Tea",
+                    "coffee"
+                ]
+            ],
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "cocoa-cinnamon-durham",
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/wAYzBpwSNXP_GxvsK2C22Q/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "420 W Geer St",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 9.5,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "420 W Geer St"
+                ],
+                "coordinate": {
+                    "latitude": 36.003944422443197,
+                    "longitude": -78.901126384735093
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/pizzeria-toro-durham",
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 232,
+            "name": "Pizzeria Toro",
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/pizzeria-toro-durham",
+            "is_closed": false,
+            "phone": "9199086936",
+            "snippet_text": "What the heck took me so long to get here?  Okay, so a little distance from North Raleigh to downtown Durham is a small part of it, but let me just say it...",
+            "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/HgyigtKNsTZUjY1vQ9Ws2g/ms.jpg",
+            "categories": [
+                [
+                    "Italian",
+                    "italian"
+                ],
+                [
+                    "Pizza",
+                    "pizza"
+                ]
+            ],
+            "display_phone": "+1-919-908-6936",
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "pizzeria-toro-durham",
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/2Z_aQhV283PzZMwZBKZ3ZQ/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "105 E Chapel Hill St",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 8.0,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "105 E Chapel Hill St"
+                ],
+                "coordinate": {
+                    "latitude": 35.996985062956803,
+                    "longitude": -78.903637602925301
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": false,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/toast-durham",
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 288,
+            "name": "Toast",
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/toast-durham",
+            "is_closed": false,
+            "id": "toast-durham",
+            "phone": "9196832183",
+            "snippet_text": "I think a good restaurant can really change your perspectives on food and Toast is definitely one of them.\nLocation: located in downtown Durham. Toast is...",
+            "image_url": "http://s3-media1.fl.yelpcdn.com/bphoto/GUZjm81htjOnVz3_JFQVUQ/ms.jpg",
+            "categories": [
+                [
+                    "Sandwiches",
+                    "sandwiches"
+                ]
+            ],
+            "display_phone": "+1-919-683-2183",
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "menu_date_updated": 1387642800,
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/YW9s0x2FCdSu60FFGt-s4w/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "345 W Main St",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 9.5,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "345 W Main St"
+                ],
+                "coordinate": {
+                    "latitude": 35.996428000000002,
+                    "longitude": -78.903126
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/the-little-dipper-durham",
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 86,
+            "name": "The Little Dipper",
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/the-little-dipper-durham",
+            "is_closed": false,
+            "id": "the-little-dipper-durham",
+            "phone": "9199081023",
+            "snippet_text": "Super good fondue! \n\nI came here today (first time) for ladies' night with a couple of friends. It's located in Brightleaf Square, a really nice square in...",
+            "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/wjTisCaxqQK28JFTvzxwgQ/ms.jpg",
+            "categories": [
+                [
+                    "Fondue",
+                    "fondue"
+                ]
+            ],
+            "display_phone": "+1-919-908-1023",
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "menu_provider": "single_platform",
+            "menu_date_updated": 1421493520,
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/d45YVmR1V48cGTrokXev2g/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "905 W Main St",
+                    "Ste 21 A",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 8.0,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "905 W Main St",
+                    "Ste 21 A"
+                ],
+                "coordinate": {
+                    "latitude": 35.9999313,
+                    "longitude": -78.910156299999997
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": false,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/dames-chicken-and-waffles-durham",
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 505,
+            "name": "Dame's Chicken & Waffles",
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/dames-chicken-and-waffles-durham",
+            "is_closed": false,
+            "phone": "9196829235",
+            "snippet_text": "If you like mac and cheese, get their mac and cheese as a side! Super cheesy and filling.\n\nI used to always get the Classy Hen (large waffle and a cutlet)...",
+            "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/w2tLv8feMZ-l5a0JVWk4Qg/ms.jpg",
+            "categories": [
+                [
+                    "American (New)",
+                    "newamerican"
+                ]
+            ],
+            "display_phone": "+1-919-682-9235",
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "dames-chicken-and-waffles-durham",
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/gKx2aFTVuaspxWFfPE652w/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "317 W Main St",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 8.0,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "317 W Main St"
+                ],
+                "coordinate": {
+                    "latitude": 35.996307000000002,
+                    "longitude": -78.903373999999999
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/kokyu-bbq-durham",
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 116,
+            "name": "KoKyu BBQ",
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/kokyu-bbq-durham",
+            "is_closed": false,
+            "phone": "9196994667",
+            "snippet_text": "So there I was... hanging out on Parts & Labor's patio, when I lifted my eyes and realized I was surrounded by 4 of Durham's fabled food trucks. \n\nSo many...",
+            "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/LiV53SBuSemT0vU2wR2QHg/ms.jpg",
+            "categories": [
+                [
+                    "Barbeque",
+                    "bbq"
+                ],
+                [
+                    "Food Trucks",
+                    "foodtrucks"
+                ]
+            ],
+            "display_phone": "+1-919-699-4667",
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "kokyu-bbq-durham",
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/ADQHtSzKJ2AxKDSJ2kJqVQ/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 5.0,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [],
+                "coordinate": {
+                    "latitude": 35.998570000000001,
+                    "longitude": -78.902259999999998
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/roses-meat-market-and-sweet-shop-durham",
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 57,
+            "name": "Rose's Meat Market and Sweet Shop",
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/roses-meat-market-and-sweet-shop-durham",
+            "is_closed": false,
+            "phone": "9197972233",
+            "snippet_text": "I'm embarrassed that it took this long for me to write a review, considering how often I frequent Rose's, but I guess that's how it goes.  It's easy to take...",
+            "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/O0uQDK8xKAh51Wg0Vd_bYg/ms.jpg",
+            "categories": [
+                [
+                    "Desserts",
+                    "desserts"
+                ],
+                [
+                    "Meat Shops",
+                    "meats"
+                ],
+                [
+                    "Sandwiches",
+                    "sandwiches"
+                ]
+            ],
+            "display_phone": "+1-919-797-2233",
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "roses-meat-market-and-sweet-shop-durham",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/bQTgK3XxkdxY9ll9VwAW2g/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "121 N Gregson St",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 9.5,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "121 N Gregson St"
+                ],
+                "coordinate": {
+                    "latitude": 36.000749999999996,
+                    "longitude": -78.90898
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/heavenly-buffaloes-durham",
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 70,
+            "name": "Heavenly Buffaloes",
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/heavenly-buffaloes-durham",
+            "is_closed": false,
+            "phone": "9192372358",
+            "snippet_text": "Wow! This place is really great...I had a feeling it was going to be great but it exceeded my expectations. \n\nTry anything, its all good...I normally am a...",
+            "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/nNp9hMpkBEceT1Z0oy1MKg/ms.jpg",
+            "categories": [
+                [
+                    "Chicken Wings",
+                    "chicken_wings"
+                ],
+                [
+                    "Beer, Wine & Spirits",
+                    "beer_and_wine"
+                ],
+                [
+                    "Vegetarian",
+                    "vegetarian"
+                ]
+            ],
+            "display_phone": "+1-919-237-2358",
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "heavenly-buffaloes-durham",
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/XKG7Xnesg9s0wpfIQvHttg/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "1807 W Markam Ave",
+                    "Durham, NC 27705"
+                ],
+                "geo_accuracy": 8.0,
+                "postal_code": "27705",
+                "country_code": "US",
+                "address": [
+                    "1807 W Markam Ave"
+                ],
+                "coordinate": {
+                    "latitude": 36.009670257568402,
+                    "longitude": -78.920303344726605
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/alley-twenty-six-durham",
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 73,
+            "name": "Alley Twenty Six",
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/alley-twenty-six-durham",
+            "is_closed": false,
+            "phone": "9192131267",
+            "snippet_text": "I'm visiting home an my girlfriend says, let's meet for a cocktail. This is where you go, because, you're not going out to get smashed. Just one, perhaps...",
+            "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/onzwslg14Htg2YDxa9Gg2A/ms.jpg",
+            "categories": [
+                [
+                    "Lounges",
+                    "lounges"
+                ]
+            ],
+            "display_phone": "+1-919-213-1267",
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "alley-twenty-six-durham",
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/04bAnIjeuEqHHOSvnJ30JQ/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "320 E Chapel Hill St",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 8.0,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "320 E Chapel Hill St"
+                ],
+                "coordinate": {
+                    "latitude": 35.996749999999999,
+                    "longitude": -78.900527999999994
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/saltbox-seafood-joint-durham",
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 102,
+            "name": "Saltbox Seafood Joint",
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/saltbox-seafood-joint-durham",
+            "is_closed": false,
+            "phone": "9199088970",
+            "snippet_text": "This seafood shack is an underrated gem!  It baffles me every single time when I meet people familiar with the Durham food scene who have yet to experience...",
+            "image_url": "http://s3-media1.fl.yelpcdn.com/bphoto/Tx_QU59eVZb_5xf7lkbjiQ/ms.jpg",
+            "categories": [
+                [
+                    "Seafood",
+                    "seafood"
+                ]
+            ],
+            "display_phone": "+1-919-908-8970",
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "saltbox-seafood-joint-durham",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/bQTgK3XxkdxY9ll9VwAW2g/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "608 N Mangum St",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 8.0,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "608 N Mangum St"
+                ],
+                "coordinate": {
+                    "latitude": 35.999954000000002,
+                    "longitude": -78.896088000000006
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": false,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/bar-virgile-durham",
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 32,
+            "name": "Bar Virgile",
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/bar-virgile-durham",
+            "is_closed": false,
+            "phone": "9199733000",
+            "snippet_text": "Third time in and still just as awesome!! They have changed the drink menu, but the bartender graciously agreed to make me my favorite from the old menu....",
+            "image_url": "http://s3-media1.fl.yelpcdn.com/bphoto/TpEB6M05dK21eCC6UsmZrA/ms.jpg",
+            "categories": [
+                [
+                    "Bars",
+                    "bars"
+                ],
+                [
+                    "Tapas/Small Plates",
+                    "tapasmallplates"
+                ]
+            ],
+            "display_phone": "+1-919-973-3000",
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "bar-virgile-durham",
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/UmUzvUzv5hd8eZxxzMo37g/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "105 S Mangum St",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 8.0,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "105 S Mangum St"
+                ],
+                "coordinate": {
+                    "latitude": 35.994670900000003,
+                    "longitude": -78.900726300000002
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/parker-and-otis-durham",
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 262,
+            "name": "Parker & Otis",
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/parker-and-otis-durham",
+            "is_closed": false,
+            "id": "parker-and-otis-durham",
+            "phone": "9196833200",
+            "snippet_text": "I've ordered and requested delivery for catered box lunches twice over the past two weeks for lunch events. Ordering was quick and easy with Amanda when I...",
+            "image_url": "http://s3-media2.fl.yelpcdn.com/bphoto/S9jJJp4DBSLgcQ0HloXAHg/ms.jpg",
+            "categories": [
+                [
+                    "Specialty Food",
+                    "gourmet"
+                ],
+                [
+                    "Breakfast & Brunch",
+                    "breakfast_brunch"
+                ],
+                [
+                    "Sandwiches",
+                    "sandwiches"
+                ]
+            ],
+            "display_phone": "+1-919-683-3200",
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "menu_date_updated": 1387637958,
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/cc4afe21892e/assets/img/default_avatars/user_medium_square.png",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "112 S Duke St",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 8.0,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "112 S Duke St"
+                ],
+                "coordinate": {
+                    "latitude": 35.998950999999998,
+                    "longitude": -78.9088821
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/mateo-durham",
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 244,
+            "name": "Mateo",
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/mateo-durham",
+            "is_closed": false,
+            "id": "mateo-durham",
+            "phone": "9195308700",
+            "snippet_text": "Again, the best. Celebrated our 15th wedding anniversary this evening and were treated fabulously. Hadn't yet seen the upstairs dining room, but it was...",
+            "image_url": "http://s3-media1.fl.yelpcdn.com/bphoto/JnQYDwpJiNJ9cG3JaKVaZw/ms.jpg",
+            "categories": [
+                [
+                    "Tapas Bars",
+                    "tapas"
+                ]
+            ],
+            "display_phone": "+1-919-530-8700",
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "menu_date_updated": 1416630648,
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/XGlGJItA0Ve9F7iMz3L3Rg/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "109 W Chapel Hill St",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 9.5,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "109 W Chapel Hill St"
+                ],
+                "coordinate": {
+                    "latitude": 35.996718999999999,
+                    "longitude": -78.904807000000005
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/old-havana-sandwich-shop-durham",
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 157,
+            "name": "Old Havana Sandwich Shop",
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/old-havana-sandwich-shop-durham",
+            "is_closed": false,
+            "phone": "9196679525",
+            "snippet_text": "I am a huge fan- so big of a fan that I have forcibly marched groups of co-workers here multiple times. And every time, Old Havana does NOT let me...",
+            "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/Br7KAFlWRL7dRpAx2w2uQA/ms.jpg",
+            "categories": [
+                [
+                    "Cuban",
+                    "cuban"
+                ],
+                [
+                    "Sandwiches",
+                    "sandwiches"
+                ]
+            ],
+            "display_phone": "+1-919-667-9525",
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "old-havana-sandwich-shop-durham",
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/LvW89PelG8J7cnVZSVrfUQ/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "310 E Main St",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 8.0,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "310 E Main St"
+                ],
+                "coordinate": {
+                    "latitude": 35.9932670593262,
+                    "longitude": -78.898132324218807
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/rue-cler-durham",
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 304,
+            "name": "Rue Cler",
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/rue-cler-durham",
+            "is_closed": false,
+            "id": "rue-cler-durham",
+            "phone": "9196828844",
+            "snippet_text": "This place is great! We came in with a big group (about 10 people) and the service was very good! I can't complain.\n\nThe food was also quick and very good....",
+            "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/VEvLQnJurqD1U1jm2_9AzQ/ms.jpg",
+            "categories": [
+                [
+                    "French",
+                    "french"
+                ],
+                [
+                    "Breakfast & Brunch",
+                    "breakfast_brunch"
+                ]
+            ],
+            "display_phone": "+1-919-682-8844",
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "menu_date_updated": 1426628927,
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/GyZA71CuRW6efsjsDRjjkw/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "401 E Chapel Hill St",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 9.5,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "401 E Chapel Hill St"
+                ],
+                "coordinate": {
+                    "latitude": 35.997035799999999,
+                    "longitude": -78.899755299999995
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/bar-lusconi-durham",
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 21,
+            "name": "Bar Lusconi",
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/bar-lusconi-durham",
+            "is_closed": false,
+            "phone": "9193391432",
+            "snippet_text": "I almost feel like I shouldn't write a review yet, because I've only been once and I went early and was actually the only person in there, but the place is...",
+            "image_url": "http://s3-media1.fl.yelpcdn.com/bphoto/RxfsKg2X6ghMv2k-dAGHpg/ms.jpg",
+            "categories": [
+                [
+                    "Bars",
+                    "bars"
+                ]
+            ],
+            "display_phone": "+1-919-339-1432",
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "bar-lusconi-durham",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/bceB8_PrYn-_isk0l7A7gg/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "117B E Main St",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 9.5,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "117B E Main St"
+                ],
+                "coordinate": {
+                    "latitude": 35.994651802552298,
+                    "longitude": -78.900115905503696
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/nanas-durham",
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 195,
+            "name": "Nana's",
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/nanas-durham",
+            "is_closed": false,
+            "id": "nanas-durham",
+            "phone": "9194938545",
+            "snippet_text": "My dad and I decided to go out to a special restaurant for New Year's Eve and there was no question about which restaurant we would go to. Nana's had a...",
+            "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/bhZtdVZYXG0vncShFO2EBw/ms.jpg",
+            "categories": [
+                [
+                    "American (New)",
+                    "newamerican"
+                ]
+            ],
+            "display_phone": "+1-919-493-8545",
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "menu_provider": "single_platform",
+            "menu_date_updated": 1418899181,
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/pyXLnQEdBST1aSSVm9AF2A/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "2514 University Dr",
+                    "Durham, NC 27707"
+                ],
+                "geo_accuracy": 8.0,
+                "postal_code": "27707",
+                "country_code": "US",
+                "address": [
+                    "2514 University Dr"
+                ],
+                "coordinate": {
+                    "latitude": 35.973934173583999,
+                    "longitude": -78.925094604492202
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/bull-city-burger-and-brewery-durham",
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 469,
+            "name": "Bull City Burger and Brewery",
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/bull-city-burger-and-brewery-durham",
+            "is_closed": false,
+            "phone": "9196802333",
+            "snippet_text": "Burgers with locally sourced ingredients! Yay! \n\nOrder up front, take a number, find a seat, and wait for a delicious hamburger to come your way! The...",
+            "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/eUu4-uNSl54TG3nwHffN6Q/ms.jpg",
+            "categories": [
+                [
+                    "Breweries",
+                    "breweries"
+                ],
+                [
+                    "Burgers",
+                    "burgers"
+                ],
+                [
+                    "American (New)",
+                    "newamerican"
+                ]
+            ],
+            "display_phone": "+1-919-680-2333",
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "bull-city-burger-and-brewery-durham",
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/6xHybi_A7k4qyIoyjKF0JQ/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "107 E Parrish St",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 8.0,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "107 E Parrish St"
+                ],
+                "coordinate": {
+                    "latitude": 35.995481014251702,
+                    "longitude": -78.899966329336195
+                },
+                "state_code": "NC"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/loaf-durham-2",
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 50,
+            "name": "Loaf",
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/loaf-durham-2",
+            "is_closed": false,
+            "phone": "9197971254",
+            "snippet_text": "Since moving nearby, Loaf has become one of my favorite go-to places. Everything I have had, from the pastries to the bread, has been fantastic. They are a...",
+            "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/6Z2r9DaqhnG2M6WIVtGEtw/ms.jpg",
+            "categories": [
+                [
+                    "Bakeries",
+                    "bakeries"
+                ],
+                [
+                    "Breakfast & Brunch",
+                    "breakfast_brunch"
+                ],
+                [
+                    "Farmers Market",
+                    "farmersmarket"
+                ]
+            ],
+            "display_phone": "+1-919-797-1254",
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "loaf-durham-2",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/apunmBCPKP5xSjTRrq1qqQ/ms.jpg",
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "111 W Parrish St",
+                    "Durham, NC 27701"
+                ],
+                "geo_accuracy": 9.5,
+                "postal_code": "27701",
+                "country_code": "US",
+                "address": [
+                    "111 W Parrish St"
+                ],
+                "coordinate": {
+                    "latitude": 35.9957517,
+                    "longitude": -78.900739900000005
+                },
+                "state_code": "NC"
+            }
+        }
+    ]
+}

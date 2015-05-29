@@ -1,5 +1,4 @@
 class GrouponDatum < ActiveRecord::Base
-  belongs_to :merge
 
   # @client = Groupon::Client.new(api_key: ENV["GROUPON_KEY"])
   def initialize
@@ -30,6 +29,11 @@ class GrouponDatum < ActiveRecord::Base
 
   def deal_url(m)
     @page["deals"][m]["dealUrl"]
+  end
+
+  def deal_info(m)
+    { m => { "Merchant Name" => merchant_name(m), "Website" => merchant_website(m),
+      "Title" => deal_title(m), "Deal" => deal(m), "Link" => deal_url(m)}}
   end
 
 end

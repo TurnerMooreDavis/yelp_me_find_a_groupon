@@ -17,6 +17,24 @@ class YelpDatum < ActiveRecord::Base
     @page["businesses"][m]["name"]
   end
 
+  def rating(m)
+    @page["businesses"][m]["rating"]
+  end
+
+  def url(m)
+    @page["businesses"][m]["url"]
+  end
+
+  def review_count(m)
+    @page["businesses"][m]["review_count"]
+  end
+
+  def review_info(m)
+    { m => { "Merchant Name" => merchant(m), "Website" => url(m),
+      "Rating" => rating(m), "Number of Reviews" => review_count(m)}}
+  end
+
+
 
 
 

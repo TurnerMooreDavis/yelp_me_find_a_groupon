@@ -16,7 +16,7 @@ class Merge < ActiveRecord::Base
   end
 
   def groupons_available
-    groupon_merchants = {}
+    groupon_merchants = []
     m = 0
     until merchant_name(m) == nil do
       groupon_merchants += {m => @groupon.merchant_name(m)}
@@ -53,7 +53,7 @@ class Merge < ActiveRecord::Base
       end
     end
     [{"Deals With Yelp Ratings" => deals_with_yelp},
-      "Deals Without Yelp Ratings" => deals_without_yelp}]
+      {"Deals Without Yelp Ratings" => deals_without_yelp}]
   end
 
   def add_yelp_rating

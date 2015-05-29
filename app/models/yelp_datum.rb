@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-class YelpDatum
-=======
 class YelpDatum < ActiveRecord::Base
->>>>>>> ab00f609d639b375f0b933a49659fed1158ccd3b
 
   def initialize(location)
     @client = Yelp::Client.new( consumer_key: ENV["YELP_CONSUMER_KEY"],
@@ -10,15 +6,18 @@ class YelpDatum < ActiveRecord::Base
                             token: ENV["YELP_TOKEN"],
                             token_secret: ENV["YELP_TOKEN_SECRET"]
                           )
+    @page = search_yelp(location)
   end
 
   def search_yelp(location)
-    @results = @client.search(location).raw_data
+    @client.search(location).raw_data
   end
 
   def merchant(m)
-    @results["businesses"][m]["name"]
+    @page["businesses"][m]["name"]
   end
+
+
 
 
 end

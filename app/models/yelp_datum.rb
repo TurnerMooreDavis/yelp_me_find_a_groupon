@@ -13,5 +13,9 @@ class YelpDatum < ActiveRecord::Base
     @client.search(location)
   end
 
+  def merchant(m)
+    
+  end
+
 
 end

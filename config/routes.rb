@@ -1,10 +1,7 @@
 Rails.application.routes.draw do
 
-  namespace :api do
-    namespace :v1 do
-      resources :groupon_with_ratings
-    end
-  end
+  #get 'api/v1/votes' => 'votes#index'
+  #get 'candidates/:id' => 'candidates#show'
 
   #get '/api/v1/'
 

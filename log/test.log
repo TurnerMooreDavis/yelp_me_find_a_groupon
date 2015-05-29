@@ -1702,3 +1702,75 @@ YelpDatumTest: test_get_merchant
 YelpDatumTest: test_yelp_returns_data
 -------------------------------------
   [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (11.1ms)[0m  [1mCREATE TABLE "groupon_data" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "data" varchar, "merge_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (2.5ms)[0m  CREATE TABLE "merges" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (2.5ms)[0m  [1mCREATE TABLE "yelp_data" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "data" varchar, "merge_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (2.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (2.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150528215643')
+  [1m[36m (2.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150528214550')[0m
+  [1m[35m (2.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150528214610')
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM "groupon_data"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "groupon_data" ("data", "created_at", "updated_at", "id") VALUES ('MyString', '2015-05-29 20:03:33', '2015-05-29 20:03:33', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "groupon_data" ("data", "created_at", "updated_at", "id") VALUES ('MyString', '2015-05-29 20:03:33', '2015-05-29 20:03:33', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "merges"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 20:03:33', '2015-05-29 20:03:33', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "merges" ("created_at", "updated_at", "id") VALUES ('2015-05-29 20:03:33', '2015-05-29 20:03:33', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "yelp_data"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 20:03:33', '2015-05-29 20:03:33', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "yelp_data" ("created_at", "updated_at", "id") VALUES ('2015-05-29 20:03:33', '2015-05-29 20:03:33', 298486374)[0m
+  [1m[35m (2.6ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------
+MergeTest: test_all_deals_returns_an_array_of_hashes
+----------------------------------------------------
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------
+MergeTest: test_groupons_available_returns_an_array
+---------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------
+MergeTest: test_with_yelp_rating_returns_an_array
+-------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------
+GrouponDatumTest: test_deal
+---------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------
+GrouponDatumTest: test_title
+----------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------
+GrouponDatumTest: test_business_website
+---------------------------------------
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------
+GrouponDatumTest: test_deal_url
+-------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------
+GrouponDatumTest: test_business_name
+------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------
+YelpDatumTest: test_yelp_returns_data
+-------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------
+YelpDatumTest: test_get_merchant
+--------------------------------
+  [1m[35m (0.2ms)[0m  rollback transaction

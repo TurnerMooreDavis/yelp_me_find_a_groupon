@@ -26,18 +26,18 @@ class Merge < ActiveRecord::Base
   end
 
   def with_yelp_rating
-    has_yelp_rating = []
+    @has_yelp_rating = []
     groupons_available.each do |key, merchant|
       m = 0
       until @yelp.merchant(m) == nil
         if @yelp.merchant(m) == merchant
-          has_yelp_rating += {key => merchant}
+          has_yelp_rating += {m => merchant}
           return
         end
         m += 1
       end
     end
-    has_yelp_rating
+    @has_yelp_rating
   end
 
   def all_deals
@@ -58,11 +58,13 @@ class Merge < ActiveRecord::Base
 
   def add_yelp_rating
     deals = all_deals
+    spot = @has_yelp_rating.select{|merchant| merchant.value == ["Deals With Yelp Ratings"][m]["Merchant Name"]}
     m = 0
     until m == nil
-      deals["Deals With Yelp Ratings"][m]
+      deals["Deals With Yelp Ratings"][m]["Yelp Rating Information"] ||= @yelp.review_info(spot)
+      m += 1
     end
-    m += 1
+    deals
   end
 
 

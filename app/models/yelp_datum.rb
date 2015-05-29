@@ -10,4 +10,9 @@ class YelpDatum < ActiveRecord::Base
     @search_results = @client.search(place)
   end
 
+  def search_yelp(location)
+    @client.search(location)
+  end
+
+
 end

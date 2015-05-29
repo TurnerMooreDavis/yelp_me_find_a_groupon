@@ -9,6 +9,10 @@ class YelpDatum < ActiveRecord::Base
     @page = search_yelp(location)
   end
 
+  def length
+    @page["businesses"].length
+  end
+
   def search_yelp(location)
     @client.search(location).raw_data
   end

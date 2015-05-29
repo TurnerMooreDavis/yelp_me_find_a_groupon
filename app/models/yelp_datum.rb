@@ -1,5 +1,4 @@
-class YelpDatum < ActiveRecord::Base
-  belongs_to :merge
+class YelpDatum 
 
   def initialize
     @client = Yelp::Client.new( consumer_key: ENV["YELP_CONSUMER_KEY"],
@@ -7,7 +6,7 @@ class YelpDatum < ActiveRecord::Base
                             token: ENV["YELP_TOKEN"],
                             token_secret: ENV["YELP_TOKEN_SECRET"]
                           )
-    @search_results = @client.search(place)
+    #@search_results = @client.search(place)
   end
 
   def search_yelp(location)
@@ -15,7 +14,7 @@ class YelpDatum < ActiveRecord::Base
   end
 
   def merchant(m)
-    
+
   end
 
 

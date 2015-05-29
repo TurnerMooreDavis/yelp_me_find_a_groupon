@@ -32,4 +32,9 @@ class GrouponDatum < ActiveRecord::Base
     @page["deals"][m]["dealUrl"]
   end
 
+  def deal_info(m)
+    { m => { "Merchant Name" => merchant_name(m), "Website" => merchant_website(m),
+      "Title" => deal_title(m), "Deal" => deal(m), "Link" => deal_url(m)}}
+  end
+
 end

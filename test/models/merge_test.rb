@@ -34,6 +34,4 @@ class MergeTest < ActiveSupport::TestCase
     assert_equal Hash, @merge.all_deals[0].class
   end
 
-
-
 end

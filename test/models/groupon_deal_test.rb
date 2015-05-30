@@ -15,4 +15,5 @@ class GrouponDealTest < ActiveSupport::TestCase
   test "object has name" do
     assert_equal "fake name", @object.merchant_name
   end
+  
 end

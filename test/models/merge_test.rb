@@ -17,18 +17,21 @@ end
 
 class MergeTest < ActiveSupport::TestCase
 
+  def setup
+    @merge = Merge.new("Durham, NC")
+  end
+
   test "groupons_available returns an array" do
-    merge = Merge.new("durham")
-    assert_equal Array, merge.groupons_available.class
+    assert_equal Array, @merge.groupons_available.class
   end
 
   test "with_yelp_rating returns an array" do
-    a = Merge.new("Durham, NC")
-    assert_equal Array, a.with_yelp_rating.class
+    assert_equal Array, @merge.with_yelp_rating.class
   end
 
   test "all_deals returns an array of hashes" do
-    true
+    assert_equal Array, @merge.all_deals
+    assert_equal Hash, @merge.all_deals[0]
   end
 
 

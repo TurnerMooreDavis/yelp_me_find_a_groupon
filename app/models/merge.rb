@@ -16,64 +16,37 @@ class Merge < ActiveRecord::Base
   end
 
   def groupons_available
-    groupon_merchants = []
+    groupons = []
     m = 0
     while m < @groupon.length
-      groupon_merchants << {m => @groupon.merchant_name(m)}
+      groupons << @groupon.deal_info(m)
       m += 1
     end
-    groupon_merchants
+    groupons
   end
 
-  def with_yelp_rating
-    @has_yelp_rating = []
-    groupons_available.each do |key, merchant|
+  def add_yelp_rating
+    groupons = groupons_available
+    groupons.each do |deal|
       m = 0
       while m < @yelp.length
-        if @yelp.merchant(m) == merchant
-          has_yelp_rating << {m => merchant}
-          return
+        if deal.merchant_name == @yelp.merchant(m)
+          deal.yelp_hash_location = m
+          deal.yelp_rating = @yelp.review_info(m)
         end
         m += 1
       end
     end
-    @has_yelp_rating
+    groupons
   end
 
   def all_deals
-    deals_with_yelp = []
-    deals_without_yelp = []
-    groupons = groupons_available
-    yelp = has_yelp_rating
-    groupons.each do |key, deal|
-      if yelp.has_value? deal
-        deals_with_yelp += @groupon.deal_info(key)
-      else
-        deals_without_yelp += @groupon.deal_info(key)
-      end
-    end
+    all_groupons = groupons_available
+    deals_with_yelp = all_groupons.select{|deal| deal.yelp_rating != nil}
+    deals_without_yelp = all_groupons.select{|deal| deal.yelp_rating == nil}
     [{"Deals With Yelp Ratings" => deals_with_yelp},
       {"Deals Without Yelp Ratings" => deals_without_yelp}]
   end
-
-  def add_yelp_rating
-    deals = all_deals
-    spot = @has_yelp_rating.select{|merchant| merchant.value == ["Deals With Yelp Ratings"][m]["Merchant Name"]}
-    m = 0
-    until m == nil
-      deals["Deals With Yelp Ratings"][m]["Yelp Rating Information"] ||= @yelp.review_info(spot)
-      m += 1
-    end
-    deals
-  end
-
-
-
-
-
-
-
-
 
 
 end

@@ -36,8 +36,9 @@ class GrouponDatum < ActiveRecord::Base
   end
 
   def deal_info(m)
-    { m => { "Merchant Name" => merchant_name(m), "Website" => merchant_website(m),
-      "Title" => deal_title(m), "Deal" => deal(m), "Link" => deal_url(m)}}
+    GrouponDeal.new(merchant_name: merchant_name(m), website: merchant_website(m),
+                    title: deal_title(m), deal: deal(m), link: deal_url(m),
+                    hash_location: m)
   end
 
 end

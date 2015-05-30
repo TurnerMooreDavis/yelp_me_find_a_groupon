@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
-  #get 'api/v1/votes' => 'votes#index'
+  get 'merge/index'
+
+  # get 'api/v1/votes' => 'votes#index'
   #get 'candidates/:id' => 'candidates#show'
 
   #get '/api/v1/'

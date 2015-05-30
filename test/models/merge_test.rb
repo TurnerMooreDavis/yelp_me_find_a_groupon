@@ -25,13 +25,13 @@ class MergeTest < ActiveSupport::TestCase
     assert_equal Array, @merge.groupons_available.class
   end
 
-  test "with_yelp_rating returns an array" do
-    assert_equal Array, @merge.with_yelp_rating.class
+  test "add_yelp_rating returns an array" do
+    assert_equal Array, @merge.add_yelp_rating.class
   end
 
   test "all_deals returns an array of hashes" do
-    assert_equal Array, @merge.all_deals
-    assert_equal Hash, @merge.all_deals[0]
+    assert_equal Array, @merge.all_deals.class
+    assert_equal Hash, @merge.all_deals[0].class
   end
 
 

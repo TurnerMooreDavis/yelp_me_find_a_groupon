@@ -27,10 +27,7 @@ class Merge
     groupons = groupons_available
     groupons.each do |deal|
       m = 0
-      p @yelp.length
       while m < @yelp.length
-        p deal.merchant_name
-        p @yelp.merchant(m)
         if deal.merchant_name == @yelp.merchant(m)
           deal.yelp_hash_location = m
           deal.yelp_rating = @yelp.review_info(m)

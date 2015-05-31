@@ -29,9 +29,11 @@ class MergeTest < ActiveSupport::TestCase
     assert_equal Array, @merge.add_yelp_rating.class
   end
 
-  test "all_deals returns an array of hashes" do
+  test "all_deals returns an array of hashes of groupon deals" do
     assert_equal Array, @merge.all_deals.class
     assert_equal Hash, @merge.all_deals[0].class
+    assert_equal "Aaron Evans Piano Instruction", @merge.all_deals[1]["Deals Without Yelp Ratings"][0].merchant_name
+    puts @merge.all_deals
   end
 
 end

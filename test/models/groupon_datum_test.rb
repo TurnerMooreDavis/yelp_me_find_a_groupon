@@ -9,39 +9,39 @@ end
 
 
 class GrouponDatumTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+
+  def setup
+    @g = GrouponDatum.new
+  end
 
   test "business name" do
-    g = GrouponDatum.new
-    assert_equal "Frank White Photography", g.merchant_name(0)
+    assert_equal "Aaron Evans Piano Instruction", @g.merchant_name(0)
   end
 
   test "business website" do
-    g = GrouponDatum.new
-    assert_equal "http://frankwhitephotography.com", g.merchant_website(0)
+    assert_equal "http://theajevans.wix.com/aaronevans", @g.merchant_website(0)
   end
 
   test "title" do
-    g = GrouponDatum.new
-    assert_equal "$45 for $99 Toward Outdoor Portraits at Frank White Photography", g.deal_title(0)
+    assert_equal "Four Private Music Lessons from Aaron Evans Piano Instruction (50% Off)", @g.deal_title(0)
   end
 
   test "deal" do
-    g = GrouponDatum.new
-    assert_match /Every local community has a story/, g.deal(0)
+    assert_match /A Chat with Aaron Evans/, @g.deal(0)
   end
 
   test "deal url" do
-    g = GrouponDatum.new
-    assert_equal "http://tracking.groupon.com/r?tsToken=US_AFF_0_201236_212556_0&url=https%3A%2F%2Fwww.groupon.com%2Fdeals%2Ffrank-white-photography%3Fz%3Dskip%26utm_medium%3Dafl%26utm_source%3DGPN%26utm_campaign%3D201236%26mediaId%3D212556",
-    g.deal_url(0)
+    assert_equal "http://tracking.groupon.com/r?tsToken=US_AFF_0_201236_212556_0&url=http%3A%2F%2Fwww.groupon.com%2Fdeals%2Faaron-evans-piano-instruction%3Fz%3Dskip%26utm_medium%3Dafl%26utm_source%3DGPN%26utm_campaign%3D201236%26mediaId%3D212556",
+    @g.deal_url(0)
   end
 
   test "number of deals" do
-    g = GrouponDatum.new
-    assert_equal 10, g.length
+    assert_equal 75, @g.length
+  end
+
+  test "deal info returns all groupon information" do
+    a = @g.deal_info(0)
+    assert_equal "Aaron Evans Piano Instruction", a.merchant_name
   end
 
 end

@@ -1,12 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'merge/index'
-
-  # get 'api/v1/votes' => 'votes#index'
-  #get 'candidates/:id' => 'candidates#show'
-
-  #get '/api/v1/'
-
+  get '/api/v1/merge' => 'merge#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

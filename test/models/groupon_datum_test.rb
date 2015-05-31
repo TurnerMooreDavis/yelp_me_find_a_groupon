@@ -9,7 +9,6 @@ end
 
 
 class GrouponDatumTest < ActiveSupport::TestCase
-
   def setup
     @g = GrouponDatum.new
   end

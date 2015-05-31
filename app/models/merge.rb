@@ -1,6 +1,4 @@
 class Merge < ActiveRecord::Base
-  has_many :groupon_data
-  has_many :yelp_data
 
   def initialize(location)
     @yelp = get_yelp_data(location)

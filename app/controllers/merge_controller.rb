@@ -1,3 +1,6 @@
+require 'groupon_datum.rb'
+require 'yelp_datum.rb'
+
 class MergeController < ApplicationController
 
   def index

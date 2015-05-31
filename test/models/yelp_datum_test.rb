@@ -2,15 +2,15 @@ require 'test_helper'
 require 'yelp_datum'
 
 class YelpDatum
-  def search_yelp(location)
-    JSON.parse(File.open("./test/fixtures/yelp.json").read)
+  def initialize
+    @page = JSON.parse(File.open("./test/fixtures/yelp.json").read)
   end
 end
 
 class YelpDatumTest < MiniTest::Test
 
   def setup
-    @yelp_data = YelpDatum.new("Durham, NC")
+    @yelp_data = YelpDatum.new
   end
 
   def test_yelp_returns_data

@@ -4,7 +4,7 @@ require 'yelp_datum.rb'
 class MergeController < ApplicationController
 
   def index
-    render json: Merge.new("Durham, NC").all_deals
+    render json: YelpDatum.new("Durham, NC")
   end
 
 #show will give only the groupon deals with yelp ratings

@@ -2634,3 +2634,509 @@ Started GET "/api/v1/merge?location=Durham" for ::1 at 2015-05-31 16:00:58 -0400
 Processing by MergeController#index as HTML
   Parameters: {"location"=>"Durham"}
 Completed 200 OK in 845ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 16:17:24 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 6728ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 16:23:19 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 30120ms (ActiveRecord: 0.0ms)
+
+Faraday::ConnectionFailed (getaddrinfo: nodename nor servname provided, or not known):
+  app/models/yelp_datum.rb:18:in `search_yelp'
+  app/models/yelp_datum.rb:9:in `initialize'
+  app/models/merge.rb:13:in `new'
+  app/models/merge.rb:13:in `get_yelp_data'
+  app/models/merge.rb:4:in `initialize'
+  app/controllers/merge_controller.rb:12:in `new'
+  app/controllers/merge_controller.rb:12:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.2ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (72.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (164.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 16:29:52 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/Spoonflower/Desktop/IronyardWork/yelp_me_find_a_groupon/app/models/merge.rb:43: syntax error, unexpected '|', expecting '}'
+    all_groupons.each do {|g|
+                           ^
+/Users/Spoonflower/Desktop/IronyardWork/yelp_me_find_a_groupon/app/models/merge.rb:46: syntax error, unexpected '}', expecting keyword_end
+/Users/Spoonflower/Desktop/IronyardWork/yelp_me_find_a_groupon/app/models/merge.rb:54: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/models/merge.rb:43: syntax error, unexpected '|', expecting '}'
+  app/models/merge.rb:46: syntax error, unexpected '}', expecting keyword_end
+  app/models/merge.rb:54: syntax error, unexpected end-of-input, expecting keyword_end
+  app/controllers/merge_controller.rb:12:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (91.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (73.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (173.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 16:30:25 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 10347ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `nill' for #<Merge:0x007febe214e800>):
+  app/models/merge.rb:44:in `block in all_deals'
+  app/models/merge.rb:43:in `each'
+  app/models/merge.rb:43:in `all_deals'
+  app/controllers/merge_controller.rb:12:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (561.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (65.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (153.6ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 16:30:51 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 8421ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 16:37:06 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 6947ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 16:38:25 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 32224ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 16:46:11 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 5784ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 16:49:58 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 574ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `data' for #<YelpDatum:0x007fd273e96928>):
+  app/models/yelp_datum.rb:9:in `initialize'
+  app/models/merge.rb:13:in `new'
+  app/models/merge.rb:13:in `get_yelp_data'
+  app/models/merge.rb:4:in `initialize'
+  app/controllers/merge_controller.rb:12:in `new'
+  app/controllers/merge_controller.rb:12:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.9ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (97.8ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (97.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (193.4ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 16:50:21 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 1798ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 16:53:01 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 9649ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `name' for #<GrouponDeal:0x007fa9778940e0>):
+  app/models/merge.rb:32:in `block in add_yelp_rating'
+  app/models/merge.rb:29:in `each'
+  app/models/merge.rb:29:in `add_yelp_rating'
+  app/models/merge.rb:49:in `all_deals'
+  app/controllers/merge_controller.rb:12:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (69.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (171.4ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 16:53:40 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 45225ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 16:55:59 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 42239ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 16:57:22 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 5866ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:02:11 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 6115ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:02:59 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed   in 28224ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:03:38 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 5994ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:04:06 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 45778ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:06:28 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 5679ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of String into Integer):
+  app/models/merge.rb:33:in `[]'
+  app/models/merge.rb:33:in `block in add_yelp_rating'
+  app/models/merge.rb:29:in `each'
+  app/models/merge.rb:29:in `add_yelp_rating'
+  app/models/merge.rb:49:in `all_deals'
+  app/controllers/merge_controller.rb:12:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (60.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (155.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:07:03 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 6247ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:09:47 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 1961ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `yelp_rating=' for #<GrouponDeal:0x007f91617bc588>):
+  app/models/merge.rb:34:in `block in add_yelp_rating'
+  app/models/merge.rb:29:in `each'
+  app/models/merge.rb:29:in `add_yelp_rating'
+  app/models/merge.rb:50:in `all_deals'
+  app/controllers/merge_controller.rb:12:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (76.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (164.6ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:12:13 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 13050ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/models/merge.rb:33:in `block in add_yelp_rating'
+  app/models/merge.rb:29:in `each'
+  app/models/merge.rb:29:in `add_yelp_rating'
+  app/models/merge.rb:50:in `all_deals'
+  app/controllers/merge_controller.rb:12:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.8ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (71.0ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (171.7ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:14:02 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/Spoonflower/Desktop/IronyardWork/yelp_me_find_a_groupon/app/models/merge.rb:65: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/models/merge.rb:65: syntax error, unexpected end-of-input, expecting keyword_end
+  app/controllers/merge_controller.rb:12:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.0ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (67.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (153.7ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:14:27 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 15639ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/models/merge.rb:33:in `block in add_yelp_rating'
+  app/models/merge.rb:29:in `each'
+  app/models/merge.rb:29:in `add_yelp_rating'
+  app/models/merge.rb:54:in `all_deals'
+  app/controllers/merge_controller.rb:12:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (94.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (77.1ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (189.2ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:16:32 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 14072ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/models/merge.rb:34:in `block in add_yelp_rating'
+  app/models/merge.rb:29:in `each'
+  app/models/merge.rb:29:in `add_yelp_rating'
+  app/models/merge.rb:54:in `all_deals'
+  app/controllers/merge_controller.rb:12:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.1ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (67.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (166.2ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:17:24 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 6380ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:17:31 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 10395ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/models/merge.rb:33:in `block in add_yelp_rating'
+  app/models/merge.rb:29:in `each'
+  app/models/merge.rb:29:in `add_yelp_rating'
+  app/models/merge.rb:54:in `all_deals'
+  app/controllers/merge_controller.rb:12:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (87.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (72.0ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (165.3ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:20:27 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/Spoonflower/Desktop/IronyardWork/yelp_me_find_a_groupon/app/models/merge.rb:36: syntax error, unexpected keyword_rescue, expecting keyword_end):
+  app/models/merge.rb:36: syntax error, unexpected keyword_rescue, expecting keyword_end
+  app/controllers/merge_controller.rb:12:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (97.2ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (69.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (175.9ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:20:47 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/Spoonflower/Desktop/IronyardWork/yelp_me_find_a_groupon/app/models/merge.rb:36: syntax error, unexpected keyword_rescue, expecting keyword_end
+/Users/Spoonflower/Desktop/IronyardWork/yelp_me_find_a_groupon/app/models/merge.rb:67: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/models/merge.rb:36: syntax error, unexpected keyword_rescue, expecting keyword_end
+  app/models/merge.rb:67: syntax error, unexpected keyword_end, expecting end-of-input
+  app/controllers/merge_controller.rb:12:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.1ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (78.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (170.3ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:21:05 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed   in 7104ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:21:18 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 40920ms (Views: 16.6ms | ActiveRecord: 0.0ms)

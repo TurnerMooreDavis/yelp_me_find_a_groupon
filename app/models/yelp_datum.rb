@@ -6,16 +6,15 @@ class YelpDatum
                             token: ENV["YELP_TOKEN"],
                             token_secret: ENV["YELP_TOKEN_SECRET"]
                           )
-    @page = search_yelp(location)
+    @page = @client.search(location).raw_data
   end
 
   def length
     @page["businesses"].length
   end
 
-  def search_yelp(location)
-    params = {limit: 20}
-    @client.search(location, params).raw_data
+  def search_yelp(location,name)
+    @client.search(location,{term:name}).raw_data
   end
 
   def merchant(m)

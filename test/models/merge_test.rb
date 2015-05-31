@@ -15,21 +15,21 @@ class YelpDatum
   end
 end
 
-class MergeTest < ActiveSupport::TestCase
+class MergeTest <MiniTest::Test
 
   def setup
     @merge = Merge.new("Durham, NC")
   end
 
-  test "groupons_available returns an array" do
+  def test_groupons_available_returns_an_array
     assert_equal Array, @merge.groupons_available.class
   end
 
-  test "add_yelp_rating returns an array" do
+  def test_add_yelp_rating_returns_an_array
     assert_equal Array, @merge.add_yelp_rating.class
   end
 
-  test "all_deals returns an array of hashes of groupon deals" do
+  def test_all_deals_returns_an_array_of_hashes_of_groupon_deals
     assert_equal Array, @merge.all_deals.class
     assert_equal Hash, @merge.all_deals[0].class
     assert_equal "Aaron Evans Piano Instruction", @merge.all_deals[1]["Deals Without Yelp Ratings"][0].merchant_name

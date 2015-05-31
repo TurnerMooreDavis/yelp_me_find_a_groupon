@@ -1,4 +1,4 @@
-class YelpDatum < ActiveRecord::Base
+class YelpDatum
 
   def initialize(location)
     @client = Yelp::Client.new( consumer_key: ENV["YELP_CONSUMER_KEY"],
@@ -14,7 +14,8 @@ class YelpDatum < ActiveRecord::Base
   end
 
   def search_yelp(location)
-    @client.search(location).raw_data
+    params = {limit: 20}
+    @client.search(location, params).raw_data
   end
 
   def merchant(m)

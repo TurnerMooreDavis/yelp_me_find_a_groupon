@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class GrouponDealTest < ActiveSupport::TestCase
+class GrouponDealTest <MiniTest::Test
 
   def setup
     @object = GrouponDeal.new(merchant_name: "fake name", website: "fake website",
@@ -8,11 +8,11 @@ class GrouponDealTest < ActiveSupport::TestCase
                     groupon_hash_location: "fake spot")
   end
 
-  test "can be initialized" do
+  def test_can_be_initialized
     assert @object
   end
 
-  test "object has name" do
+  def test_object_has_name
     assert_equal "fake name", @object.merchant_name
   end
 

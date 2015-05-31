@@ -1,4 +1,4 @@
-class Merge < ActiveRecord::Base
+class Merge
 
   def initialize(location)
     @yelp = get_yelp_data(location)
@@ -27,7 +27,10 @@ class Merge < ActiveRecord::Base
     groupons = groupons_available
     groupons.each do |deal|
       m = 0
+      p @yelp.length
       while m < @yelp.length
+        p deal.merchant_name
+        p @yelp.merchant(m)
         if deal.merchant_name == @yelp.merchant(m)
           deal.yelp_hash_location = m
           deal.yelp_rating = @yelp.review_info(m)
@@ -39,7 +42,7 @@ class Merge < ActiveRecord::Base
   end
 
   def all_deals
-    all_groupons = groupons_available
+    all_groupons = add_yelp_rating
     deals_with_yelp = all_groupons.select{|deal| deal.yelp_rating != nil}
     deals_without_yelp = all_groupons.select{|deal| deal.yelp_rating == nil}
     [{"Deals With Yelp Ratings" => deals_with_yelp},

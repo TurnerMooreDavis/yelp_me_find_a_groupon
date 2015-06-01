@@ -33,16 +33,6 @@ class Merge
       rescue
         deal.yelp_rating = nil
       end
-      # m = 0
-      # while m < @yelp.length
-      #   p deal.merchant_name
-      #   p @yelp.merchant(m)
-      #   if deal.merchant_name == @yelp.merchant(m)
-      #     deal.yelp_hash_location = m
-      #     deal.yelp_rating = @yelp.review_info(m)
-      #   end
-      #   m += 1
-      # end
     end
     groupons
   end

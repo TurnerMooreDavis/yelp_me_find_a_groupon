@@ -1,5 +1,5 @@
 class GrouponDeal
-  attr_reader :merchant_name, :website, :title, :deal, :link, :groupon_hash_location, :yelp_rating
+  attr_reader :merchant_name, :website, :title, :deal, :link, :groupon_hash_location
   attr_accessor :yelp_rating
 
   def initialize(merchant_name:, website:, title:, deal:, link:, groupon_hash_location:, yelp_rating: nil)

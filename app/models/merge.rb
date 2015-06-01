@@ -26,12 +26,19 @@ class Merge
 
   def add_yelp_rating
     groupons = groupons_available
+    @counter = 0
     groupons.each do |deal|
       begin
         result = YelpDatum.new(@loc, deal.merchant_name)
         deal.yelp_rating = result.review_info
+        @counter += 100.to_f
+        percent = groupons.length
+        puts @counter/percent
       rescue
         deal.yelp_rating = nil
+        @counter += 100.to_f
+        percent = groupons.length
+        puts @counter/percent
       end
       # m = 0
       # while m < @yelp.length

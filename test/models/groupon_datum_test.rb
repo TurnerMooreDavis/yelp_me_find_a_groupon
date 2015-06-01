@@ -10,7 +10,7 @@ end
 
 class GrouponDatumTest <MiniTest::Test
   def setup
-    @g = GrouponDatum.new
+    @g = GrouponDatum.new("location=Durham,NC")
   end
 
   def test_business_name

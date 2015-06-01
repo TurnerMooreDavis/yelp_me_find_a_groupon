@@ -18,7 +18,7 @@ end
 class MergeTest <MiniTest::Test
 
   def setup
-    @merge = Merge.new("Durham, NC")
+    @merge = Merge.new("Durham, NC","location=Durham,NC")
   end
 
   def test_groupons_available_returns_an_array

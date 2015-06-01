@@ -3927,11 +3927,150 @@ Completed 200 OK in 6639ms (Views: 4.4ms | ActiveRecord: 0.0ms)
 >>>>>>> 9d523d15043619b38c4ce0ce8ab1f52ce60d6bc5
 
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+Started GET "/api/v1/merge?location=ChapelHill&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 21:37:23 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#index as HTML
+  Parameters: {"location"=>"ChapelHill", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 45884ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/merge?location=ChapelHill&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:04:17 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#index as HTML
+  Parameters: {"location"=>"ChapelHill", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 5405ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/merge?location=raleigh&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:07:29 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#index as HTML
+  Parameters: {"location"=>"raleigh", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed   in 45498ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=raleigh&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:09:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"raleigh", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 39776ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=raleigh&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:11:08 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"raleigh", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed   in 34152ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Raleigh_NC&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:13:48 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Raleigh_NC", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 39126ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:15:25 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 37390ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:16:52 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 36255ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Raleigh&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:18:49 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Raleigh", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 41113ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Raleigh&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:22:41 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Raleigh", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 6672ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Raleigh&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:23:46 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Raleigh", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 7054ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Raleigh&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:24:44 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Raleigh", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 39148ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Raleigh&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:27:51 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Raleigh", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 45632ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Raleigh&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:30:09 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Raleigh", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 44164ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Raleigh&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:31:39 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Raleigh", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 37580ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Raleigh&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:33:07 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Raleigh", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 5356ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Raleigh&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:34:33 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Raleigh", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 5698ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Raleigh&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:35:22 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Raleigh", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 5378ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=ChapelHill&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:36:09 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"ChapelHill", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 5717ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=ChapelHill&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:37:37 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"ChapelHill", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 37630ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+=======
+=======
+>>>>>>> 9b5d65087e46105268872fa097cad24cd659fbd2
 Started GET "/api/v1/merge?location=Durham" for ::1 at 2015-05-31 21:47:04 -0400
   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by MergeController#index as HTML
   Parameters: {"location"=>"Durham"}
 Completed 200 OK in 50249ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+<<<<<<< HEAD
 
 
 Started GET "/api/v1/merge?location=Durham" for ::1 at 2015-06-01 08:45:06 -0400
@@ -3939,3 +4078,145 @@ Started GET "/api/v1/merge?location=Durham" for ::1 at 2015-06-01 08:45:06 -0400
 Processing by MergeController#index as HTML
   Parameters: {"location"=>"Durham"}
 Completed 200 OK in 9833ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+=======
+<<<<<<< HEAD
+>>>>>>> 9b5d65087e46105268872fa097cad24cd659fbd2
+
+
+Started GET "/api/v1/show?location=ChapelHill&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:45:33 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"ChapelHill", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 35544ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=ChapelHill&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:48:14 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"ChapelHill", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 500 Internal Server Error in 4237ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `render' for #<Merge:0x007fa6fb333408>):
+  app/models/merge.rb:43:in `rescue in block in add_yelp_rating'
+  app/models/merge.rb:31:in `block in add_yelp_rating'
+  app/models/merge.rb:30:in `each'
+  app/models/merge.rb:30:in `add_yelp_rating'
+  app/models/merge.rb:50:in `all_deals'
+  app/controllers/merge_controller.rb:11:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.1ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (129.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (87.9ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (227.2ms)
+
+
+Started GET "/api/v1/show?location=ChapelHill&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:50:31 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"ChapelHill", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 500 Internal Server Error in 14180ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `render' for #<Merge:0x007fa6f45e4de8>):
+  app/models/merge.rb:43:in `rescue in block in add_yelp_rating'
+  app/models/merge.rb:31:in `block in add_yelp_rating'
+  app/models/merge.rb:30:in `each'
+  app/models/merge.rb:30:in `add_yelp_rating'
+  app/models/merge.rb:50:in `all_deals'
+  app/controllers/merge_controller.rb:11:in `show'
+
+
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (136.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (69.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /Users/Spoonflower/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (158.4ms)
+
+
+Started GET "/api/v1/show?location=ChapelHill&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:51:55 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"ChapelHill", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 6143ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Danville&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:52:33 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Danville", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 8228ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Danville&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:53:35 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Danville", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 8403ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Danville&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:55:29 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Danville", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 50086ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Danville&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 22:56:50 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Danville", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 6961ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Carrboro&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 23:00:36 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Carrboro", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 5903ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=ChapelHill&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 23:00:59 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"ChapelHill", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 41149ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=ChapelHill&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 23:02:05 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"ChapelHill", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 36936ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=ChapelHill&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 23:09:50 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"ChapelHill", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 41250ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Pittsboro&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 23:10:32 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Pittsboro", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 39762ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Pittsboro&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 23:12:23 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Pittsboro", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 5218ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Pittsboro&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 23:14:01 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Pittsboro", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Completed 200 OK in 5613ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+=======
+>>>>>>> 9b5d65087e46105268872fa097cad24cd659fbd2
+>>>>>>> d861e98c829598f1f790e0ad37e0d04af05d8daf

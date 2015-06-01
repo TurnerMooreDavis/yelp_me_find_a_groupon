@@ -8,7 +8,7 @@ class MergeController < ApplicationController
 
 #show will give only the groupon deals with yelp ratings
   def show
-    show = Merge.new(params[:location], params[:filter]).all_deals
+    show = Merge.new(params[:location], params[:filter]= "").all_deals
     render json: show[0]
   end
 

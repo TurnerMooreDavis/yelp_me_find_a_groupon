@@ -3932,3 +3932,10 @@ Started GET "/api/v1/merge?location=Durham" for ::1 at 2015-05-31 21:47:04 -0400
 Processing by MergeController#index as HTML
   Parameters: {"location"=>"Durham"}
 Completed 200 OK in 50249ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/merge?location=Durham" for ::1 at 2015-06-01 08:45:06 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#index as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 9833ms (Views: 3.0ms | ActiveRecord: 0.0ms)

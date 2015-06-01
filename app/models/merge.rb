@@ -11,7 +11,7 @@ class Merge
   end
 
   def get_yelp_data(location, name)
-    YelpDatum.new(location, name)
+    YelpDatum.new(@loc, name)
   end
 
   def groupons_available
@@ -33,23 +33,15 @@ class Merge
         deal.yelp_rating = result.review_info
         @counter += 100.to_f
         percent = groupons.length
-        puts @counter/percent
+        v = @counter/percent
+        puts "#{v}%"
       rescue
         deal.yelp_rating = nil
         @counter += 100.to_f
         percent = groupons.length
-        puts @counter/percent
+        v = @counter/percent
+        puts "#{v}%"
       end
-      # m = 0
-      # while m < @yelp.length
-      #   p deal.merchant_name
-      #   p @yelp.merchant(m)
-      #   if deal.merchant_name == @yelp.merchant(m)
-      #     deal.yelp_hash_location = m
-      #     deal.yelp_rating = @yelp.review_info(m)
-      #   end
-      #   m += 1
-      # end
     end
     groupons
   end

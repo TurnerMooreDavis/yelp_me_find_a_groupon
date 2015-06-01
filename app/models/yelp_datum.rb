@@ -13,25 +13,25 @@ class YelpDatum
     @page["businesses"].length
   end
 
-  def merchant(m)
-    @page["businesses"][m]["name"]
+  def merchant
+    @page["businesses"][0]["name"]
   end
 
-  def rating(m)
-    @page["businesses"][m]["rating"]
+  def rating
+    @page["businesses"][0]["rating"]
   end
 
-  def url(m)
-    @page["businesses"][m]["url"]
+  def url
+    @page["businesses"][0]["url"]
   end
 
-  def review_count(m)
-    @page["businesses"][m]["review_count"]
+  def review_count
+    @page["businesses"][0]["review_count"]
   end
 
-  def review_info(m)
-    { "Website" => url(m),
-      "Rating" => rating(m), "Number of Reviews" => review_count(m)}
+  def review_info
+    { "Website" => url,
+      "Rating" => rating, "Number of Reviews" => review_count}
   end
 
 

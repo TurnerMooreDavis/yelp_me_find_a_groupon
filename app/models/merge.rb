@@ -28,7 +28,7 @@ class Merge
     groupons.each do |deal|
       begin
         result = YelpDatum.new(@loc, deal.merchant_name)
-        deal.yelp_rating = result.review_info(0)
+        deal.yelp_rating = result.review_info
       rescue
         deal.yelp_rating = nil
       end

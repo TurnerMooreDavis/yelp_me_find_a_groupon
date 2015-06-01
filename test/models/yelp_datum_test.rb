@@ -18,25 +18,22 @@ class YelpDatumTest < MiniTest::Test
   end
 
   def test_get_merchant
-    assert_equal "Fullsteam Brewery", @yelp_data.merchant(0)
+    assert_equal "Fullsteam Brewery", @yelp_data.merchant
   end
 
   def test_get_rating
-    assert_equal 4.5, @yelp_data.rating(2)
-    assert_equal 4, @yelp_data.rating(3)
+    assert_equal 4.5, @yelp_data.rating
   end
 
   def test_get_url
-    assert_equal "http://www.yelp.com/biz/cocoa-cinnamon-durham", @yelp_data.url(1)
-    assert_equal "http://www.yelp.com/biz/fullsteam-brewery-durham", @yelp_data.url(0)
+    assert_equal "http://www.yelp.com/biz/fullsteam-brewery-durham", @yelp_data.url
   end
 
   def test_get_review_count
-    assert_equal 279, @yelp_data.review_count(0)
-    assert_equal 174, @yelp_data.review_count(1)
+    assert_equal 279, @yelp_data.review_count
   end
 
   def test_get_review_info
-    assert_equal Hash, @yelp_data.review_info(0).class
+    assert_equal Hash, @yelp_data.review_info.class
   end
 end

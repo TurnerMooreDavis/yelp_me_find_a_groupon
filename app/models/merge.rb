@@ -1,12 +1,13 @@
 class Merge
 
-  def initialize(location)
+  def initialize(location, filters)
     @groupon = get_groupon_data
     @loc = location
+    @filters = filters
   end
 
   def get_groupon_data
-    GrouponDatum.new
+    GrouponDatum.new("&filters=category:#{@filters}")
   end
 
   def get_yelp_data(location, name)

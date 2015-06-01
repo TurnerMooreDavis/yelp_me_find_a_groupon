@@ -1,14 +1,15 @@
 class GrouponDatum
 
   # @client = Groupon::Client.new(api_key: ENV["GROUPON_KEY"])
-  def initialize
+  def initialize(filters)
     @page = get_data
+    @filters = filters
   end
 
   def get_data
     # JSON.parse(File.open("./test/fixtures/groupon.json").read)
     # location_divisions = HTTParty.get("https://partner-api.groupon.com/division.json")
-    groupons = HTTParty.get("https://partner-api.groupon.com/deals.json?tsToken=US_AFF_0_201236_212556_0&limit=10&radius=50")
+    groupons = HTTParty.get("https://partner-api.groupon.com/deals.json?tsToken=US_AFF_0_201236_212556_0&limit=10&radius=50#{@filters}")
   end
 
   def length

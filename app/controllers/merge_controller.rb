@@ -3,12 +3,12 @@ class MergeController < ApplicationController
   #before_action :authenticate
 
   def index
-    render json: Merge.new(params[:location]).all_deals
+    render json: Merge.new(params[:location], params[:filter]).all_deals
   end
 
 #show will give only the groupon deals with yelp ratings
   def show
-    show = Merge.new(params[:location]).all_deals
+    show = Merge.new(params[:location], params[:filter]).all_deals
     render json: show[0]
   end
 

@@ -11985,6 +11985,7 @@ SQLite3::SQLException: near ")": syntax error: INSERT INTO "groupon_deals" () VA
   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+<<<<<<< HEAD
   [1m[36m (1.8ms)[0m  [1mCREATE TABLE "api_keys" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "key" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
   [1m[35m (1.3ms)[0m  CREATE TABLE "groupon_data" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "data" varchar, "merge_id" integer, "created_at" datetime, "updated_at" datetime) 
   [1m[36m (1.2ms)[0m  [1mCREATE TABLE "groupon_deals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
@@ -12003,3 +12004,5 @@ SQLite3::SQLException: near ")": syntax error: INSERT INTO "groupon_deals" () VA
   [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+=======
+>>>>>>> 9b5d65087e46105268872fa097cad24cd659fbd2

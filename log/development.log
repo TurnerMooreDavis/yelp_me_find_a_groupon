@@ -3928,6 +3928,7 @@ Completed 200 OK in 6639ms (Views: 4.4ms | ActiveRecord: 0.0ms)
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Started GET "/api/v1/merge?location=ChapelHill&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 21:37:23 -0400
   [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by MergeController#index as HTML
@@ -4062,11 +4063,14 @@ Processing by MergeController#show as HTML
   Parameters: {"location"=>"ChapelHill", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
 Completed 200 OK in 37630ms (Views: 18.8ms | ActiveRecord: 0.0ms)
 =======
+=======
+>>>>>>> 9b5d65087e46105268872fa097cad24cd659fbd2
 Started GET "/api/v1/merge?location=Durham" for ::1 at 2015-05-31 21:47:04 -0400
   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by MergeController#index as HTML
   Parameters: {"location"=>"Durham"}
 Completed 200 OK in 50249ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+<<<<<<< HEAD
 >>>>>>> 9b5d65087e46105268872fa097cad24cd659fbd2
 
 
@@ -4204,3 +4208,5 @@ Started GET "/api/v1/show?location=Pittsboro&key=726272cb06eeef96ca8b4ce5109a332
 Processing by MergeController#show as HTML
   Parameters: {"location"=>"Pittsboro", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
 Completed 200 OK in 5613ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+=======
+>>>>>>> 9b5d65087e46105268872fa097cad24cd659fbd2

@@ -1,6 +1,6 @@
 class MergeController < ApplicationController
 
-  before_action :authenticate
+  #before_action :authenticate
 
   def index
     render json: Merge.new(params[:location]).all_deals

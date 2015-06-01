@@ -1,7 +1,6 @@
 class Merge
 
   def initialize(location)
-    @yelp = get_yelp_data(location)
     @groupon = get_groupon_data
     @loc = location
   end
@@ -10,8 +9,8 @@ class Merge
     GrouponDatum.new
   end
 
-  def get_yelp_data(location)
-    YelpDatum.new(location)
+  def get_yelp_data(location, name)
+    YelpDatum.new(location, name)
   end
 
   def groupons_available
@@ -28,13 +27,10 @@ class Merge
     groupons = groupons_available
     groupons.each do |deal|
       begin
-        puts "#{deal.merchant_name}\n\n"
-        result = @yelp.search_yelp(@loc,deal.merchant_name)
-        puts "#{result["businesses"][0]["rating"]}\n\n"
-        deal.yelp_rating = result["businesses"][0]["rating"]
+        result = YelpDatum.new(@loc, deal.merchant_name)
+        deal.yelp_rating = result.review_info(0)
       rescue
         deal.yelp_rating = nil
-        puts "no rating"
       end
       # m = 0
       # while m < @yelp.length
@@ -52,10 +48,6 @@ class Merge
 
   def all_deals
     all_groupons = add_yelp_rating
-    all_groupons.each {|g|
-    if g.yelp_rating != nil
-      puts "we have a match!!"
-    end}
     deals_with_yelp = all_groupons.select{|deal| deal.yelp_rating != nil}
     deals_without_yelp = all_groupons.select{|deal| deal.yelp_rating == nil}
     [{"Deals With Yelp Ratings" => deals_with_yelp},

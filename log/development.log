@@ -3486,3 +3486,75 @@ Started GET "/api/v1/merge?location=Durham" for ::1 at 2015-05-31 18:46:25 -0400
 Processing by MergeController#index as HTML
   Parameters: {"location"=>"Durham"}
 Completed 200 OK in 28596ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/merge?location=Durham" for ::1 at 2015-05-31 21:18:45 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#index as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/awbedell/Desktop/The Iron Yard/yelp_me_find_a_groupon/app/models/merge.rb:53: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+..._with_yelp.sort_by{|deal|} deal["yelp_rating"]["Rating"]
+...                               ^):
+  app/models/merge.rb:53: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/merge_controller.rb:6:in `index'
+
+
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (144.0ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (134.3ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (296.8ms)
+
+
+Started GET "/api/v1/merge?location=Durham" for ::1 at 2015-05-31 21:19:09 -0400
+Processing by MergeController#index as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 500 Internal Server Error in 6924ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for #<GrouponDeal:0x007fc00c900370>):
+  app/models/merge.rb:53:in `block in all_deals'
+  app/models/merge.rb:53:in `each'
+  app/models/merge.rb:53:in `sort_by'
+  app/models/merge.rb:53:in `all_deals'
+  app/controllers/merge_controller.rb:6:in `index'
+
+
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (128.9ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (112.7ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/awbedell/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (259.2ms)
+
+
+Started GET "/api/v1/merge?location=Durham" for ::1 at 2015-05-31 21:20:04 -0400
+Processing by MergeController#index as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 47119ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/merge?location=Durham" for ::1 at 2015-05-31 21:21:35 -0400
+Processing by MergeController#index as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 42414ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/merge?location=Durham" for ::1 at 2015-05-31 21:22:45 -0400
+Processing by MergeController#index as HTML
+  Parameters: {"location"=>"Durham"}
+Completed 200 OK in 6639ms (Views: 4.4ms | ActiveRecord: 0.0ms)

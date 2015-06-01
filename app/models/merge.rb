@@ -50,6 +50,8 @@ class Merge
     all_groupons = add_yelp_rating
     deals_with_yelp = all_groupons.select{|deal| deal.yelp_rating != nil}
     deals_without_yelp = all_groupons.select{|deal| deal.yelp_rating == nil}
+    deals_with_yelp = deals_with_yelp.sort_by{|deal| deal.yelp_rating["Rating"]}
+    deals_with_yelp = deals_with_yelp.reverse
     [{"Deals With Yelp Ratings" => deals_with_yelp},
       {"Deals Without Yelp Ratings" => deals_without_yelp}]
   end

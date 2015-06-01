@@ -34,7 +34,7 @@ class Merge
         deal.yelp_rating = result["businesses"][0]["rating"]
       rescue
         deal.yelp_rating = nil
-        puts "rescued"
+        puts "no rating"
       end
       # m = 0
       # while m < @yelp.length

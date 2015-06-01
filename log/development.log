@@ -3384,3 +3384,32 @@ Processing by MergeController#index as */*
   Parameters: {"location"=>"Durham"}
   [1m[35mApiKey Load (0.2ms)[0m  SELECT  "api_keys".* FROM "api_keys" WHERE "api_keys"."key" = ?  ORDER BY "api_keys"."id" ASC LIMIT 1  [["key", "726272cb06eeef96ca8b4ce5109a332e"]]
 Completed 200 OK in 788ms (Views: 23.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:30:26 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham" for ::1 at 2015-05-31 17:30:31 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham"}
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 17:31:40 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/show?location=Durham&key=726272cb06eeef96ca8b4ce5109a332e" for ::1 at 2015-05-31 17:31:43 -0400
+Processing by MergeController#show as HTML
+  Parameters: {"location"=>"Durham", "key"=>"726272cb06eeef96ca8b4ce5109a332e"}
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
